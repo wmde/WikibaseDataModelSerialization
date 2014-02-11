@@ -16,6 +16,18 @@ class DeserializerFactoryTest extends \PHPUnit_Framework_TestCase {
 		return new DeserializerFactory( new DataValueDeserializer(), new BasicEntityIdParser() );
 	}
 
+	public function testNewClaimDeserializer() {
+		$this->assertTrue( $this->buildDeserializerFactory()->newClaimDeserializer()->isDeserializerFor(
+			array(
+				'mainsnak' => array(
+					'snaktype' => 'novalue',
+					'property' => 'P42'
+				),
+				'type' => 'claim'
+			)
+		) );
+	}
+
 	public function testNewReferenceDeserializer() {
 		$this->assertTrue( $this->buildDeserializerFactory()->newReferenceDeserializer()->isDeserializerFor(
 			array(
