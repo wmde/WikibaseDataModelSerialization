@@ -1,6 +1,6 @@
 <?php
 
-namespace Wikibase\DataModel\Lookups;
+namespace Wikibase\DataModel\Lookups\Exceptions;
 
 use RuntimeException;
 
