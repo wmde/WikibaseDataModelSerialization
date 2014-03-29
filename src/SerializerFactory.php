@@ -4,6 +4,7 @@ namespace Wikibase\DataModel;
 
 use Serializers\DispatchingSerializer;
 use Serializers\Serializer;
+use Wikibase\DataModel\Lookups\DataTypeLookup;
 use Wikibase\DataModel\Serializers\ClaimSerializer;
 use Wikibase\DataModel\Serializers\ClaimsSerializer;
 use Wikibase\DataModel\Serializers\ItemSerializer;
@@ -30,10 +31,17 @@ class SerializerFactory {
 	protected $dataValueSerializer;
 
 	/**
-	 * @param Serializer $dataValueSerializer serializer for DataValue objects
+	 * @var DataTypeLookup|null
 	 */
-	public function __construct( Serializer $dataValueSerializer ) {
+	protected $dataTypeLookup;
+
+	/**
+	 * @param Serializer $dataValueSerializer serializer for DataValue objects
+	 * @param DataTypeLookup $dataTypeLookup used to look up the ids of datatypes
+	 */
+	public function __construct( Serializer $dataValueSerializer, DataTypeLookup $dataTypeLookup = null ) {
 		$this->dataValueSerializer = $dataValueSerializer;
+		$this->dataTypeLookup = $dataTypeLookup;
 	}
 
 	/**
@@ -108,6 +116,6 @@ class SerializerFactory {
 	 * @return Serializer
 	 */
 	public function newSnakSerializer() {
-		return new SnakSerializer( $this->dataValueSerializer );
+		return new SnakSerializer( $this->dataValueSerializer, $this->dataTypeLookup );
 	}
 }
