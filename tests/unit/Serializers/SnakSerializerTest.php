@@ -15,11 +15,28 @@ use Wikibase\DataModel\Snak\PropertyValueSnak;
  *
  * @licence GNU GPL v2+
  * @author Thomas Pellissier Tanon
+ * @author Adam Shorland
  */
 class SnakSerializerTest extends SerializerBaseTest {
 
 	public function buildSerializer() {
+		return new SnakSerializer( new DataValueSerializer(), $this->getMockDataTypeLookup() );
+	}
+
+	public function buildSerializerWithNoDataTypeLookup() {
 		return new SnakSerializer( new DataValueSerializer() );
+	}
+
+	/**
+	 * @return \Wikibase\DataModel\Lookups\DataTypeLookup
+	 */
+	private function getMockDataTypeLookup() {
+		$mock = $this->getMock( '\Wikibase\DataModel\Lookups\DataTypeLookup' );
+		$mock->expects( $this->any() )
+			->method( 'getDataTypeIdForProperty' )
+			->with( $this->isInstanceOf( '\Wikibase\DataModel\Entity\PropertyId' ) )
+			->will( $this->returnValue( 'imaDataTypeId' ) );
+		return $mock;
 	}
 
 	public function serializableProvider() {
@@ -55,14 +72,16 @@ class SnakSerializerTest extends SerializerBaseTest {
 			array(
 				array(
 					'snaktype' => 'novalue',
-					'property' => 'P42'
+					'property' => 'P42',
+					'datatype' => 'imaDataTypeId'
 				),
 				new PropertyNoValueSnak( 42 )
 			),
 			array(
 				array(
 					'snaktype' => 'somevalue',
-					'property' => 'P42'
+					'property' => 'P42',
+					'datatype' => 'imaDataTypeId'
 				),
 				new PropertySomeValueSnak( 42 )
 			),
@@ -73,10 +92,28 @@ class SnakSerializerTest extends SerializerBaseTest {
 					'datavalue' => array(
 						'type' => 'string',
 						'value' => 'hax'
-					)
+					),
+					'datatype' => 'imaDataTypeId'
 				),
 				new PropertyValueSnak( 42, new StringValue( 'hax' ) )
 			),
+		);
+	}
+
+	public function testSerializeWithNoDataTypeLookup() {
+		$serializer = $this->buildSerializerWithNoDataTypeLookup();
+		$serialization = $serializer->serialize( new PropertyValueSnak( 42, new StringValue( 'hax' ) ) );
+
+		$this->assertEquals(
+			array(
+				'snaktype' => 'value',
+				'property' => 'P42',
+				'datavalue' => array(
+					'type' => 'string',
+					'value' => 'hax'
+				)
+			),
+			$serialization
 		);
 	}
 }

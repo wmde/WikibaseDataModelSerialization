@@ -106,6 +106,7 @@ and by [Jeroen De Dauw](https://www.mediawiki.org/wiki/User:Jeroen_De_Dauw) as [
 
 * Usage of DataModel 0.7.x rather than 0.6.x.
 * Usage of Serialization ~3.1 rather than ~2.1.
+* SnakSerializer can now be passed a DataTypeLookup object
 
 ### 0.1 (2014-02-22)
 
