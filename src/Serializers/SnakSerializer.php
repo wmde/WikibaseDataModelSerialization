@@ -6,6 +6,7 @@ use Serializers\DispatchableSerializer;
 use Serializers\Exceptions\SerializationException;
 use Serializers\Exceptions\UnsupportedObjectException;
 use Serializers\Serializer;
+use Wikibase\DataModel\Lookups\DataTypeLookup;
 use Wikibase\DataModel\Snak\PropertyValueSnak;
 use Wikibase\DataModel\Snak\Snak;
 
@@ -14,6 +15,7 @@ use Wikibase\DataModel\Snak\Snak;
  *
  * @licence GNU GPL v2+
  * @author Thomas Pellissier Tanon
+ * @author Adam Shorland
  */
 class SnakSerializer implements DispatchableSerializer {
 
@@ -23,10 +25,19 @@ class SnakSerializer implements DispatchableSerializer {
 	protected $dataValueSerializer;
 
 	/**
-	 * @param Serializer $dataValueSerializer
+	 * @since 1.0
+	 *
+	 * @var DataTypeLookup|null
 	 */
-	public function __construct( Serializer $dataValueSerializer ) {
+	protected $dataTypeLookup;
+
+	/**
+	 * @param Serializer $dataValueSerializer
+	 * @param DataTypeLookup $dataTypeLookup (optional)
+	 */
+	public function __construct( Serializer $dataValueSerializer, DataTypeLookup $dataTypeLookup = null ) {
 		$this->dataValueSerializer = $dataValueSerializer;
+		$this->dataTypeLookup = $dataTypeLookup;
 	}
 
 	/**
@@ -62,11 +73,16 @@ class SnakSerializer implements DispatchableSerializer {
 	private function getSerialized( Snak $snak ) {
 		$serialization = array(
 			'snaktype' => $snak->getType(),
-			'property' => $snak->getPropertyId()->getSerialization()
+			'property' => $snak->getPropertyId()->getSerialization(),
+			'hash' => $snak->getHash()
 		);
 
 		if ( $snak instanceof PropertyValueSnak ) {
 			$serialization['datavalue'] = $this->dataValueSerializer->serialize( $snak->getDataValue() );
+		}
+
+		if( !is_null( $this->dataTypeLookup ) ) {
+			$serialization['datatype'] = $this->dataTypeLookup->getDataTypeIdForProperty( $snak->getPropertyId() );
 		}
 
 		return $serialization;
