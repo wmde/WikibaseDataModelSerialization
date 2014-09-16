@@ -58,6 +58,15 @@ class SerializerFactory {
 	}
 
 	/**
+	 * Returns a Serializer that can serialize Statement objects.
+	 *
+	 * @return Serializer
+	 */
+	public function newStatementSerializer() {
+		return new Serializers\StatementSerializer( $this->newClaimSerializer(), $this->newReferenceSerializer() );
+	}
+
+	/**
 	 * Returns a Serializer that can serialize Claims objects.
 	 *
 	 * @return Serializer
@@ -72,7 +81,7 @@ class SerializerFactory {
 	 * @return Serializer
 	 */
 	public function newClaimSerializer() {
-		return new ClaimSerializer( $this->newSnakSerializer(), $this->newSnaksSerializer(), $this->newReferencesSerializer() );
+		return new ClaimSerializer( $this->newSnakSerializer(), $this->newSnaksSerializer() );
 	}
 
 	/**

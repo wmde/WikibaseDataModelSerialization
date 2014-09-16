@@ -22,7 +22,7 @@ class SnaksSerializationRoundtripTest extends \PHPUnit_Framework_TestCase {
 	/**
 	 * @dataProvider snaksProvider
 	 */
-	public function testSnakSerializationRoundtrips( Snaks $snak ) {
+	public function testSnaksSerializationRoundtrips( Snaks $snak ) {
 		$serializerFactory = new SerializerFactory( new DataValueSerializer() );
 		$deserializerFactory = new DeserializerFactory(
 			new DataValueDeserializer(),

@@ -15,14 +15,14 @@ use Wikibase\DataModel\Snak\SnakList;
 
 /**
  * @licence GNU GPL v2+
- * @author Thomas Pellissier Tanon
+ * @author Bene* < benestar.wikimedia@gmail.com >
  */
-class ClaimSerializationRoundtripTest extends \PHPUnit_Framework_TestCase {
+class StatementSerializationRoundtripTest extends \PHPUnit_Framework_TestCase {
 
 	/**
-	 * @dataProvider claimsProvider
+	 * @dataProvider statementsProvider
 	 */
-	public function testClaimSerializationRoundtrips( Claim $claim ) {
+	public function testStatementSerializationRoundtrips( Claim $claim ) {
 		$serializerFactory = new SerializerFactory( new DataValueSerializer() );
 		$deserializerFactory = new DeserializerFactory(
 			new DataValueDeserializer(),
@@ -34,7 +34,7 @@ class ClaimSerializationRoundtripTest extends \PHPUnit_Framework_TestCase {
 		$this->assertEquals( $claim->getHash(), $newClaim->getHash() );
 	}
 
-	public function claimsProvider() {
+	public function statementsProvider() {
 		$claims = array();
 
 		$claims[] = array(
