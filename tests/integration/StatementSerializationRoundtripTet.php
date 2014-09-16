@@ -22,59 +22,55 @@ class StatementSerializationRoundtripTest extends \PHPUnit_Framework_TestCase {
 	/**
 	 * @dataProvider statementsProvider
 	 */
-	public function testStatementSerializationRoundtrips( Claim $claim ) {
+	public function testStatementSerializationRoundtrips( Statement $statement ) {
 		$serializerFactory = new SerializerFactory( new DataValueSerializer() );
 		$deserializerFactory = new DeserializerFactory(
 			new DataValueDeserializer(),
 			new BasicEntityIdParser()
 		);
 
-		$serialization = $serializerFactory->newClaimSerializer()->serialize( $claim );
-		$newClaim = $deserializerFactory->newClaimDeserializer()->deserialize( $serialization );
-		$this->assertEquals( $claim->getHash(), $newClaim->getHash() );
+		$serialization = $serializerFactory->newStatementSerializer()->serialize( $statement );
+		$newStatement = $deserializerFactory->newStatementDeserializer()->deserialize( $serialization );
+		$this->assertEquals( $statement->getHash(), $newStatement->getHash() );
 	}
 
 	public function statementsProvider() {
-		$claims = array();
+		$statements = array();
 
-		$claims[] = array(
-			new Claim( new PropertyNoValueSnak( 42 ) )
+		$statements[] = array(
+			new Statement( new Claim( new PropertyNoValueSnak( 42 ) ) )
 		);
 
-		$claims[] = array(
-			new Statement( new PropertyNoValueSnak( 42 ) )
-		);
+		$statement = new Claim( new PropertyNoValueSnak( 42 ) );
+		$statement->setGuid( 'q42' );
+		$statements[] = array( $statement );
 
-		$claim = new Claim( new PropertyNoValueSnak( 42 ) );
-		$claim->setGuid( 'q42' );
-		$claims[] = array( $claim );
+		$statement = new Statement( new Claim( new PropertyNoValueSnak( 42 ) ) );
+		$statement->setRank( Claim::RANK_PREFERRED );
+		$statements[] = array( $statement );
 
-		$claim = new Statement( new PropertyNoValueSnak( 42 ) );
-		$claim->setRank( Claim::RANK_PREFERRED );
-		$claims[] = array( $claim );
+		$statement = new Statement( new Claim( new PropertyNoValueSnak( 42 ) ) );
+		$statement->setRank( Claim::RANK_DEPRECATED );
+		$statements[] = array( $statement );
 
-		$claim = new Statement( new PropertyNoValueSnak( 42 ) );
-		$claim->setRank( Claim::RANK_DEPRECATED );
-		$claims[] = array( $claim );
+		$statement = new Statement( new Claim( new PropertyNoValueSnak( 42 ) ) );
+		$statement->setQualifiers( new SnakList( array() ) );
+		$statements[] = array( $statement );
 
-		$claim = new Statement( new PropertyNoValueSnak( 42 ) );
-		$claim->setQualifiers( new SnakList( array() ) );
-		$claims[] = array( $claim );
-
-		$claim = new Claim( new PropertyNoValueSnak( 42 ) );
-		$claim->setQualifiers( new SnakList( array(
+		$statement = new Claim( new PropertyNoValueSnak( 42 ) );
+		$statement->setQualifiers( new SnakList( array(
 			new PropertySomeValueSnak( 42 ),
 			new PropertyNoValueSnak( 42 ),
 			new PropertySomeValueSnak( 24 )
 		) ) );
-		$claims[] = array( $claim );
+		$statements[] = array( $statement );
 
-		$claim = new Statement( new PropertyNoValueSnak( 42 ) );
-		$claim->setQualifiers( new SnakList( array(
+		$statement = new Statement( new Claim( new PropertyNoValueSnak( 42 ) ) );
+		$statement->setQualifiers( new SnakList( array(
 			new PropertyNoValueSnak( 42 )
 		) ) );
-		$claims[] = array( $claim );
+		$statements[] = array( $statement );
 
-		return $claims;
+		return $statements;
 	}
 }

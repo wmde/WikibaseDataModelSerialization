@@ -5,7 +5,6 @@ namespace Tests\Wikibase\DataModel;
 use DataValues\Deserializers\DataValueDeserializer;
 use DataValues\Serializers\DataValueSerializer;
 use Wikibase\DataModel\Claim\Claim;
-use Wikibase\DataModel\Claim\Statement;
 use Wikibase\DataModel\DeserializerFactory;
 use Wikibase\DataModel\Entity\BasicEntityIdParser;
 use Wikibase\DataModel\SerializerFactory;
@@ -41,23 +40,11 @@ class ClaimSerializationRoundtripTest extends \PHPUnit_Framework_TestCase {
 			new Claim( new PropertyNoValueSnak( 42 ) )
 		);
 
-		$claims[] = array(
-			new Statement( new PropertyNoValueSnak( 42 ) )
-		);
-
 		$claim = new Claim( new PropertyNoValueSnak( 42 ) );
 		$claim->setGuid( 'q42' );
 		$claims[] = array( $claim );
 
-		$claim = new Statement( new PropertyNoValueSnak( 42 ) );
-		$claim->setRank( Claim::RANK_PREFERRED );
-		$claims[] = array( $claim );
-
-		$claim = new Statement( new PropertyNoValueSnak( 42 ) );
-		$claim->setRank( Claim::RANK_DEPRECATED );
-		$claims[] = array( $claim );
-
-		$claim = new Statement( new PropertyNoValueSnak( 42 ) );
+		$claim = new Claim( new PropertyNoValueSnak( 42 ) );
 		$claim->setQualifiers( new SnakList( array() ) );
 		$claims[] = array( $claim );
 
@@ -69,7 +56,7 @@ class ClaimSerializationRoundtripTest extends \PHPUnit_Framework_TestCase {
 		) ) );
 		$claims[] = array( $claim );
 
-		$claim = new Statement( new PropertyNoValueSnak( 42 ) );
+		$claim = new Claim( new PropertyNoValueSnak( 42 ) );
 		$claim->setQualifiers( new SnakList( array(
 			new PropertyNoValueSnak( 42 )
 		) ) );
