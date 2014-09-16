@@ -7,10 +7,7 @@ use Deserializers\DispatchableDeserializer;
 use Deserializers\Exceptions\DeserializationException;
 use Deserializers\Exceptions\InvalidAttributeException;
 use Deserializers\Exceptions\MissingAttributeException;
-use Deserializers\Exceptions\MissingTypeException;
-use Deserializers\Exceptions\UnsupportedTypeException;
 use Wikibase\DataModel\Claim\Claim;
-use Wikibase\DataModel\Claim\Statement;
 
 /**
  * @since 0.1
@@ -19,12 +16,6 @@ use Wikibase\DataModel\Claim\Statement;
  * @author Thomas Pellissier Tanon
  */
 class ClaimDeserializer implements DispatchableDeserializer {
-
-	private $rankIds = array(
-		'deprecated' => Statement::RANK_DEPRECATED,
-		'normal' => Statement::RANK_NORMAL,
-		'preferred' => Statement::RANK_PREFERRED
-	);
 
 	/**
 	 * @var Deserializer
@@ -36,15 +27,9 @@ class ClaimDeserializer implements DispatchableDeserializer {
 	 */
 	private $snaksDeserializer;
 
-	/**
-	 * @var Deserializer
-	 */
-	private $referencesDeserializer;
-
-	public function __construct( Deserializer $snakDeserializer, Deserializer $snaksDeserializer, Deserializer $referencesDeserializer ) {
+	public function __construct( Deserializer $snakDeserializer, Deserializer $snaksDeserializer ) {
 		$this->snakDeserializer = $snakDeserializer;
 		$this->snaksDeserializer = $snaksDeserializer;
-		$this->referencesDeserializer = $referencesDeserializer;
 	}
 
 	/**
@@ -55,15 +40,7 @@ class ClaimDeserializer implements DispatchableDeserializer {
 	 * @return bool
 	 */
 	public function isDeserializerFor( $serialization ) {
-		return $this->hasType( $serialization ) && $this->hasCorrectType( $serialization );
-	}
-
-	private function hasType( $serialization ) {
-		return is_array( $serialization ) && array_key_exists( 'type', $serialization );
-	}
-
-	private function hasCorrectType( $serialization ) {
-		return in_array( $serialization['type'], array( 'claim', 'statement' ) );
+		return is_array( $serialization ) && array_key_exists( 'mainsnak', $serialization );
 	}
 
 	/**
@@ -71,12 +48,13 @@ class ClaimDeserializer implements DispatchableDeserializer {
 	 *
 	 * @param mixed $serialization
 	 *
-	 * @return object
+	 * @return Claim
 	 * @throws DeserializationException
 	 */
 	public function deserialize( $serialization ) {
-		$this->assertCanDeserialize( $serialization );
-		$this->requireAttribute( $serialization, 'mainsnak' );
+		if ( !$this->isDeserializerFor( $serialization ) ) {
+			throw new MissingAttributeException( 'mainsnak' );
+		}
 
 		return $this->getDeserialized( $serialization );
 	}
@@ -84,15 +62,10 @@ class ClaimDeserializer implements DispatchableDeserializer {
 	private function getDeserialized( array $serialization ) {
 		$mainSnak = $this->snakDeserializer->deserialize( $serialization['mainsnak'] );
 
-		$claim = $serialization['type'] === 'statement' ? new Statement( $mainSnak ) : new Claim( $mainSnak );
+		$claim = new Claim( $mainSnak );
 
 		$this->setGuidFromSerialization( $serialization, $claim );
 		$this->setQualifiersFromSerialization( $serialization, $claim );
-
-		if ( $serialization['type'] === 'statement' ) {
-			$this->setRankFromSerialization( $serialization, $claim );
-			$this->setReferencesFromSerialization( $serialization, $claim );
-		}
 
 		return $claim;
 	}
@@ -123,44 +96,6 @@ class ClaimDeserializer implements DispatchableDeserializer {
 		}
 
 		$claim->setQualifiers( $qualifiers );
-	}
-
-	private function setRankFromSerialization( array &$serialization, Statement $statement ) {
-		if ( !array_key_exists( 'rank', $serialization ) ) {
-			return;
-		}
-
-		if ( !array_key_exists( $serialization['rank'], $this->rankIds ) ) {
-			throw new DeserializationException( 'The rank ' . $serialization['rank'] . ' is not a valid rank.' );
-		}
-
-		$statement->setRank( $this->rankIds[$serialization['rank']] );
-	}
-
-	private function setReferencesFromSerialization( array &$serialization, Statement $statement ) {
-		if ( !array_key_exists( 'references', $serialization ) ) {
-			return;
-		}
-
-		$statement->setReferences( $this->referencesDeserializer->deserialize( $serialization['references'] ) );
-	}
-
-	private function assertCanDeserialize( $serialization ) {
-		if ( !$this->hasType( $serialization ) ) {
-			throw new MissingTypeException();
-		}
-
-		if ( !$this->hasCorrectType( $serialization ) ) {
-			throw new UnsupportedTypeException( $serialization['type'] );
-		}
-	}
-
-	protected function requireAttribute( array $array, $attributeName ) {
-		if ( !array_key_exists( $attributeName, $array ) ) {
-			throw new MissingAttributeException(
-				$attributeName
-			);
-		}
 	}
 
 	private function assertQualifiersOrderIsArray( array $serialization ) {

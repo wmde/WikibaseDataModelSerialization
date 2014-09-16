@@ -67,6 +67,15 @@ class DeserializerFactory {
 		return new SiteLinkDeserializer( $this->newEntityIdDeserializer() );
 	}
 
+	/**
+	 * Returns a Deserializer that can deserialize Statement objects.
+	 *
+	 * @return Deserializer
+	 */
+	public function newStatementDeserializer() {
+		return new Deserializers\StatementDeserializer( $this->newClaimDeserializer(), $this->newReferenceDeserializer() );
+	}
+
 	/*
 	 * Returns a Deserializer that can deserialize Claims objects.
 	 *
@@ -82,11 +91,7 @@ class DeserializerFactory {
 	 * @return DispatchableDeserializer
 	 */
 	public function newClaimDeserializer() {
-		return new ClaimDeserializer(
-			$this->newSnakDeserializer(),
-			$this->newSnaksDeserializer(),
-			$this->newReferencesDeserializer()
-		);
+		return new ClaimDeserializer( $this->newSnakDeserializer(), $this->newSnaksDeserializer() );
 	}
 
 	/**

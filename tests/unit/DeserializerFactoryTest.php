@@ -45,6 +45,19 @@ class DeserializerFactoryTest extends \PHPUnit_Framework_TestCase {
 		);
 	}
 
+	public function testNewStatementDeserializer() {
+		$this->assertTrue( $this->buildDeserializerFactory()->newStatementDeserializer()->isDeserializerFor(
+			array(
+				'claim' => array(
+					'mainsnak' => array(
+						'snaktype' => 'novalue',
+						'property' => 'P42'
+					)
+				)
+			)
+		) );
+	}
+
 	public function testNewClaimsDeserializer() {
 		$this->assertDeserializesWithoutException(
 			$this->buildDeserializerFactory()->newClaimsDeserializer(),
@@ -61,8 +74,7 @@ class DeserializerFactoryTest extends \PHPUnit_Framework_TestCase {
 				'mainsnak' => array(
 					'snaktype' => 'novalue',
 					'property' => 'P42'
-				),
-				'type' => 'claim'
+				)
 			)
 		) );
 	}
