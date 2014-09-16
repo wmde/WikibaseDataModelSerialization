@@ -31,9 +31,7 @@ class EntitySerializerTest extends SerializerBaseTest {
 							'mainsnak' => array(
 								'snaktype' => 'novalue',
 								'property' => 'P42'
-							),
-							'type' => 'statement',
-							'rank' => 'normal'
+							)
 						)
 					)
 				);
@@ -192,9 +190,7 @@ class EntitySerializerTest extends SerializerBaseTest {
 							'mainsnak' => array(
 								'snaktype' => 'novalue',
 								'property' => 'P42'
-							),
-							'type' => 'statement',
-							'rank' => 'normal'
+							)
 						)
 					)
 				),

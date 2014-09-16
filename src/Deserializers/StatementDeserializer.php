@@ -2,6 +2,7 @@
 
 namespace Wikibase\DataModel\Deserializers;
 
+use Deserializers\Deserializer;
 use Deserializers\DispatchableDeserializer;
 use Deserializers\Exceptions\DeserializationException;
 use Deserializers\Exceptions\MissingAttributeException;
@@ -44,7 +45,7 @@ class StatementDeserializer implements DispatchableDeserializer {
 	 * @return bool
 	 */
 	public function isDeserializerFor( $serialization ) {
-		return array_key_exists( 'claim', $serialization );
+		return is_array( $serialization ) && array_key_exists( 'claim', $serialization );
 	}
 
 	/**
@@ -66,7 +67,9 @@ class StatementDeserializer implements DispatchableDeserializer {
 	private function getDeserialized( array $serialization ) {
 		$claim = $this->claimDeserializer->deserialize( $serialization['claim'] );
 
-		$statement = new Statement( $claim );
+		// @note this is a temporary solution, should be fixed with DataModel 2.0
+		$statement = new Statement( $claim->getMainSnak(), $claim->getQualifiers() );
+		$statement->setGuid( $claim->getGuid() );
 
 		$this->setRankFromSerialization( $serialization, $statement );
 		$this->setReferencesFromSerialization( $serialization, $statement );

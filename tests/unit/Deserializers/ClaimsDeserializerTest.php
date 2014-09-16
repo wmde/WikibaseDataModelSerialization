@@ -26,9 +26,7 @@ class ClaimsDeserializerTest extends DeserializerBaseTest {
 				'mainsnak' => array(
 					'snaktype' => 'novalue',
 					'property' => 'P42'
-				),
-				'type' => 'statement',
-				'rank' => 'normal'
+				)
 			) ) )
 			->will( $this->returnValue( $claim ) );
 
@@ -47,9 +45,7 @@ class ClaimsDeserializerTest extends DeserializerBaseTest {
 							'mainsnak' => array(
 								'snaktype' => 'novalue',
 								'property' => 'P42'
-							),
-							'type' => 'statement',
-							'rank' => 'normal'
+							)
 						)
 					)
 				)
@@ -61,17 +57,13 @@ class ClaimsDeserializerTest extends DeserializerBaseTest {
 							'mainsnak' => array(
 								'snaktype' => 'novalue',
 								'property' => 'P42'
-							),
-							'type' => 'statement',
-							'rank' => 'normal'
+							)
 						),
 						array(
 							'mainsnak' => array(
 								'snaktype' => 'novalue',
 								'property' => 'P42'
-							),
-							'type' => 'statement',
-							'rank' => 'normal'
+							)
 						)
 					)
 				)
@@ -116,9 +108,7 @@ class ClaimsDeserializerTest extends DeserializerBaseTest {
 							'mainsnak' => array(
 								'snaktype' => 'novalue',
 								'property' => 'P42'
-							),
-							'type' => 'statement',
-							'rank' => 'normal'
+							)
 						)
 					)
 				)

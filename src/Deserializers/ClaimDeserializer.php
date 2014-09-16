@@ -40,7 +40,7 @@ class ClaimDeserializer implements DispatchableDeserializer {
 	 * @return bool
 	 */
 	public function isDeserializerFor( $serialization ) {
-		return array_key_exists( 'mainsnak', $serialization );
+		return is_array( $serialization ) && array_key_exists( 'mainsnak', $serialization );
 	}
 
 	/**
