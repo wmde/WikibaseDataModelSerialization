@@ -62,7 +62,7 @@ class SerializerFactory {
 	/**
 	 * Returns a Serializer that can serialize Entity objects.
 	 *
-	 * @return Serializer
+	 * @return DispatchingSerializer
 	 */
 	public function newEntitySerializer() {
 		$fingerprintSerializer = new FingerprintSerializer( $this->shouldUseObjectsForMaps() );
@@ -75,7 +75,7 @@ class SerializerFactory {
 	/**
 	 * Returns a Serializer that can serialize SiteLink objects.
 	 *
-	 * @return Serializer
+	 * @return SiteLinkSerializer
 	 */
 	public function newSiteLinkSerializer() {
 		return new SiteLinkSerializer();
@@ -84,7 +84,7 @@ class SerializerFactory {
 	/**
 	 * Returns a Serializer that can serialize Claims objects.
 	 *
-	 * @return Serializer
+	 * @return ClaimsSerializer
 	 */
 	public function newClaimsSerializer() {
 		return new ClaimsSerializer( $this->newClaimSerializer(), $this->shouldUseObjectsForMaps() );
@@ -93,7 +93,7 @@ class SerializerFactory {
 	/**
 	 * Returns a Serializer that can serialize Claim objects.
 	 *
-	 * @return Serializer
+	 * @return ClaimSerializer
 	 */
 	public function newClaimSerializer() {
 		return new ClaimSerializer( $this->newSnakSerializer(), $this->newSnaksSerializer(), $this->newReferencesSerializer() );
@@ -102,7 +102,7 @@ class SerializerFactory {
 	/**
 	 * Returns a Serializer that can serialize ReferenceList objects.
 	 *
-	 * @return Serializer
+	 * @return ReferenceListSerializer
 	 */
 	public function newReferencesSerializer() {
 		return new ReferenceListSerializer( $this->newReferenceSerializer() );
@@ -111,7 +111,7 @@ class SerializerFactory {
 	/**
 	 * Returns a Serializer that can serialize Reference objects.
 	 *
-	 * @return Serializer
+	 * @return ReferenceSerializer
 	 */
 	public function newReferenceSerializer() {
 		return new ReferenceSerializer( $this->newSnaksSerializer() );
@@ -120,7 +120,7 @@ class SerializerFactory {
 	/**
 	 * Returns a Serializer that can serialize Snaks objects.
 	 *
-	 * @return Serializer
+	 * @return SnaksSerializer
 	 */
 	public function newSnaksSerializer() {
 		return new SnaksSerializer( $this->newSnakSerializer(), $this->shouldUseObjectsForMaps() );
@@ -129,7 +129,7 @@ class SerializerFactory {
 	/**
 	 * Returns a Serializer that can serialize Snak objects.
 	 *
-	 * @return Serializer
+	 * @return SnakSerializer
 	 */
 	public function newSnakSerializer() {
 		return new SnakSerializer( $this->dataValueSerializer );
