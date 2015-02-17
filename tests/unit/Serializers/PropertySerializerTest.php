@@ -62,7 +62,7 @@ class PropertySerializerTest extends SerializerBaseTest {
 				array()
 			),
 			array(
-				Item::newEmpty()
+				new Item()
 			),
 		);
 	}

@@ -54,7 +54,7 @@ class EntityDeserializerTest extends DeserializerBaseTest {
 		);
 		$entityDeserializerMock->expects( $this->any() )
 			->method( 'getPartiallyDeserialized' )
-			->will( $this->returnValue( Item::newEmpty() ) );
+			->will( $this->returnValue( new Item() ) );
 
 		return $entityDeserializerMock;
 	}
@@ -88,15 +88,14 @@ class EntityDeserializerTest extends DeserializerBaseTest {
 	public function deserializationProvider() {
 		$provider = array(
 			array(
-				Item::newEmpty(),
+				new Item(),
 				array(
 					'type' => 'item'
 				)
 			),
 		);
 
-		$entity = Item::newEmpty();
-		$entity->setId( new ItemId( 'Q42' ) );
+		$entity = new Item( new ItemId( 'Q42' ) );
 		$provider[] = array(
 			$entity,
 			array(
@@ -106,7 +105,7 @@ class EntityDeserializerTest extends DeserializerBaseTest {
 		);
 
 
-		$entity = Item::newEmpty();
+		$entity = new Item();
 		$entity->setLabels( array(
 			'en' => 'Nyan Cat',
 			'fr' => 'Nyan Cat'
@@ -128,7 +127,7 @@ class EntityDeserializerTest extends DeserializerBaseTest {
 			)
 		);
 
-		$entity = Item::newEmpty();
+		$entity = new Item();
 		$entity->setDescriptions( array(
 			'en' => 'A Nyan Cat',
 			'fr' => 'A Nyan Cat'
@@ -150,7 +149,7 @@ class EntityDeserializerTest extends DeserializerBaseTest {
 			)
 		);
 
-		$entity = Item::newEmpty();
+		$entity = new Item();
 		$entity->setAliases( 'en', array( 'Cat', 'My cat' ) );
 		$entity->setAliases( 'fr', array( 'Cat' ) );
 		$provider[] = array(
@@ -178,7 +177,7 @@ class EntityDeserializerTest extends DeserializerBaseTest {
 			)
 		);
 
-		$entity = Item::newEmpty();
+		$entity = new Item();
 		$entity->getStatements()->addNewStatement( new PropertyNoValueSnak( 42 ), null, null, 'test' );
 		$provider[] = array(
 			$entity,
