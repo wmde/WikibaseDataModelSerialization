@@ -86,15 +86,6 @@ class SerializerFactory {
 	}
 
 	/**
-	 * Returns a Serializer that can serialize Claims objects.
-	 *
-	 * @return Serializer
-	 */
-	public function newClaimsSerializer() {
-		return new ClaimsSerializer( $this->newClaimSerializer(), $this->shouldUseObjectsForMaps() );
-	}
-
-	/**
 	 * Returns a Serializer that can serialize StatementList objects.
 	 *
 	 * @return Serializer

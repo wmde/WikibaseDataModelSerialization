@@ -70,15 +70,6 @@ class DeserializerFactory {
 	}
 
 	/**
-	 * Returns a Deserializer that can deserialize Claims objects.
-	 *
-	 * @return Deserializer
-	 */
-	public function newClaimsDeserializer() {
-		return new ClaimsDeserializer( $this->newClaimDeserializer() );
-	}
-
-	/**
 	 * Returns a Deserializer that can deserialize StatementList objects.
 	 *
 	 * @return Deserializer
