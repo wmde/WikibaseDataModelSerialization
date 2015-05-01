@@ -5,7 +5,6 @@ namespace Tests\Wikibase\DataModel;
 use DataValues\Serializers\DataValueSerializer;
 use Serializers\Serializer;
 use Wikibase\DataModel\Claim\Claim;
-use Wikibase\DataModel\Claim\Claims;
 use Wikibase\DataModel\Entity\Item;
 use Wikibase\DataModel\Entity\Property;
 use Wikibase\DataModel\Reference;
@@ -48,13 +47,6 @@ class SerializerFactoryTest extends \PHPUnit_Framework_TestCase {
 		$this->assertSerializesWithoutException(
 			$this->buildSerializerFactory()->newSiteLinkSerializer(),
 			new SiteLink( 'enwiki', 'Nyan Cat' )
-		);
-	}
-
-	public function testNewClaimsSerializer() {
-		$this->assertSerializesWithoutException(
-			$this->buildSerializerFactory()->newClaimsSerializer(),
-			new Claims()
 		);
 	}
 

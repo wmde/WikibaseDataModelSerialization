@@ -45,16 +45,6 @@ class DeserializerFactoryTest extends \PHPUnit_Framework_TestCase {
 		);
 	}
 
-	public function testNewClaimsDeserializer() {
-		$this->assertDeserializesWithoutException(
-			$this->buildDeserializerFactory()->newClaimsDeserializer(),
-			array(
-				'P42' => array(
-				)
-			)
-		);
-	}
-
 	public function testStatementListDeserializer() {
 		$this->assertDeserializesWithoutException(
 			$this->buildDeserializerFactory()->newStatementListDeserializer(),
