@@ -71,7 +71,7 @@ class ClaimDeserializer implements DispatchableDeserializer {
 	 *
 	 * @param array $serialization
 	 *
-	 * @return Claim|Statement
+	 * @return Claim
 	 * @throws DeserializationException
 	 */
 	public function deserialize( $serialization ) {
