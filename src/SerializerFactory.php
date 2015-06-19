@@ -66,7 +66,7 @@ class SerializerFactory {
 	/**
 	 * Returns a Serializer that can serialize Entity objects.
 	 *
-	 * @return Serializer
+	 * @return DispatchingSerializer
 	 */
 	public function newEntitySerializer() {
 		$mapOption = $this->shouldUseObjectsForMaps()
@@ -82,7 +82,7 @@ class SerializerFactory {
 	/**
 	 * Returns a Serializer that can serialize SiteLink objects.
 	 *
-	 * @return Serializer
+	 * @return SiteLinkSerializer
 	 */
 	public function newSiteLinkSerializer() {
 		return new SiteLinkSerializer();
@@ -91,7 +91,7 @@ class SerializerFactory {
 	/**
 	 * Returns a Serializer that can serialize Claims objects.
 	 *
-	 * @return Serializer
+	 * @return ClaimsSerializer
 	 */
 	public function newClaimsSerializer() {
 		return new ClaimsSerializer( $this->newStatementSerializer(), $this->shouldUseObjectsForMaps() );
@@ -128,7 +128,7 @@ class SerializerFactory {
 	 *
 	 * @deprecated since 1.4, use newStatementSerializer instead
 	 *
-	 * @return Serializer
+	 * @return ClaimSerializer
 	 */
 	public function newClaimSerializer() {
 		return $this->newStatementSerializer();
@@ -137,7 +137,7 @@ class SerializerFactory {
 	/**
 	 * Returns a Serializer that can serialize ReferenceList objects.
 	 *
-	 * @return Serializer
+	 * @return ReferenceListSerializer
 	 */
 	public function newReferencesSerializer() {
 		return new ReferenceListSerializer( $this->newReferenceSerializer() );
@@ -146,7 +146,7 @@ class SerializerFactory {
 	/**
 	 * Returns a Serializer that can serialize Reference objects.
 	 *
-	 * @return Serializer
+	 * @return ReferenceSerializer
 	 */
 	public function newReferenceSerializer() {
 		return new ReferenceSerializer( $this->newSnakListSerializer() );
@@ -168,7 +168,7 @@ class SerializerFactory {
 	 *
 	 * @deprecated since 1.4 - use newSnakListSerializer instead
 	 *
-	 * @return Serializer
+	 * @return SnaksSerializer
 	 */
 	public function newSnaksSerializer() {
 		return $this->newSnakListSerializer();
@@ -177,7 +177,7 @@ class SerializerFactory {
 	/**
 	 * Returns a Serializer that can serialize Snak objects.
 	 *
-	 * @return Serializer
+	 * @return SnakSerializer
 	 */
 	public function newSnakSerializer() {
 		return new SnakSerializer( $this->dataValueSerializer );
