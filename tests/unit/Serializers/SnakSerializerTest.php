@@ -5,7 +5,9 @@ namespace Tests\Wikibase\DataModel\Serializers;
 use DataValues\Serializers\DataValueSerializer;
 use DataValues\StringValue;
 use Wikibase\DataModel\Entity\ItemId;
+use Wikibase\DataModel\Entity\PropertyId;
 use Wikibase\DataModel\Serializers\SnakSerializer;
+use Wikibase\DataModel\Snak\DerivedPropertyValueSnak;
 use Wikibase\DataModel\Snak\PropertyNoValueSnak;
 use Wikibase\DataModel\Snak\PropertySomeValueSnak;
 use Wikibase\DataModel\Snak\PropertyValueSnak;
@@ -33,6 +35,15 @@ class SnakSerializerTest extends SerializerBaseTest {
 			array(
 				new PropertyValueSnak( 42, new StringValue( 'hax' ) )
 			),
+			array(
+				new DerivedPropertyValueSnak(
+					new PropertyId( 'P42' ),
+					new StringValue( 'foo' ),
+					array(
+						'extra' => new StringValue( 'This is a slotty slot' )
+					)
+				)
+			)
 		);
 	}
 
@@ -80,6 +91,28 @@ class SnakSerializerTest extends SerializerBaseTest {
 				),
 				new PropertyValueSnak( 42, new StringValue( 'hax' ) )
 			),
+			array(
+				array(
+					'snaktype' => 'value',
+					'property' => 'P42',
+					'hash' => '861dc9fc32da49df803794037914c6cd6294ed8d',
+					'datavalue' => array(
+						'type' => 'string',
+						'value' => 'foo'
+					),
+					'extra' => array(
+						'type' => 'string',
+						'value' => 'This is a slotty slot'
+					)
+				),
+				new DerivedPropertyValueSnak(
+					new PropertyId( 'P42' ),
+					new StringValue( 'foo' ),
+					array(
+						'extra' => new StringValue( 'This is a slotty slot' )
+					)
+				)
+			)
 		);
 	}
 

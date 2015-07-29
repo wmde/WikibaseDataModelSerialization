@@ -6,6 +6,7 @@ use Serializers\DispatchableSerializer;
 use Serializers\Exceptions\SerializationException;
 use Serializers\Exceptions\UnsupportedObjectException;
 use Serializers\Serializer;
+use Wikibase\DataModel\Snak\DerivedPropertyValueSnak;
 use Wikibase\DataModel\Snak\PropertyValueSnak;
 use Wikibase\DataModel\Snak\Snak;
 
@@ -79,6 +80,12 @@ class SnakSerializer implements DispatchableSerializer {
 
 		if ( $snak instanceof PropertyValueSnak ) {
 			$serialization['datavalue'] = $this->dataValueSerializer->serialize( $snak->getDataValue() );
+		}
+
+		if ( $snak instanceof DerivedPropertyValueSnak ) {
+			foreach ( $snak->getDerivedDataValues() as $key => $dataValue ) {
+				$serialization[$key] = $this->dataValueSerializer->serialize( $dataValue );
+			}
 		}
 
 		return $serialization;
