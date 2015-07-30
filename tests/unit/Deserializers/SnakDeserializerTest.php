@@ -143,6 +143,18 @@ class SnakDeserializerTest extends DeserializerBaseTest {
 					'property' => 'P42'
 				)
 			),
+			array(
+				array(
+					'snaktype' => 'value',
+					'property' => 'P42',
+					'datavalue' => array(
+						'type' => 'string',
+						'value' => 'hax'
+					),
+					'derived-values' => array(
+					)
+				)
+			)
 		);
 	}
 

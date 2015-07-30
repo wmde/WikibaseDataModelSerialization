@@ -107,6 +107,8 @@ class SnakDeserializer implements DispatchableDeserializer {
 
 	private function newValueSnak( array $serialization ) {
 		$this->requireAttribute( $serialization, 'datavalue' );
+		// Do not deserialize derived value snaks
+		$this->assertNotAttribute( $serialization, 'derived-values' );
 
 		return new PropertyValueSnak(
 			$this->deserializePropertyId( $serialization['property'] ),
@@ -156,6 +158,16 @@ class SnakDeserializer implements DispatchableDeserializer {
 		if ( !array_key_exists( $attributeName, $array ) ) {
 			throw new MissingAttributeException(
 				$attributeName
+			);
+		}
+	}
+
+	private function assertNotAttribute( array $array, $key ) {
+		if ( array_key_exists( $key, $array ) ) {
+			throw new InvalidAttributeException(
+				$key,
+				$array[$key],
+				'Deserialization of attribute ' . $key . ' not supported.'
 			);
 		}
 	}

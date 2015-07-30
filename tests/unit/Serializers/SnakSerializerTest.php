@@ -40,7 +40,7 @@ class SnakSerializerTest extends SerializerBaseTest {
 					new PropertyId( 'P42' ),
 					new StringValue( 'foo' ),
 					array(
-						'extra' => new StringValue( 'This is a slotty slot' )
+						'bar' => new StringValue( 'This is a slotty slot' )
 					)
 				)
 			)
@@ -100,16 +100,18 @@ class SnakSerializerTest extends SerializerBaseTest {
 						'type' => 'string',
 						'value' => 'foo'
 					),
-					'extra' => array(
-						'type' => 'string',
-						'value' => 'This is a slotty slot'
+					'derived-values' => array(
+						'bar' => array(
+							'type' => 'string',
+							'value' => 'This is a slotty slot'
+						)
 					)
 				),
 				new DerivedPropertyValueSnak(
 					new PropertyId( 'P42' ),
 					new StringValue( 'foo' ),
 					array(
-						'extra' => new StringValue( 'This is a slotty slot' )
+						'bar' => new StringValue( 'This is a slotty slot' )
 					)
 				)
 			)
