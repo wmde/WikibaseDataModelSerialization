@@ -10,7 +10,6 @@ use Wikibase\DataModel\Entity\Entity;
 use Wikibase\DataModel\Entity\Item;
 use Wikibase\DataModel\Entity\ItemId;
 use Wikibase\DataModel\Entity\Property;
-use Wikibase\DataModel\ExtraValuesAssigner;
 use Wikibase\DataModel\SerializerFactory;
 use Wikibase\DataModel\SiteLink;
 use Wikibase\DataModel\Snak\PropertyNoValueSnak;
@@ -25,10 +24,7 @@ class EntitySerializationRoundtripTest extends \PHPUnit_Framework_TestCase {
 	 * @dataProvider entityProvider
 	 */
 	public function testEntitySerializationRoundtrips( Entity $entity ) {
-		$serializerFactory = new SerializerFactory(
-			new DataValueSerializer(),
-			new ExtraValuesAssigner()
-		);
+		$serializerFactory = new SerializerFactory( new DataValueSerializer() );
 		$deserializerFactory = new DeserializerFactory(
 			new DataValueDeserializer(),
 			new BasicEntityIdParser()

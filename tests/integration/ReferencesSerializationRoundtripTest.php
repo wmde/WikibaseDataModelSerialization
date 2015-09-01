@@ -6,7 +6,6 @@ use DataValues\Deserializers\DataValueDeserializer;
 use DataValues\Serializers\DataValueSerializer;
 use Wikibase\DataModel\DeserializerFactory;
 use Wikibase\DataModel\Entity\BasicEntityIdParser;
-use Wikibase\DataModel\ExtraValuesAssigner;
 use Wikibase\DataModel\Reference;
 use Wikibase\DataModel\ReferenceList;
 use Wikibase\DataModel\SerializerFactory;
@@ -23,10 +22,7 @@ class ReferencesSerializationRoundtripTest extends \PHPUnit_Framework_TestCase {
 	 * @dataProvider referencesProvider
 	 */
 	public function testReferenceSerializationRoundtrips( ReferenceList $references ) {
-		$serializerFactory = new SerializerFactory(
-			new DataValueSerializer(),
-			new ExtraValuesAssigner()
-		);
+		$serializerFactory = new SerializerFactory( new DataValueSerializer() );
 		$deserializerFactory = new DeserializerFactory(
 			new DataValueDeserializer(),
 			new BasicEntityIdParser()

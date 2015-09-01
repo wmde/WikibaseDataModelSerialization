@@ -6,7 +6,6 @@ use DataValues\Serializers\DataValueSerializer;
 use Serializers\Serializer;
 use Wikibase\DataModel\Entity\Item;
 use Wikibase\DataModel\Entity\Property;
-use Wikibase\DataModel\ExtraValuesAssigner;
 use Wikibase\DataModel\Reference;
 use Wikibase\DataModel\ReferenceList;
 use Wikibase\DataModel\SerializerFactory;
@@ -28,7 +27,7 @@ use Wikibase\DataModel\Term\TermList;
 class SerializerFactoryTest extends \PHPUnit_Framework_TestCase {
 
 	private function buildSerializerFactory() {
-		return new SerializerFactory( new DataValueSerializer(), new ExtraValuesAssigner() );
+		return new SerializerFactory( new DataValueSerializer() );
 	}
 
 	private function assertSerializesWithoutException( Serializer $serializer, $object ) {
@@ -99,15 +98,11 @@ class SerializerFactoryTest extends \PHPUnit_Framework_TestCase {
 
 	public function testFactoryCreateWithUnexpectedValue() {
 		$this->setExpectedException( 'InvalidArgumentException' );
-		new SerializerFactory( new DataValueSerializer(), new ExtraValuesAssigner(), 1.0 );
+		new SerializerFactory( new DataValueSerializer(), 1.0 );
 	}
 
 	public function testNewSnakListSerializerWithUseObjectsForMaps() {
-		$factory = new SerializerFactory(
-			new DataValueSerializer(),
-			new ExtraValuesAssigner(),
-			SerializerFactory::OPTION_OBJECTS_FOR_MAPS
-		);
+		$factory = new SerializerFactory( new DataValueSerializer(), SerializerFactory::OPTION_OBJECTS_FOR_MAPS );
 		$serializer = $factory->newSnakListSerializer();
 		$this->assertAttributeSame( true, 'useObjectsForMaps' , $serializer );
 	}

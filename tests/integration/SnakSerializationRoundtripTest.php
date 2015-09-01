@@ -8,7 +8,6 @@ use DataValues\StringValue;
 use DataValues\UnDeserializableValue;
 use Wikibase\DataModel\DeserializerFactory;
 use Wikibase\DataModel\Entity\BasicEntityIdParser;
-use Wikibase\DataModel\ExtraValuesAssigner;
 use Wikibase\DataModel\SerializerFactory;
 use Wikibase\DataModel\Snak\PropertyNoValueSnak;
 use Wikibase\DataModel\Snak\PropertySomeValueSnak;
@@ -24,10 +23,7 @@ use Wikibase\DataModel\Snak\Snak;
 class SnakSerializationRoundtripTest extends \PHPUnit_Framework_TestCase {
 
 	private function getSnakSerializer() {
-		$factory = new SerializerFactory(
-			new DataValueSerializer(),
-			new ExtraValuesAssigner()
-		);
+		$factory = new SerializerFactory( new DataValueSerializer() );
 		return $factory->newSnakSerializer();
 	}
 
