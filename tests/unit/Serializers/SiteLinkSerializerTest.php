@@ -2,7 +2,9 @@
 
 namespace Tests\Wikibase\DataModel\Serializers;
 
+use Tests\Wikibase\DataModel\FakeExtraValuesProvider;
 use Wikibase\DataModel\Entity\ItemId;
+use Wikibase\DataModel\ExtraValuesAssigner;
 use Wikibase\DataModel\Serializers\SiteLinkSerializer;
 use Wikibase\DataModel\SiteLink;
 
@@ -15,7 +17,7 @@ use Wikibase\DataModel\SiteLink;
 class SiteLinkSerializerTest extends SerializerBaseTest {
 
 	protected function buildSerializer() {
-		return new SiteLinkSerializer();
+		return new SiteLinkSerializer( new ExtraValuesAssigner() );
 	}
 
 	public function serializableProvider() {
@@ -76,6 +78,21 @@ class SiteLinkSerializerTest extends SerializerBaseTest {
 					new ItemId( 'q43' )
 				) )
 			),
+		);
+	}
+
+	public function testSerializeWithExtraValues() {
+		$serializer = new SiteLinkSerializer( new ExtraValuesAssigner( array( new FakeExtraValuesProvider() ) ) );
+		$siteLink = new SiteLink( 'enwiki', 'Nyan Cat' );
+
+		$this->assertEquals(
+			array(
+				'site' => 'enwiki',
+				'title' => 'Nyan Cat',
+				'badges' => array(),
+				'foo' => 'bar'
+			),
+			$serializer->serialize( $siteLink )
 		);
 	}
 

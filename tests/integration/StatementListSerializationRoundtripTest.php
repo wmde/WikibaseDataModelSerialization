@@ -6,6 +6,7 @@ use DataValues\Deserializers\DataValueDeserializer;
 use DataValues\Serializers\DataValueSerializer;
 use Wikibase\DataModel\DeserializerFactory;
 use Wikibase\DataModel\Entity\BasicEntityIdParser;
+use Wikibase\DataModel\ExtraValuesAssigner;
 use Wikibase\DataModel\SerializerFactory;
 use Wikibase\DataModel\Snak\PropertyNoValueSnak;
 use Wikibase\DataModel\Statement\Statement;
@@ -21,7 +22,10 @@ class StatementListSerializationRoundtripTest extends \PHPUnit_Framework_TestCas
 	 * @dataProvider snaksProvider
 	 */
 	public function testSnakSerializationRoundtrips( StatementList $statements ) {
-		$serializerFactory = new SerializerFactory( new DataValueSerializer() );
+		$serializerFactory = new SerializerFactory(
+			new DataValueSerializer(),
+			new ExtraValuesAssigner()
+		);
 		$deserializerFactory = new DeserializerFactory(
 			new DataValueDeserializer(),
 			new BasicEntityIdParser()

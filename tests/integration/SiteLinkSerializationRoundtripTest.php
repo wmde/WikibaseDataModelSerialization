@@ -7,6 +7,7 @@ use DataValues\Serializers\DataValueSerializer;
 use Wikibase\DataModel\DeserializerFactory;
 use Wikibase\DataModel\Entity\BasicEntityIdParser;
 use Wikibase\DataModel\Entity\ItemId;
+use Wikibase\DataModel\ExtraValuesAssigner;
 use Wikibase\DataModel\SerializerFactory;
 use Wikibase\DataModel\SiteLink;
 
@@ -20,7 +21,10 @@ class SiteLinkSerializationRoundtripTest extends \PHPUnit_Framework_TestCase {
 	 * @dataProvider siteLinkProvider
 	 */
 	public function testSiteLinkSerializationRoundtrips( SiteLink $siteLink ) {
-		$serializerFactory = new SerializerFactory( new DataValueSerializer() );
+		$serializerFactory = new SerializerFactory(
+			new DataValueSerializer(),
+			new ExtraValuesAssigner()
+		);
 		$deserializerFactory = new DeserializerFactory(
 			new DataValueDeserializer(),
 			new BasicEntityIdParser()

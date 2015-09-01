@@ -6,6 +6,7 @@ use Serializers\DispatchableSerializer;
 use Serializers\Exceptions\SerializationException;
 use Serializers\Exceptions\UnsupportedObjectException;
 use Wikibase\DataModel\Entity\ItemId;
+use Wikibase\DataModel\ExtraValuesAssigner;
 use Wikibase\DataModel\SiteLink;
 
 /**
@@ -15,6 +16,15 @@ use Wikibase\DataModel\SiteLink;
  * @author Thomas Pellissier Tanon
  */
 class SiteLinkSerializer implements DispatchableSerializer {
+
+	/**
+	 * @var ExtraValuesAssigner
+	 */
+	private $extraValuesAssigner;
+
+	public function __construct( ExtraValuesAssigner $extraValuesAssigner ) {
+		$this->extraValuesAssigner = $extraValuesAssigner;
+	}
 
 	/**
 	 * @see Serializer::isSerializerFor
@@ -47,11 +57,13 @@ class SiteLinkSerializer implements DispatchableSerializer {
 	}
 
 	private function getSerialized( SiteLink $siteLink ) {
-		return array(
+		$serialization = array(
 			'site' => $siteLink->getSiteId(),
 			'title' => $siteLink->getPageName(),
 			'badges' => $this->serializeBadges( $siteLink->getBadges() )
 		);
+
+		return $this->extraValuesAssigner->addExtraValues( $serialization, $siteLink );
 	}
 
 	/**
