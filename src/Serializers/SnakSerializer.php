@@ -84,7 +84,7 @@ class SnakSerializer implements DispatchableSerializer {
 
 		if ( $snak instanceof DerivedPropertyValueSnak ) {
 			foreach ( $snak->getDerivedDataValues() as $key => $dataValue ) {
-				$serialization['derived-values'][$key] = $this->dataValueSerializer->serialize( $dataValue );
+				$serialization['datavalue-' . $key] = $this->dataValueSerializer->serialize( $dataValue );
 			}
 		}
 
