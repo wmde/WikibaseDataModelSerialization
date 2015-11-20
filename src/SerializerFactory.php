@@ -51,18 +51,29 @@ class SerializerFactory {
 	private $dataValueSerializer;
 
 	/**
+	 * @var ExtraValuesAssigner
+	 */
+	private $extraValuesAssigner;
+
+	/**
 	 * @param Serializer $dataValueSerializer serializer for DataValue objects
 	 * @param int $options set multiple with bitwise or
+	 * @param ExtraValuesAssigner|null $extraValuesAssigner
 	 *
 	 * @throws InvalidArgumentException
 	 */
-	public function __construct( Serializer $dataValueSerializer, $options = 0 ) {
+	public function __construct(
+		Serializer $dataValueSerializer,
+		$options = 0,
+		ExtraValuesAssigner $extraValuesAssigner = null
+	) {
 		if ( !is_int( $options ) ) {
 			throw new InvalidArgumentException( '$options must be an integer' );
 		}
 
 		$this->dataValueSerializer = $dataValueSerializer;
 		$this->options = $options;
+		$this->extraValuesAssigner = $extraValuesAssigner ?: new ExtraValuesAssigner();
 	}
 
 	/**
@@ -121,7 +132,7 @@ class SerializerFactory {
 	 * @return Serializer
 	 */
 	public function newSiteLinkSerializer() {
-		return new SiteLinkSerializer();
+		return new SiteLinkSerializer( $this->extraValuesAssigner );
 	}
 
 	/**
