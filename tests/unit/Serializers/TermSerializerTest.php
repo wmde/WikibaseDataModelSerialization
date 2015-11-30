@@ -2,9 +2,9 @@
 
 namespace Tests\Wikibase\DataModel\Serializers;
 
+use Wikibase\DataModel\Serializers\FacetContainerSerializer;
 use Wikibase\DataModel\Serializers\TermSerializer;
 use Wikibase\DataModel\Term\Term;
-use Wikibase\DataModel\Term\TermFallback;
 
 /**
  * @covers Wikibase\DataModel\Serializers\TermSerializer
@@ -18,7 +18,7 @@ class TermSerializerTest extends \PHPUnit_Framework_TestCase {
 	 * @dataProvider serializationProvider
 	 */
 	public function testSerialization( Term $input, array $expected ) {
-		$serializer = new TermSerializer();
+		$serializer = new TermSerializer( new FacetContainerSerializer( array() ) );
 
 		$output = $serializer->serialize( $input );
 
@@ -26,6 +26,7 @@ class TermSerializerTest extends \PHPUnit_Framework_TestCase {
 	}
 
 	public function serializationProvider() {
+		//TODO: test facets
 		return array(
 			array(
 				new Term ( 'en', 'SomeValue' ),
@@ -34,19 +35,11 @@ class TermSerializerTest extends \PHPUnit_Framework_TestCase {
 					'value' => 'SomeValue',
 				)
 			),
-			array(
-				new TermFallback( 'en', 'SomeValue', 'en-gb', 'en' ),
-				array(
-					'language' => 'en-gb',
-					'value' => 'SomeValue',
-					'source' => 'en',
-				)
-			),
 		);
 	}
 
 	public function testWithUnsupportedObject() {
-		$serializer = new TermSerializer();
+		$serializer = new TermSerializer( new FacetContainerSerializer( array() ) );
 		$this->setExpectedException( 'Serializers\Exceptions\UnsupportedObjectException' );
 		$serializer->serialize( new \stdClass() );
 	}

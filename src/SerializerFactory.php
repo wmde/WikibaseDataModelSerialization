@@ -7,7 +7,9 @@ use Serializers\DispatchingSerializer;
 use Serializers\Serializer;
 use Wikibase\DataModel\Serializers\AliasGroupListSerializer;
 use Wikibase\DataModel\Serializers\AliasGroupSerializer;
+use Wikibase\DataModel\Serializers\FacetContainerSerializer;
 use Wikibase\DataModel\Serializers\ItemSerializer;
+use Wikibase\DataModel\Serializers\LanguageFallbackInfoSerializer;
 use Wikibase\DataModel\Serializers\PropertySerializer;
 use Wikibase\DataModel\Serializers\ReferenceListSerializer;
 use Wikibase\DataModel\Serializers\ReferenceSerializer;
@@ -226,7 +228,12 @@ class SerializerFactory {
 	 * @return Serializer
 	 */
 	public function newTermSerializer() {
-		return new TermSerializer();
+		//TODO: get facet serializers from a central registry or hook, so extensions can add their own
+		$facetSerializers = array(
+			'LanguageFallbackInfo' => new LanguageFallbackInfoSerializer(),
+		);
+
+		return new TermSerializer( new FacetContainerSerializer( $facetSerializers ) );
 	}
 
 	/**

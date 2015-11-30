@@ -5,26 +5,18 @@ namespace Wikibase\DataModel\Serializers;
 use Serializers\Exceptions\UnsupportedObjectException;
 use Serializers\Serializer;
 use Wikibase\DataModel\Term\Term;
+use Wikibase\DataModel\Term\LanguageFallbackInfo;
 
 /**
  * Package private
  *
+ * @since 2.1
+ *
  * @licence GNU GPL v2+
  * @author Adam Shorland
+ * @author Daniel Kinzler
  */
-class TermSerializer implements Serializer {
-
-	/**
-	 * @var FacetContainerSerializer
-	 */
-	private $facetSerializer;
-
-	/**
-	 * @param FacetContainerSerializer $facetDeserializer
-	 */
-	public function __construct( FacetContainerSerializer $facetSerializer ) {
-		$this->facetSerializer = $facetSerializer;
-	}
+class LanguageFallbackInfoSerializer implements Serializer {
 
 	/**
 	 * @param Term $object
@@ -37,10 +29,10 @@ class TermSerializer implements Serializer {
 	}
 
 	private function assertIsSerializerFor( $object ) {
-		if ( !( $object instanceof Term ) ) {
+		if ( !( $object instanceof LanguageFallbackInfo ) ) {
 			throw new UnsupportedObjectException(
 				$object,
-				'TermSerializer can only serialize Term objects'
+				'LanguageFallbackInfoSerializer can only serialize LanguageFallbackInfo objects'
 			);
 		}
 	}
@@ -50,13 +42,13 @@ class TermSerializer implements Serializer {
 	 *
 	 * @return array
 	 */
-	private function getSerialized( Term $term ) {
-		$result = array(
-			'language' => $term->getLanguageCode(),
-			'value' => $term->getText(),
-		);
+	private function getSerialized( LanguageFallbackInfo $term ) {
+		$result = array();
 
-		$this->facetSerializer->addFacetSerialization( $term, $result );
+		//FIXME: LanguageFallbackInfo probably doesn't need getActualLanguageCode() at all.
+		//$result['language'] = $term->getActualLanguageCode();
+		$result['source'] = $term->getSourceLanguageCode();
+
 		return $result;
 	}
 
