@@ -31,7 +31,7 @@ class TermListDeserializer implements Deserializer {
 	/**
 	 * @see Deserializer::deserialize
 	 *
-	 * @param array $serialization
+	 * @param mixed $serialization
 	 *
 	 * @throws DeserializationException
 	 * @return TermList
@@ -42,11 +42,11 @@ class TermListDeserializer implements Deserializer {
 	}
 
 	/**
-	 * @param array $serialization
+	 * @param array[] $serialization
 	 *
 	 * @return TermList
 	 */
-	private function getDeserialized( $serialization ) {
+	private function getDeserialized( array $serialization ) {
 		$termList = new TermList();
 
 		foreach ( $serialization as $termSerialization ) {
@@ -57,7 +57,9 @@ class TermListDeserializer implements Deserializer {
 	}
 
 	/**
-	 * @param array $serialization
+	 * @param mixed $serialization
+	 *
+	 * @throws DeserializationException
 	 */
 	private function assertCanDeserialize( $serialization ) {
 		if ( !is_array( $serialization ) ) {
