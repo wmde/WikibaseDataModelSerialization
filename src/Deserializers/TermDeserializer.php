@@ -28,16 +28,18 @@ class TermDeserializer implements Deserializer {
 	}
 
 	/**
-	 * @param array $serialization
+	 * @param string[] $serialization
 	 *
 	 * @return Term
 	 */
-	private function getDeserialized( $serialization ) {
+	private function getDeserialized( array $serialization ) {
 		return new Term( $serialization['language'], $serialization['value'] );
 	}
 
 	/**
-	 * @param array $serialization
+	 * @param mixed $serialization
+	 *
+	 * @throws DeserializationException
 	 */
 	private function assertCanDeserialize( $serialization ) {
 		if ( !is_array( $serialization ) ) {
@@ -66,6 +68,8 @@ class TermDeserializer implements Deserializer {
 	/**
 	 * @param array $serialization
 	 * @param string $attribute
+	 *
+	 * @throws MissingAttributeException
 	 */
 	private function requireAttribute( $serialization, $attribute ) {
 		if ( !is_array( $serialization ) || !array_key_exists( $attribute, $serialization ) ) {
@@ -76,6 +80,8 @@ class TermDeserializer implements Deserializer {
 	/**
 	 * @param array $array
 	 * @param string $key
+	 *
+	 * @throws InvalidAttributeException
 	 */
 	private function assertNotAttribute( array $array, $key ) {
 		if ( array_key_exists( $key, $array ) ) {
