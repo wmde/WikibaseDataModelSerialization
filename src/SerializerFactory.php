@@ -3,6 +3,7 @@
 namespace Wikibase\DataModel;
 
 use InvalidArgumentException;
+use Serializers\DispatchableSerializer;
 use Serializers\DispatchingSerializer;
 use Serializers\Serializer;
 use Wikibase\DataModel\Serializers\AliasGroupListSerializer;
@@ -51,18 +52,29 @@ class SerializerFactory {
 	private $dataValueSerializer;
 
 	/**
+	 * @var DispatchableSerializer[]
+	 */
+	private $additionalEntitySerializers;
+
+	/**
 	 * @param Serializer $dataValueSerializer serializer for DataValue objects
 	 * @param int $options set multiple with bitwise or
+	 * @param DispatchableSerializer[] $additionalEntitySerializers
 	 *
 	 * @throws InvalidArgumentException
 	 */
-	public function __construct( Serializer $dataValueSerializer, $options = 0 ) {
+	public function __construct(
+		Serializer $dataValueSerializer,
+		$options = 0,
+		array $additionalEntitySerializers = array()
+	) {
 		if ( !is_int( $options ) ) {
 			throw new InvalidArgumentException( '$options must be an integer' );
 		}
 
 		$this->dataValueSerializer = $dataValueSerializer;
 		$this->options = $options;
+		$this->additionalEntitySerializers = $additionalEntitySerializers;
 	}
 
 	/**
@@ -99,20 +111,39 @@ class SerializerFactory {
 	 * @return Serializer
 	 */
 	public function newEntitySerializer() {
-		return new DispatchingSerializer( array(
-			new ItemSerializer(
-				$this->newTermListSerializer(),
-				$this->newAliasGroupListSerializer(),
-				$this->newStatementListSerializer(),
-				$this->newSiteLinkSerializer(),
-				$this->shouldUseObjectsForMaps()
-			),
-			new PropertySerializer(
-				$this->newTermListSerializer(),
-				$this->newAliasGroupListSerializer(),
-				$this->newStatementListSerializer()
+		return new DispatchingSerializer(
+			array_merge(
+				$this->additionalEntitySerializers,
+				array(
+					$this->newItemSerializer(),
+					$this->newPropertySerializer()
+				)
 			)
-		) );
+		);
+	}
+
+	/**
+	 * @return DispatchableSerializer
+	 */
+	private function newItemSerializer() {
+		return new ItemSerializer(
+			$this->newTermListSerializer(),
+			$this->newAliasGroupListSerializer(),
+			$this->newStatementListSerializer(),
+			$this->newSiteLinkSerializer(),
+			$this->shouldUseObjectsForMaps()
+		);
+	}
+
+	/**
+	 * @return DispatchableSerializer
+	 */
+	private function newPropertySerializer() {
+		return new PropertySerializer(
+			$this->newTermListSerializer(),
+			$this->newAliasGroupListSerializer(),
+			$this->newStatementListSerializer()
+		);
 	}
 
 	/**

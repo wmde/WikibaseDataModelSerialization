@@ -13,7 +13,8 @@ use Wikibase\DataModel\SiteLink;
 use Wikibase\DataModel\Snak\PropertyNoValueSnak;
 use Wikibase\DataModel\Snak\SnakList;
 use Wikibase\DataModel\Snak\TypedSnak;
-use Wikibase\DataModel\Statement\Statement;use Wikibase\DataModel\Statement\StatementList;
+use Wikibase\DataModel\Statement\Statement;
+use Wikibase\DataModel\Statement\StatementList;
 use Wikibase\DataModel\Term\AliasGroup;
 use Wikibase\DataModel\Term\AliasGroupList;
 use Wikibase\DataModel\Term\Term;
@@ -27,7 +28,18 @@ use Wikibase\DataModel\Term\TermList;
 class SerializerFactoryTest extends \PHPUnit_Framework_TestCase {
 
 	private function buildSerializerFactory() {
-		return new SerializerFactory( new DataValueSerializer() );
+		$customSerializer = $this->getMock( '\Serializers\DispatchableSerializer' );
+		$customSerializer->expects( $this->any() )
+			->method( 'isSerializerFor' )
+			->will( $this->returnCallback( function( $object ) {
+				return is_array( $object ) && isset( $object['type'] ) && $object['type'] === 'custom';
+			} ) );
+
+		$customSerializer->expects( $this->any() )
+			->method( 'serialize' )
+			->will( $this->returnValue( 'custom' ) );
+
+		return new SerializerFactory( new DataValueSerializer(), 0, array( $customSerializer ) );
 	}
 
 	private function assertSerializesWithoutException( Serializer $serializer, $object ) {
@@ -44,6 +56,11 @@ class SerializerFactoryTest extends \PHPUnit_Framework_TestCase {
 		$this->assertSerializesWithoutException(
 			$this->buildSerializerFactory()->newEntitySerializer(),
 			Property::newFromType( 'string' )
+		);
+
+		$this->assertSerializesWithoutException(
+			$this->buildSerializerFactory()->newEntitySerializer(),
+			array( 'type' => 'custom' )
 		);
 	}
 

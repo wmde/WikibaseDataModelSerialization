@@ -42,12 +42,23 @@ class DeserializerFactory {
 	private $entityIdParser;
 
 	/**
+	 * @var DispatchableDeserializer[]
+	 */
+	private $additionalEntityDeserializers;
+
+	/**
 	 * @param Deserializer $dataValueDeserializer deserializer for DataValue objects
 	 * @param EntityIdParser $entityIdParser
+	 * @param DispatchableDeserializer[] $additionalEntityDeserializers
 	 */
-	public function __construct( Deserializer $dataValueDeserializer, EntityIdParser $entityIdParser ) {
+	public function __construct(
+		Deserializer $dataValueDeserializer,
+		EntityIdParser $entityIdParser,
+		array $additionalEntityDeserializers = array()
+	) {
 		$this->dataValueDeserializer = $dataValueDeserializer;
 		$this->entityIdParser = $entityIdParser;
+		$this->additionalEntityDeserializers = $additionalEntityDeserializers;
 	}
 
 	/**
@@ -56,21 +67,40 @@ class DeserializerFactory {
 	 * @return DispatchableDeserializer
 	 */
 	public function newEntityDeserializer() {
-		return new DispatchingDeserializer( array(
-			new ItemDeserializer(
-				$this->newEntityIdDeserializer(),
-				$this->newTermListDeserializer(),
-				$this->newAliasGroupListDeserializer(),
-				$this->newStatementListDeserializer(),
-				$this->newSiteLinkDeserializer()
-			),
-			new PropertyDeserializer(
-				$this->newEntityIdDeserializer(),
-				$this->newTermListDeserializer(),
-				$this->newAliasGroupListDeserializer(),
-				$this->newStatementListDeserializer()
+		return new DispatchingDeserializer(
+			array_merge(
+				$this->additionalEntityDeserializers,
+				array(
+					$this->newItemDeserializer(),
+					$this->newPropertyDeserializer()
+				)
 			)
-		) );
+		);
+	}
+
+	/**
+	 * @return DispatchableDeserializer
+	 */
+	private function newItemDeserializer() {
+		return new ItemDeserializer(
+			$this->newEntityIdDeserializer(),
+			$this->newTermListDeserializer(),
+			$this->newAliasGroupListDeserializer(),
+			$this->newStatementListDeserializer(),
+			$this->newSiteLinkDeserializer()
+		);
+	}
+
+	/**
+	 * @return DispatchableDeserializer
+	 */
+	private function newPropertyDeserializer() {
+		return new PropertyDeserializer(
+			$this->newEntityIdDeserializer(),
+			$this->newTermListDeserializer(),
+			$this->newAliasGroupListDeserializer(),
+			$this->newStatementListDeserializer()
+		);
 	}
 
 	/**
