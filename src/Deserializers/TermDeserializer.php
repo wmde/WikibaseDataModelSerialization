@@ -6,6 +6,7 @@ use Deserializers\Deserializer;
 use Deserializers\Exceptions\DeserializationException;
 use Deserializers\Exceptions\InvalidAttributeException;
 use Deserializers\Exceptions\MissingAttributeException;
+use Wikibase\DataModel\Serializers\FacetContainerDeserializer;
 use Wikibase\DataModel\Term\Term;
 
 /**
@@ -15,6 +16,18 @@ use Wikibase\DataModel\Term\Term;
  * @author Addshore
  */
 class TermDeserializer implements Deserializer {
+
+	/**
+	 * @var FacetContainerDeserializer
+	 */
+	private $facetDeserializer;
+
+	/**
+	 * @param FacetContainerDeserializer $facetDeserializer
+	 */
+	public function __construct( FacetContainerDeserializer $facetDeserializer ) {
+		$this->facetDeserializer = $facetDeserializer;
+	}
 
 	/**
 	 * @param mixed $serialization
@@ -33,7 +46,9 @@ class TermDeserializer implements Deserializer {
 	 * @return Term
 	 */
 	private function getDeserialized( $serialization ) {
-		return new Term( $serialization['language'], $serialization['value'] );
+		$term = new Term( $serialization['language'], $serialization['value'] );
+		$this->facetDeserializer->deserializeFacets( $term, $serialization );
+		return $term;
 	}
 
 	/**
@@ -46,8 +61,6 @@ class TermDeserializer implements Deserializer {
 
 		$this->requireAttribute( $serialization, 'language' );
 		$this->requireAttribute( $serialization, 'value' );
-		// Do not deserialize term fallbacks
-		$this->assertNotAttribute( $serialization, 'source' );
 
 		$this->assertAttributeInternalType( $serialization, 'language', 'string' );
 		$this->assertAttributeInternalType( $serialization, 'value', 'string' );
@@ -70,20 +83,6 @@ class TermDeserializer implements Deserializer {
 	private function requireAttribute( $serialization, $attribute ) {
 		if ( !is_array( $serialization ) || !array_key_exists( $attribute, $serialization ) ) {
 			throw new MissingAttributeException( $attribute );
-		}
-	}
-
-	/**
-	 * @param array $array
-	 * @param string $key
-	 */
-	private function assertNotAttribute( array $array, $key ) {
-		if ( array_key_exists( $key, $array ) ) {
-			throw new InvalidAttributeException(
-				$key,
-				$array[$key],
-				'Deserialization of attribute ' . $key . ' not supported.'
-			);
 		}
 	}
 

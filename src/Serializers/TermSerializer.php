@@ -5,7 +5,6 @@ namespace Wikibase\DataModel\Serializers;
 use Serializers\Exceptions\UnsupportedObjectException;
 use Serializers\Serializer;
 use Wikibase\DataModel\Term\Term;
-use Wikibase\DataModel\Term\TermFallback;
 
 /**
  * Package private
@@ -14,6 +13,18 @@ use Wikibase\DataModel\Term\TermFallback;
  * @author Addshore
  */
 class TermSerializer implements Serializer {
+
+	/**
+	 * @var FacetContainerSerializer
+	 */
+	private $facetSerializer;
+
+	/**
+	 * @param FacetContainerSerializer $facetDeserializer
+	 */
+	public function __construct( FacetContainerSerializer $facetSerializer ) {
+		$this->facetSerializer = $facetSerializer;
+	}
 
 	/**
 	 * @param Term $object
@@ -45,11 +56,7 @@ class TermSerializer implements Serializer {
 			'value' => $term->getText(),
 		);
 
-		if ( $term instanceof TermFallback ) {
-			$result['language'] = $term->getActualLanguageCode();
-			$result['source'] = $term->getSourceLanguageCode();
-		}
-
+		$this->facetSerializer->addFacetSerialization( $term, $result );
 		return $result;
 	}
 

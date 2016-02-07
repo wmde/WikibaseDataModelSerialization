@@ -1,5 +1,9 @@
 # Wikibase DataModel Serialization release notes
 
+## 2.1 (dev)
+
+* Added support for facets
+
 ## 2.0.0 (2015-08-30)
 
 * Dropped dependency on Wikibase DataModel Services

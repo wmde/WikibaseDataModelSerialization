@@ -4,6 +4,7 @@ namespace Tests\Wikibase\DataModel\Deserializers;
 
 use Deserializers\Deserializer;
 use Wikibase\DataModel\Deserializers\TermDeserializer;
+use Wikibase\DataModel\Serializers\FacetContainerSerializer;
 use Wikibase\DataModel\Term\Term;
 
 /**
@@ -18,7 +19,7 @@ class TermDeserializerTest extends DeserializerBaseTest {
 	 * @return Deserializer
 	 */
 	public function buildDeserializer() {
-		return new TermDeserializer();
+		return new TermDeserializer( new FacetContainerSerializer( array() ) );
 	}
 
 	/**
@@ -34,6 +35,7 @@ class TermDeserializerTest extends DeserializerBaseTest {
 				'language' => 'en-gb',
 				'value' => 'Kittens, Kittens and Unicorns',
 			),
+			//TODO: test facets
 		);
 	}
 
@@ -49,11 +51,6 @@ class TermDeserializerTest extends DeserializerBaseTest {
 			array(
 				'language' => 'de',
 				'value' => 999,
-			),
-			array(
-				'language' => 'fr',
-				'value' => 'Fr to DE hehe',
-				'source' => 'de',
 			),
 		);
 	}

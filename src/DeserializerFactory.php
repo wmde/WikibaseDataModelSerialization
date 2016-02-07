@@ -7,6 +7,7 @@ use Deserializers\DispatchableDeserializer;
 use Deserializers\DispatchingDeserializer;
 use Wikibase\DataModel\Deserializers\AliasGroupListDeserializer;
 use Wikibase\DataModel\Deserializers\EntityIdDeserializer;
+use Wikibase\DataModel\Deserializers\FailingDeserializer;
 use Wikibase\DataModel\Deserializers\ItemDeserializer;
 use Wikibase\DataModel\Deserializers\PropertyDeserializer;
 use Wikibase\DataModel\Deserializers\ReferenceDeserializer;
@@ -19,6 +20,7 @@ use Wikibase\DataModel\Deserializers\StatementListDeserializer;
 use Wikibase\DataModel\Deserializers\TermDeserializer;
 use Wikibase\DataModel\Deserializers\TermListDeserializer;
 use Wikibase\DataModel\Entity\EntityIdParser;
+use Wikibase\DataModel\Serializers\FacetContainerDeserializer;
 
 /**
  * Factory for constructing Deserializer objects that can deserialize WikibaseDataModel objects.
@@ -163,7 +165,17 @@ class DeserializerFactory {
 	 * @return Deserializer
 	 */
 	public function newTermDeserializer() {
-		return new TermDeserializer();
+		//TODO: get facet deserializers from a central registry or hook, so extensions can add their own
+		$facetDeserializers = array(
+			// Depending on context, we may or may not allow language fallback
+			//'LanguageFallbackInfo' => new LanguageFallbackInfoDeserializer(),
+			'LanguageFallbackInfo' => new FailingDeserializer(
+				array( 'source' ),
+				'Refused deserialization of terms with language fallback applied'
+			),
+		);
+
+		return new TermDeserializer( new FacetContainerDeserializer( $facetDeserializers ) );
 	}
 
 	/**
