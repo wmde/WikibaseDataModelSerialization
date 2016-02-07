@@ -15,7 +15,18 @@ use Wikibase\DataModel\Entity\BasicEntityIdParser;
 class DeserializerFactoryTest extends \PHPUnit_Framework_TestCase {
 
 	private function buildDeserializerFactory() {
-		return new DeserializerFactory( new DataValueDeserializer(), new BasicEntityIdParser() );
+		$customDeserializer = $this->getMock( '\Deserializers\DispatchableDeserializer' );
+		$customDeserializer->expects( $this->any() )
+			->method( 'isDeserializerFor' )
+			->will( $this->returnCallback( function( $serialization ) {
+				return is_array( $serialization ) && isset( $serialization['type'] ) && $serialization['type'] === 'custom';
+			} ) );
+
+		return new DeserializerFactory(
+			new DataValueDeserializer(),
+			new BasicEntityIdParser(),
+			array( $customDeserializer )
+		);
 	}
 
 	private function assertDeserializesWithoutException( Deserializer $deserializer, $serialization ) {
@@ -32,6 +43,16 @@ class DeserializerFactoryTest extends \PHPUnit_Framework_TestCase {
 		$this->assertTrue( $this->buildDeserializerFactory()->newEntityDeserializer()->isDeserializerFor(
 			array(
 				'type' => 'property'
+			)
+		) );
+		$this->assertTrue( $this->buildDeserializerFactory()->newEntityDeserializer()->isDeserializerFor(
+			array(
+				'type' => 'custom'
+			)
+		) );
+		$this->assertFalse( $this->buildDeserializerFactory()->newEntityDeserializer()->isDeserializerFor(
+			array(
+				'type' => 'foo'
 			)
 		) );
 	}

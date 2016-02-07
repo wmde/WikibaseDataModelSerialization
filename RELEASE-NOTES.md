@@ -1,5 +1,9 @@
 # Wikibase DataModel Serialization release notes
 
+## 2.1.0 (dev)
+
+* Added support for additional entity serializers and deserializers
+
 ## 2.0.0 (2015-08-30)
 
 * Dropped dependency on Wikibase DataModel Services
