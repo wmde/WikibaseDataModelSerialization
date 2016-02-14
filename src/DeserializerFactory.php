@@ -53,6 +53,8 @@ class DeserializerFactory {
 	/**
 	 * Returns a Deserializer that can deserialize Entity objects.
 	 *
+	 * @deprecated since 2.1, dispatching should happen when all entity types are known
+	 *
 	 * @return DispatchableDeserializer
 	 */
 	public function newEntityDeserializer() {
