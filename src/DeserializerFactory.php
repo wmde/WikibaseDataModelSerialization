@@ -70,7 +70,7 @@ class DeserializerFactory {
 	 *
 	 * @since 2.1
 	 *
-	 * @return Deserializer
+	 * @return ItemDeserializer
 	 */
 	public function newItemDeserializer() {
 		return new ItemDeserializer(
@@ -87,7 +87,7 @@ class DeserializerFactory {
 	 *
 	 * @since 2.1
 	 *
-	 * @return Deserializer
+	 * @return PropertyDeserializer
 	 */
 	public function newPropertyDeserializer() {
 		return new PropertyDeserializer(
@@ -101,7 +101,7 @@ class DeserializerFactory {
 	/**
 	 * Returns a Deserializer that can deserialize SiteLink objects.
 	 *
-	 * @return Deserializer
+	 * @return SiteLinkDeserializer
 	 */
 	public function newSiteLinkDeserializer() {
 		return new SiteLinkDeserializer( $this->newEntityIdDeserializer() );
@@ -112,7 +112,7 @@ class DeserializerFactory {
 	 *
 	 * @since 1.4
 	 *
-	 * @return Deserializer
+	 * @return StatementListDeserializer
 	 */
 	public function newStatementListDeserializer() {
 		return new StatementListDeserializer( $this->newStatementDeserializer() );
@@ -136,7 +136,7 @@ class DeserializerFactory {
 	/**
 	 * Returns a Deserializer that can deserialize ReferenceList objects.
 	 *
-	 * @return Deserializer
+	 * @return ReferenceListDeserializer
 	 */
 	public function newReferencesDeserializer() {
 		return new ReferenceListDeserializer( $this->newReferenceDeserializer() );
@@ -145,7 +145,7 @@ class DeserializerFactory {
 	/**
 	 * Returns a Deserializer that can deserialize Reference objects.
 	 *
-	 * @return Deserializer
+	 * @return ReferenceDeserializer
 	 */
 	public function newReferenceDeserializer() {
 		return new ReferenceDeserializer( $this->newSnakListDeserializer() );
@@ -156,7 +156,7 @@ class DeserializerFactory {
 	 *
 	 * @since 1.4
 	 *
-	 * @return Deserializer
+	 * @return SnakListDeserializer
 	 */
 	public function newSnakListDeserializer() {
 		return new SnakListDeserializer( $this->newSnakDeserializer() );
@@ -165,7 +165,7 @@ class DeserializerFactory {
 	/**
 	 * Returns a Deserializer that can deserialize Snak objects.
 	 *
-	 * @return Deserializer
+	 * @return SnakDeserializer
 	 */
 	public function newSnakDeserializer() {
 		return new SnakDeserializer( $this->dataValueDeserializer, $this->newEntityIdDeserializer() );
@@ -174,7 +174,7 @@ class DeserializerFactory {
 	/**
 	 * Returns a Deserializer that can deserialize EntityId objects.
 	 *
-	 * @return Deserializer
+	 * @return EntityIdDeserializer
 	 */
 	public function newEntityIdDeserializer() {
 		return new EntityIdDeserializer( $this->entityIdParser );
@@ -185,7 +185,7 @@ class DeserializerFactory {
 	 *
 	 * @since 1.5
 	 *
-	 * @return Deserializer
+	 * @return TermDeserializer
 	 */
 	public function newTermDeserializer() {
 		return new TermDeserializer();
@@ -196,7 +196,7 @@ class DeserializerFactory {
 	 *
 	 * @since 1.5
 	 *
-	 * @return Deserializer
+	 * @return TermListDeserializer
 	 */
 	public function newTermListDeserializer() {
 		return new TermListDeserializer( $this->newTermDeserializer() );
@@ -207,7 +207,7 @@ class DeserializerFactory {
 	 *
 	 * @since 1.5
 	 *
-	 * @return Deserializer
+	 * @return AliasGroupListDeserializer
 	 */
 	public function newAliasGroupListDeserializer() {
 		return new AliasGroupListDeserializer();
