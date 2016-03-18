@@ -1,6 +1,6 @@
 <?php
 
-namespace Wikibase\DataModel\Deserializers;
+namespace Wikibase\DataModel\Deserializers\Internal;
 
 use Deserializers\Deserializer;
 use Deserializers\Exceptions\DeserializationException;

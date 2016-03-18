@@ -3,12 +3,12 @@
 namespace Tests\Wikibase\DataModel\Deserializers;
 
 use PHPUnit_Framework_TestCase;
-use Wikibase\DataModel\Deserializers\AliasGroupListDeserializer;
+use Wikibase\DataModel\Deserializers\Internal\AliasGroupListDeserializer;
 use Wikibase\DataModel\Term\AliasGroup;
 use Wikibase\DataModel\Term\AliasGroupList;
 
 /**
- * @covers Wikibase\DataModel\Deserializers\AliasGroupListDeserializer
+ * @covers Wikibase\DataModel\Deserializers\Internal\AliasGroupListDeserializer
  *
  * @licence GNU GPL v2+
  * @author Addshore

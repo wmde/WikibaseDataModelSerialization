@@ -3,13 +3,13 @@
 namespace Tests\Wikibase\DataModel\Serializers;
 
 use PHPUnit_Framework_TestCase;
-use Wikibase\DataModel\Serializers\AliasGroupSerializer;
+use Wikibase\DataModel\Serializers\Internal\AliasGroupSerializer;
 use Wikibase\DataModel\Term\AliasGroup;
 use Wikibase\DataModel\Term\AliasGroupFallback;
 use Wikibase\DataModel\Term\AliasGroupList;
 
 /**
- * @covers Wikibase\DataModel\Serializers\AliasGroupSerializer
+ * @covers Wikibase\DataModel\Serializers\Internal\AliasGroupSerializer
  *
  * @licence GNU GPL v2+
  * @author Bene* < benestar.wikimedia@gmail.com >

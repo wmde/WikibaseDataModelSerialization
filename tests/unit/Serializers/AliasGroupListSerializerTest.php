@@ -4,12 +4,12 @@ namespace Tests\Wikibase\DataModel\Serializers;
 
 use PHPUnit_Framework_TestCase;
 use stdClass;
-use Wikibase\DataModel\Serializers\AliasGroupListSerializer;
+use Wikibase\DataModel\Serializers\Internal\AliasGroupListSerializer;
 use Wikibase\DataModel\Term\AliasGroup;
 use Wikibase\DataModel\Term\AliasGroupList;
 
 /**
- * @covers Wikibase\DataModel\Serializers\AliasGroupListSerializer
+ * @covers Wikibase\DataModel\Serializers\Internal\AliasGroupListSerializer
  *
  * @licence GNU GPL v2+
  * @author Addshore

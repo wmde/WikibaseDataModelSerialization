@@ -5,7 +5,7 @@ namespace Wikibase\DataModel;
 use Deserializers\Deserializer;
 use Deserializers\DispatchableDeserializer;
 use Deserializers\DispatchingDeserializer;
-use Wikibase\DataModel\Deserializers\AliasGroupListDeserializer;
+use Wikibase\DataModel\Deserializers\Internal\AliasGroupListDeserializer;
 use Wikibase\DataModel\Deserializers\EntityIdDeserializer;
 use Wikibase\DataModel\Deserializers\ItemDeserializer;
 use Wikibase\DataModel\Deserializers\PropertyDeserializer;

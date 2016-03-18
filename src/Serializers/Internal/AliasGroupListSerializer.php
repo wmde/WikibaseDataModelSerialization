@@ -1,6 +1,6 @@
 <?php
 
-namespace Wikibase\DataModel\Serializers;
+namespace Wikibase\DataModel\Serializers\Internal;
 
 use Serializers\Exceptions\UnsupportedObjectException;
 use Serializers\Serializer;
