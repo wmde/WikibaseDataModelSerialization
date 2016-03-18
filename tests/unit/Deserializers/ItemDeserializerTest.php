@@ -41,7 +41,7 @@ class ItemDeserializerTest extends DispatchableDeserializerTest {
 			) ) )
 			->will( $this->returnValue( new TermList( array( new Term( 'en', 'foo' ) ) ) ) );
 
-		$aliasGroupListDeserializerMock = $this->getMock( '\Deserializers\Deserializer' );
+		$aliasGroupListDeserializerMock = $this->getMock( 'Wikibase\DataModel\Deserializers\AliasGroupListDeserializer' );
 		$aliasGroupListDeserializerMock->expects( $this->any() )
 			->method( 'deserialize' )
 			->with( $this->equalTo( array(

@@ -2,8 +2,8 @@
 
 namespace Wikibase\DataModel\Serializers\Internal;
 
-use Serializers\Exceptions\UnsupportedObjectException;
-use Serializers\Serializer;
+use Wikibase\DataModel\Serializers\AliasGroupListSerializer as AliasGroupListSerializerInterface;
+use Wikibase\DataModel\Serializers\AliasGroupSerializer as AliasGroupSerializerInterface;
 use Wikibase\DataModel\Term\AliasGroupList;
 
 /**
@@ -13,10 +13,10 @@ use Wikibase\DataModel\Term\AliasGroupList;
  * @author Addshore
  * @author Bene* < benestar.wikimedia@gmail.com >
  */
-class AliasGroupListSerializer implements Serializer {
+class AliasGroupListSerializer implements AliasGroupListSerializerInterface {
 
 	/**
-	 * @var Serializer
+	 * @var AliasGroupSerializerInterface
 	 */
 	private $aliasGroupSerializer;
 
@@ -26,39 +26,22 @@ class AliasGroupListSerializer implements Serializer {
 	private $useObjectsForMaps;
 
 	/**
-	 * @param Serializer $aliasGroupSerializer
+	 * @param AliasGroupSerializerInterface $aliasGroupSerializer
 	 * @param bool $useObjectsForMaps
 	 */
-	public function __construct( Serializer $aliasGroupSerializer, $useObjectsForMaps ) {
+	public function __construct( AliasGroupSerializerInterface $aliasGroupSerializer, $useObjectsForMaps ) {
 		$this->aliasGroupSerializer = $aliasGroupSerializer;
 		$this->useObjectsForMaps = $useObjectsForMaps;
 	}
 
 	/**
-	 * @param AliasGroupList $object
+	 * @see \Wikibase\DataModel\Serializers\AliasGroupListSerializer::serialize
 	 *
-	 * @return array[]
-	 */
-	public function serialize( $object ) {
-		$this->assertIsSerializerFor( $object );
-		return $this->getSerialized( $object );
-	}
-
-	private function assertIsSerializerFor( $object ) {
-		if ( !( $object instanceof AliasGroupList ) ) {
-			throw new UnsupportedObjectException(
-				$object,
-				'AliasGroupListSerializer can only serialize AliasGroupList objects'
-			);
-		}
-	}
-
-	/**
 	 * @param AliasGroupList $aliasGroupList
 	 *
 	 * @return array[]
 	 */
-	private function getSerialized( AliasGroupList $aliasGroupList ) {
+	public function serialize( AliasGroupList $aliasGroupList ) {
 		$serialization = array();
 
 		foreach ( $aliasGroupList->getIterator() as $aliasGroup ) {

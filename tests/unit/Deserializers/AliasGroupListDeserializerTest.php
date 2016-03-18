@@ -30,7 +30,6 @@ class AliasGroupListDeserializerTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function nonDeserializableProvider() {
 		return array(
-			'must be an array' => array( new \stdClass() ),
 			'must be an array of arrays' => array( array(
 				'en' => new \stdClass(),
 			) ),

@@ -5,8 +5,8 @@ namespace Wikibase\DataModel;
 use InvalidArgumentException;
 use Serializers\DispatchingSerializer;
 use Serializers\Serializer;
-use Wikibase\DataModel\Serializers\Internal\AliasGroupListSerializer;
-use Wikibase\DataModel\Serializers\Internal\AliasGroupSerializer;
+use Wikibase\DataModel\Serializers\AliasGroupListSerializer;
+use Wikibase\DataModel\Serializers\AliasGroupSerializer;
 use Wikibase\DataModel\Serializers\ItemSerializer;
 use Wikibase\DataModel\Serializers\PropertySerializer;
 use Wikibase\DataModel\Serializers\ReferenceListSerializer;
@@ -265,23 +265,26 @@ class SerializerFactory {
 	/**
 	 * Returns a Serializer that can serialize AliasGroup objects.
 	 *
-	 * @since 1.6
+	 * @since 2.3
 	 *
-	 * @return Serializer
+	 * @return AliasGroupSerializer
 	 */
 	public function newAliasGroupSerializer() {
-		return new AliasGroupSerializer();
+		return new \Wikibase\DataModel\Serializers\Internal\AliasGroupSerializer();
 	}
 
 	/**
 	 * Returns a Serializer that can serialize AliasGroupList objects.
 	 *
-	 * @since 1.5
+	 * @since 2.3
 	 *
-	 * @return Serializer
+	 * @return AliasGroupListSerializer
 	 */
 	public function newAliasGroupListSerializer() {
-		return new AliasGroupListSerializer( $this->newAliasGroupSerializer(), $this->shouldUseObjectsForMaps() );
+		return new \Wikibase\DataModel\Serializers\Internal\AliasGroupListSerializer(
+			$this->newAliasGroupSerializer(),
+			$this->shouldUseObjectsForMaps()
+		);
 	}
 
 }

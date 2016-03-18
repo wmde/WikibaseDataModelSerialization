@@ -27,7 +27,7 @@ class PropertyDeserializer extends TypedObjectDeserializer {
 	private $termListDeserializer;
 
 	/**
-	 * @var Deserializer
+	 * @var AliasGroupListDeserializer
 	 */
 	private $aliasGroupListDeserializer;
 
@@ -39,13 +39,13 @@ class PropertyDeserializer extends TypedObjectDeserializer {
 	/**
 	 * @param Deserializer $entityIdDeserializer
 	 * @param Deserializer $termListDeserializer
-	 * @param Deserializer $aliasGroupListDeserializer
+	 * @param AliasGroupListDeserializer $aliasGroupListDeserializer
 	 * @param Deserializer $statementListDeserializer
 	 */
 	public function __construct(
 		Deserializer $entityIdDeserializer,
 		Deserializer $termListDeserializer,
-		Deserializer $aliasGroupListDeserializer,
+		AliasGroupListDeserializer $aliasGroupListDeserializer,
 		Deserializer $statementListDeserializer
 	) {
 		parent::__construct( 'property', 'type' );

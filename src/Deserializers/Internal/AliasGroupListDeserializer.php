@@ -2,10 +2,10 @@
 
 namespace Wikibase\DataModel\Deserializers\Internal;
 
-use Deserializers\Deserializer;
 use Deserializers\Exceptions\DeserializationException;
 use Deserializers\Exceptions\InvalidAttributeException;
 use Deserializers\Exceptions\MissingAttributeException;
+use Wikibase\DataModel\Deserializers\AliasGroupListDeserializer as AliasGroupListDeserializerInterface;
 use Wikibase\DataModel\Term\AliasGroup;
 use Wikibase\DataModel\Term\AliasGroupList;
 
@@ -16,17 +16,17 @@ use Wikibase\DataModel\Term\AliasGroupList;
  * @author Addshore
  * @author Bene* < benestar.wikimedia@gmail.com >
  */
-class AliasGroupListDeserializer implements Deserializer {
+class AliasGroupListDeserializer implements AliasGroupListDeserializerInterface {
 
 	/**
-	 * @see Deserializer::deserialize
+	 * @see \Wikibase\DataModel\Deserializers\AliasGroupListDeserializer::deserialize
 	 *
 	 * @param array[] $serialization
 	 *
 	 * @throws DeserializationException
 	 * @return AliasGroupList
 	 */
-	public function deserialize( $serialization ) {
+	public function deserialize( array $serialization ) {
 		$this->assertCanDeserialize( $serialization );
 		return $this->getDeserialized( $serialization );
 	}
@@ -70,11 +70,7 @@ class AliasGroupListDeserializer implements Deserializer {
 	 *
 	 * @throws DeserializationException
 	 */
-	private function assertCanDeserialize( $serialization ) {
-		if ( !is_array( $serialization ) ) {
-			throw new DeserializationException( 'The aliasGroup list serialization should be an array' );
-		}
-
+	private function assertCanDeserialize( array $serialization ) {
 		foreach ( $serialization as $requestedLanguage => $valueSerialization ) {
 			$this->assertAttributeIsArray( $serialization, $requestedLanguage );
 

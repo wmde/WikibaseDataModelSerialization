@@ -6,7 +6,6 @@ use PHPUnit_Framework_TestCase;
 use Wikibase\DataModel\Serializers\Internal\AliasGroupSerializer;
 use Wikibase\DataModel\Term\AliasGroup;
 use Wikibase\DataModel\Term\AliasGroupFallback;
-use Wikibase\DataModel\Term\AliasGroupList;
 
 /**
  * @covers Wikibase\DataModel\Serializers\Internal\AliasGroupSerializer
@@ -15,29 +14,6 @@ use Wikibase\DataModel\Term\AliasGroupList;
  * @author Bene* < benestar.wikimedia@gmail.com >
  */
 class AliasGroupSerializerTest extends PHPUnit_Framework_TestCase {
-
-	/**
-	 * @dataProvider nonSerializableProvider
-	 */
-	public function testSerializeThrowsUnsupportedObjectException( $nonSerializable ) {
-		$serializer = new AliasGroupSerializer();
-		$this->setExpectedException( 'Serializers\Exceptions\UnsupportedObjectException' );
-		$serializer->serialize( $nonSerializable );
-	}
-
-	public function nonSerializableProvider() {
-		return array(
-			array(
-				5
-			),
-			array(
-				array()
-			),
-			array(
-				new AliasGroupList()
-			)
-		);
-	}
 
 	/**
 	 * @dataProvider serializationProvider

@@ -33,7 +33,7 @@ class PropertySerializerTest extends DispatchableSerializerTest {
 				);
 			} ) );
 
-		$aliasGroupListSerializerMock = $this->getMock( '\Serializers\Serializer' );
+		$aliasGroupListSerializerMock = $this->getMock( 'Wikibase\DataModel\Serializers\AliasGroupListSerializer' );
 		$aliasGroupListSerializerMock->expects( $this->any() )
 			->method( 'serialize' )
 			->will( $this->returnCallback( function( AliasGroupList $aliasGroupList ) {
