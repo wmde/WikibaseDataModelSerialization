@@ -4,12 +4,12 @@ namespace Tests\Wikibase\DataModel\Serializers;
 
 use PHPUnit_Framework_TestCase;
 use stdClass;
-use Wikibase\DataModel\Serializers\AliasGroupListSerializer;
+use Wikibase\DataModel\Serializers\Internal\AliasGroupListSerializer;
 use Wikibase\DataModel\Term\AliasGroup;
 use Wikibase\DataModel\Term\AliasGroupList;
 
 /**
- * @covers Wikibase\DataModel\Serializers\AliasGroupListSerializer
+ * @covers Wikibase\DataModel\Serializers\Internal\AliasGroupListSerializer
  *
  * @licence GNU GPL v2+
  * @author Addshore
@@ -23,7 +23,7 @@ class AliasGroupListSerializerTest extends PHPUnit_Framework_TestCase {
 	 * @return AliasGroupListSerializer
 	 */
 	private function buildSerializer( $useObjectsForMaps = false ) {
-		$aliasGroupSerializer = $this->getMock( 'Serializers\Serializer' );
+		$aliasGroupSerializer = $this->getMock( 'Wikibase\DataModel\Serializers\AliasGroupSerializer' );
 		$aliasGroupSerializer->expects( $this->any() )
 			->method( 'serialize' )
 			->will( $this->returnCallback( function( AliasGroup $aliasGroup ) {
@@ -78,12 +78,6 @@ class AliasGroupListSerializerTest extends PHPUnit_Framework_TestCase {
 				)
 			),
 		);
-	}
-
-	public function testWithUnsupportedObject() {
-		$serializer = $this->buildSerializer();
-		$this->setExpectedException( 'Serializers\Exceptions\UnsupportedObjectException' );
-		$serializer->serialize( new stdClass() );
 	}
 
 	public function testAliasGroupListSerializerWithOptionObjectsForMaps() {

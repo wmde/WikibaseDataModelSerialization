@@ -205,12 +205,12 @@ class DeserializerFactory {
 	/**
 	 * Returns a Deserializer that can deserialize AliasGroupList objects.
 	 *
-	 * @since 1.5
+	 * @since 2.3
 	 *
-	 * @return Deserializer
+	 * @return AliasGroupListDeserializer
 	 */
 	public function newAliasGroupListDeserializer() {
-		return new AliasGroupListDeserializer();
+		return new \Wikibase\DataModel\Deserializers\Internal\AliasGroupListDeserializer();
 	}
 
 }

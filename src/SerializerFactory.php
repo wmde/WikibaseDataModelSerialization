@@ -265,23 +265,26 @@ class SerializerFactory {
 	/**
 	 * Returns a Serializer that can serialize AliasGroup objects.
 	 *
-	 * @since 1.6
+	 * @since 2.3
 	 *
-	 * @return Serializer
+	 * @return AliasGroupSerializer
 	 */
 	public function newAliasGroupSerializer() {
-		return new AliasGroupSerializer();
+		return new \Wikibase\DataModel\Serializers\Internal\AliasGroupSerializer();
 	}
 
 	/**
 	 * Returns a Serializer that can serialize AliasGroupList objects.
 	 *
-	 * @since 1.5
+	 * @since 2.3
 	 *
-	 * @return Serializer
+	 * @return AliasGroupListSerializer
 	 */
 	public function newAliasGroupListSerializer() {
-		return new AliasGroupListSerializer( $this->newAliasGroupSerializer(), $this->shouldUseObjectsForMaps() );
+		return new \Wikibase\DataModel\Serializers\Internal\AliasGroupListSerializer(
+			$this->newAliasGroupSerializer(),
+			$this->shouldUseObjectsForMaps()
+		);
 	}
 
 }

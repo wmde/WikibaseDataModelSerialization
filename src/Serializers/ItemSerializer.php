@@ -24,7 +24,7 @@ class ItemSerializer implements DispatchableSerializer {
 	private $termListSerializer;
 
 	/**
-	 * @var Serializer
+	 * @var AliasGroupListSerializer
 	 */
 	private $aliasGroupListSerializer;
 
@@ -45,14 +45,14 @@ class ItemSerializer implements DispatchableSerializer {
 
 	/**
 	 * @param Serializer $termListSerializer
-	 * @param Serializer $aliasGroupListSerializer
+	 * @param AliasGroupListSerializer $aliasGroupListSerializer
 	 * @param Serializer $statementListSerializer
 	 * @param Serializer $siteLinkSerializer
 	 * @param bool $useObjectsForMaps
 	 */
 	public function __construct(
 		Serializer $termListSerializer,
-		Serializer $aliasGroupListSerializer,
+		AliasGroupListSerializer $aliasGroupListSerializer,
 		Serializer $statementListSerializer,
 		Serializer $siteLinkSerializer,
 		$useObjectsForMaps

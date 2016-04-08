@@ -3,12 +3,12 @@
 namespace Tests\Wikibase\DataModel\Deserializers;
 
 use PHPUnit_Framework_TestCase;
-use Wikibase\DataModel\Deserializers\AliasGroupListDeserializer;
+use Wikibase\DataModel\Deserializers\Internal\AliasGroupListDeserializer;
 use Wikibase\DataModel\Term\AliasGroup;
 use Wikibase\DataModel\Term\AliasGroupList;
 
 /**
- * @covers Wikibase\DataModel\Deserializers\AliasGroupListDeserializer
+ * @covers Wikibase\DataModel\Deserializers\Internal\AliasGroupListDeserializer
  *
  * @licence GNU GPL v2+
  * @author Addshore
@@ -30,7 +30,6 @@ class AliasGroupListDeserializerTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function nonDeserializableProvider() {
 		return array(
-			'must be an array' => array( new \stdClass() ),
 			'must be an array of arrays' => array( array(
 				'en' => new \stdClass(),
 			) ),

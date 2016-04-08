@@ -147,10 +147,12 @@ class DeserializerFactoryTest extends \PHPUnit_Framework_TestCase {
 	}
 
 	public function testNewAliasGroupListDeserializer() {
-		$this->assertDeserializesWithoutException(
-			$this->buildDeserializerFactory()->newAliasGroupListDeserializer(),
-			array( 'en' => array( array( 'language' => 'en', 'value' => 'Some Term' ) ) )
+		$serialization = array(
+			'en' => array( array( 'language' => 'en', 'value' => 'Some Term' ) ),
 		);
+		$deserializer = $this->buildDeserializerFactory()->newAliasGroupListDeserializer();
+		$aliasGroupList = $deserializer->deserialize( $serialization );
+		$this->assertInstanceOf( 'Wikibase\DataModel\Term\AliasGroupList', $aliasGroupList );
 	}
 
 }

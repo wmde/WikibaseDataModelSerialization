@@ -28,7 +28,7 @@ class ItemDeserializer extends TypedObjectDeserializer {
 	private $termListDeserializer;
 
 	/**
-	 * @var Deserializer
+	 * @var AliasGroupListDeserializer
 	 */
 	private $aliasGroupListDeserializer;
 
@@ -45,14 +45,14 @@ class ItemDeserializer extends TypedObjectDeserializer {
 	/**
 	 * @param Deserializer $entityIdDeserializer
 	 * @param Deserializer $termListDeserializer
-	 * @param Deserializer $aliasGroupListDeserializer
+	 * @param AliasGroupListDeserializer $aliasGroupListDeserializer
 	 * @param Deserializer $statementListDeserializer
 	 * @param Deserializer $siteLinkDeserializer
 	 */
 	public function __construct(
 		Deserializer $entityIdDeserializer,
 		Deserializer $termListDeserializer,
-		Deserializer $aliasGroupListDeserializer,
+		AliasGroupListDeserializer $aliasGroupListDeserializer,
 		Deserializer $statementListDeserializer,
 		Deserializer $siteLinkDeserializer
 	) {

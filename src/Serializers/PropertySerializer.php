@@ -24,7 +24,7 @@ class PropertySerializer implements DispatchableSerializer {
 	private $termListSerializer;
 
 	/**
-	 * @var Serializer
+	 * @var AliasGroupListSerializer
 	 */
 	private $aliasGroupListSerializer;
 
@@ -35,12 +35,12 @@ class PropertySerializer implements DispatchableSerializer {
 
 	/**
 	 * @param Serializer $termListSerializer
-	 * @param Serializer $aliasGroupListSerializer
+	 * @param AliasGroupListSerializer $aliasGroupListSerializer
 	 * @param Serializer $statementListSerializer
 	 */
 	public function __construct(
 		Serializer $termListSerializer,
-		Serializer $aliasGroupListSerializer,
+		AliasGroupListSerializer $aliasGroupListSerializer,
 		Serializer $statementListSerializer
 	) {
 		$this->termListSerializer = $termListSerializer;

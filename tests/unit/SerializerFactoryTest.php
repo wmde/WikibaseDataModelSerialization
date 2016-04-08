@@ -144,17 +144,19 @@ class SerializerFactoryTest extends \PHPUnit_Framework_TestCase {
 	}
 
 	public function testNewAliasGroupSerializer() {
-		$this->assertSerializesWithoutException(
-			$this->buildSerializerFactory()->newAliasGroupSerializer(),
-			new AliasGroup( 'en', array( 'foo', 'bar' ) )
-		);
+		$aliasGroup = new AliasGroup( 'en', array( 'foo', 'bar' ) );
+		$serializer = $this->buildSerializerFactory()->newAliasGroupSerializer();
+		$serialization = $serializer->serialize( $aliasGroup );
+		$this->assertInternalType( 'array', $serialization );
 	}
 
 	public function testNewAliasGroupListSerializer() {
-		$this->assertSerializesWithoutException(
-			$this->buildSerializerFactory()->newAliasGroupListSerializer(),
-			new AliasGroupList( array( new AliasGroup( 'de', array( 'AA', 'BB' ) ) ) )
-		);
+		$aliasGroupList = new AliasGroupList( array(
+			new AliasGroup( 'de', array( 'AA', 'BB' ) ),
+		) );
+		$serializer = $this->buildSerializerFactory()->newAliasGroupListSerializer();
+		$serialization = $serializer->serialize( $aliasGroupList );
+		$this->assertInternalType( 'array', $serialization );
 	}
 
 }
