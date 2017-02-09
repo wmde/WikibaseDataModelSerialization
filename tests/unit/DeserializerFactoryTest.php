@@ -15,7 +15,14 @@ use Wikibase\DataModel\Entity\BasicEntityIdParser;
 class DeserializerFactoryTest extends \PHPUnit_Framework_TestCase {
 
 	private function buildDeserializerFactory() {
-		return new DeserializerFactory( new DataValueDeserializer(), new BasicEntityIdParser() );
+		return new DeserializerFactory( [
+			function ( DeserializerFactory $factory ) {
+				return $factory->newItemDeserializer();
+			},
+			function ( DeserializerFactory $factory ) {
+				return $factory->newPropertyDeserializer();
+			},
+		], new DataValueDeserializer(), new BasicEntityIdParser() );
 	}
 
 	private function assertDeserializesWithoutException(

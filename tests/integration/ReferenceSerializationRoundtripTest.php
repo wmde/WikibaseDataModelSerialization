@@ -23,8 +23,9 @@ class ReferenceSerializationRoundtripTest extends \PHPUnit_Framework_TestCase {
 	 * @dataProvider referenceProvider
 	 */
 	public function testSnakSerializationRoundtrips( Reference $reference ) {
-		$serializerFactory = new SerializerFactory( new DataValueSerializer() );
+		$serializerFactory = new SerializerFactory( [], new DataValueSerializer() );
 		$deserializerFactory = new DeserializerFactory(
+			[],
 			new DataValueDeserializer(),
 			new BasicEntityIdParser()
 		);

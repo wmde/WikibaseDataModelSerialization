@@ -23,12 +23,13 @@ use Wikibase\DataModel\Snak\Snak;
 class SnakSerializationRoundtripTest extends \PHPUnit_Framework_TestCase {
 
 	private function getSnakSerializer() {
-		$factory = new SerializerFactory( new DataValueSerializer() );
+		$factory = new SerializerFactory( [], new DataValueSerializer() );
 		return $factory->newSnakSerializer();
 	}
 
 	private function getSnakDeserializer( array $dataValueClasses = array() ) {
 		$factory = new DeserializerFactory(
+			[],
 			new DataValueDeserializer( $dataValueClasses ),
 			new BasicEntityIdParser()
 		);

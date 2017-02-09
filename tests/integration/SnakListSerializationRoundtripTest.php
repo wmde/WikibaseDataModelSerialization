@@ -22,8 +22,9 @@ class SnakListSerializationRoundtripTest extends \PHPUnit_Framework_TestCase {
 	 * @dataProvider snakListProvider
 	 */
 	public function testSnakSerializationRoundtrips( SnakList $snaks ) {
-		$serializerFactory = new SerializerFactory( new DataValueSerializer() );
+		$serializerFactory = new SerializerFactory( [], new DataValueSerializer() );
 		$deserializerFactory = new DeserializerFactory(
+			[],
 			new DataValueDeserializer(),
 			new BasicEntityIdParser()
 		);

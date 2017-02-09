@@ -3,8 +3,10 @@
 namespace Wikibase\DataModel;
 
 use InvalidArgumentException;
+use Serializers\DispatchableSerializer;
 use Serializers\DispatchingSerializer;
 use Serializers\Serializer;
+use UnexpectedValueException;
 use Wikibase\DataModel\Serializers\AliasGroupListSerializer;
 use Wikibase\DataModel\Serializers\AliasGroupSerializer;
 use Wikibase\DataModel\Serializers\ItemSerializer;
@@ -41,9 +43,9 @@ class SerializerFactory {
 	const OPTION_SERIALIZE_REFERENCE_SNAKS_WITHOUT_HASH = 8;
 
 	/**
-	 * @var int
+	 * @var DispatchableSerializer[]|callable[]
 	 */
-	private $options;
+	private $entitySerializers;
 
 	/**
 	 * @var Serializer
@@ -51,16 +53,31 @@ class SerializerFactory {
 	private $dataValueSerializer;
 
 	/**
+	 * @var int
+	 */
+	private $options;
+
+	/**
+	 * @since 3.0 added the required $entitySerializers argument
+	 *
+	 * @param DispatchableSerializer[]|callable[] $entitySerializers A list of either
+	 *  DispatchableSerializer objects that are able to serialize Entities, or callables that return
+	 *  such objects. The callables must accept the SerializerFactory as first argument.
 	 * @param Serializer $dataValueSerializer serializer for DataValue objects
 	 * @param int $options set multiple with bitwise or
 	 *
 	 * @throws InvalidArgumentException
 	 */
-	public function __construct( Serializer $dataValueSerializer, $options = 0 ) {
+	public function __construct(
+		array $entitySerializers,
+		Serializer $dataValueSerializer,
+		$options = self::OPTION_DEFAULT
+	) {
 		if ( !is_int( $options ) ) {
 			throw new InvalidArgumentException( '$options must be an integer' );
 		}
 
+		$this->entitySerializers = $entitySerializers;
 		$this->dataValueSerializer = $dataValueSerializer;
 		$this->options = $options;
 	}
@@ -94,15 +111,29 @@ class SerializerFactory {
 	}
 
 	/**
-	 * Returns a Serializer that can serialize Item and Property objects.
-	 *
-	 * @return Serializer
+	 * @throws UnexpectedValueException
+	 * @return DispatchableSerializer A dispatching serializer that can serialize whatever the
+	 *  entity serializers given in the constructor support. There is no default support for Items
+	 *  or Properties.
 	 */
 	public function newEntitySerializer() {
-		return new DispatchingSerializer( array(
-			$this->newItemSerializer(),
-			$this->newPropertySerializer()
-		) );
+		$serializers = [];
+
+		foreach ( $this->entitySerializers as $serializer ) {
+			if ( is_callable( $serializer ) ) {
+				$serializer = call_user_func( $serializer, $this );
+			}
+
+			if ( !( $serializer instanceof DispatchableSerializer ) ) {
+				throw new UnexpectedValueException(
+					'Expected a DispatchableSerializer or a callable returning one'
+				);
+			}
+
+			$serializers[] = $serializer;
+		}
+
+		return new DispatchingSerializer( $serializers );
 	}
 
 	/**
