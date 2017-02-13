@@ -1,5 +1,12 @@
 # Wikibase DataModel Serialization release notes
 
+## 3.0.0 (2017-02-16)
+
+* Changed the `DeserializerFactory` constructor to expect a list of Entity deserializers
+* Changed the `SerializerFactory` constructor to expect a list of Entity serializers
+* `DeserializerFactory::newEntityDeserializer` does not return default Item and Property deserializers any more
+* `SerializerFactory::newEntitySerializer` does not return default Item and Property serializers any more
+
 ## 2.3.0 (2017-02-15)
 
 * Improved performance of `StatementDeserializer` as well as other deserializers
