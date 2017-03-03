@@ -39,9 +39,9 @@
 		"phpunit/phpunit": "~4.8"
 	},
 	"suggest": {
-		"data-values/geo": "^1.2.1",
-		"data-values/number": "^0.8.2",
-		"data-values/time": "^0.8.4"
+		"data-values/geo": "Needed for deserialization of geographical values",
+		"data-values/number": "Needed for deserialization of numerical values",
+		"data-values/time": "Needed for deserialization of time values"
 	},
 	"autoload": {
 		"psr-4": {
