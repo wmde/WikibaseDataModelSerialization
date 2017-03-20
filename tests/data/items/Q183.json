@@ -1510,7 +1510,6 @@
 				"qualifiers": {
 					"P407": [
 						{
-							"hash": "17da29e56d69809fde8793aaa4864de2e6bb5780",
 							"snaktype": "value",
 							"property": "P407",
 							"datatype": "wikibase-item",
@@ -1523,7 +1522,6 @@
 							}
 						},
 						{
-							"hash": "1a10544ea6bd92b3ec6b1d99628d7905aea1d551",
 							"snaktype": "value",
 							"property": "P407",
 							"datatype": "wikibase-item",
@@ -1536,7 +1534,6 @@
 							}
 						},
 						{
-							"hash": "6e6cd69bc7250511b7b1084e6f331e870e3b3952",
 							"snaktype": "value",
 							"property": "P407",
 							"datatype": "wikibase-item",
@@ -1571,7 +1568,6 @@
 				"qualifiers": {
 					"P407": [
 						{
-							"hash": "3be4fb23771c9decf6c908552444e6753215dcf4",
 							"snaktype": "value",
 							"property": "P407",
 							"datatype": "wikibase-item",
@@ -1584,7 +1580,6 @@
 							}
 						},
 						{
-							"hash": "7eec2e1765f91c8f68591f1b0e4f1301b4335b90",
 							"snaktype": "value",
 							"property": "P407",
 							"datatype": "wikibase-item",
@@ -1619,7 +1614,6 @@
 				"qualifiers": {
 					"P407": [
 						{
-							"hash": "33381eadfee95cd357e4788bb7c3814eaff066fb",
 							"snaktype": "value",
 							"property": "P407",
 							"datatype": "wikibase-item",
@@ -1632,7 +1626,6 @@
 							}
 						},
 						{
-							"hash": "7b07c8f31e1680f6f55d6a8efc8a3816ce5de0e8",
 							"snaktype": "value",
 							"property": "P407",
 							"datatype": "wikibase-item",
@@ -1667,7 +1660,6 @@
 				"qualifiers": {
 					"P407": [
 						{
-							"hash": "ea021f2db3d36b8bf102c3a558b8cb01c14a520d",
 							"snaktype": "value",
 							"property": "P407",
 							"datatype": "wikibase-item",
@@ -1702,7 +1694,6 @@
 				"qualifiers": {
 					"P407": [
 						{
-							"hash": "bfab56097f2ee29b68110953c09618468db6871b",
 							"snaktype": "value",
 							"property": "P407",
 							"datatype": "wikibase-item",
@@ -1715,7 +1706,6 @@
 							}
 						},
 						{
-							"hash": "eed80ca4e1ffc12b82c55116042dabdb873707ad",
 							"snaktype": "value",
 							"property": "P407",
 							"datatype": "wikibase-item",
@@ -1728,7 +1718,6 @@
 							}
 						},
 						{
-							"hash": "91894d722ade3a76ea7ea1ef56c0c009dd10a7b4",
 							"snaktype": "value",
 							"property": "P407",
 							"datatype": "wikibase-item",
@@ -1741,7 +1730,6 @@
 							}
 						},
 						{
-							"hash": "feef8b68d719a5caffb99cd28280ed8133f04965",
 							"snaktype": "value",
 							"property": "P407",
 							"datatype": "wikibase-item",
@@ -1776,7 +1764,6 @@
 				"qualifiers": {
 					"P407": [
 						{
-							"hash": "b0bef3bcd1096a35a5cf8dd847b1c87443433258",
 							"snaktype": "value",
 							"property": "P407",
 							"datatype": "wikibase-item",
@@ -1814,7 +1801,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "5d839e8af3f97b24e2bb913e09ac23c58e0e25d5",
 						"snaks": {
 							"P143": [
 								{
@@ -1860,7 +1846,6 @@
 						]
 					},
 					{
-						"hash": "6a235bafb0535b1310808f0c24c1a46c3e26a64f",
 						"snaks": {
 							"P143": [
 								{
@@ -1906,7 +1891,6 @@
 						]
 					},
 					{
-						"hash": "3aee48b7814190395435bda2b49b21d7965538de",
 						"snaks": {
 							"P143": [
 								{
@@ -1970,7 +1954,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "eef8498335af99e649f0199e556976d113dd8869",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -1993,7 +1976,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "1562a31934b8222df27daa5373f7e2cdc95444b1",
 						"snaks": {
 							"P854": [
 								{
@@ -2024,7 +2006,6 @@
 						]
 					},
 					{
-						"hash": "a5ea1e3db489e01932f06c92fe0622ec7ac91486",
 						"snaks": {
 							"P248": [
 								{
@@ -2076,7 +2057,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "a89f94d5dc88b1c69c781032401f3305b078293d",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -2099,7 +2079,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "4ed8a07bdc284d4fcaeb9dc7426fb205876e8ab8",
 						"snaks": {
 							"P143": [
 								{
@@ -2133,7 +2112,6 @@
 						]
 					},
 					{
-						"hash": "e2df310bed3de49214e19f6671a6a932a9e7beff",
 						"snaks": {
 							"P143": [
 								{
@@ -2179,7 +2157,6 @@
 						]
 					},
 					{
-						"hash": "00e9788775e9f60d3ec1cbcd839581282b698ded",
 						"snaks": {
 							"P143": [
 								{
@@ -2243,7 +2220,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "14011d665e9ee67869989e1cb9288cae57fdfc8c",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -2266,7 +2242,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "3156aa6db6de9a14a44f0d476fb1fb09d4da9aaf",
 						"snaks": {
 							"P143": [
 								{
@@ -2312,7 +2287,6 @@
 						]
 					},
 					{
-						"hash": "df6602f2833fac70d15b32b1a042133209e06e50",
 						"snaks": {
 							"P143": [
 								{
@@ -2358,7 +2332,6 @@
 						]
 					},
 					{
-						"hash": "72d607cac5e35618f46c77c8df4f27ae86a7fa35",
 						"snaks": {
 							"P143": [
 								{
@@ -2422,7 +2395,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "d8b35d983e9e2d18dd467f6b2a480d22ce95f0bd",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -2445,7 +2417,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "d3c487d2cf7602f83d947657aeeda25d3aa26de5",
 						"snaks": {
 							"P143": [
 								{
@@ -2491,7 +2462,6 @@
 						]
 					},
 					{
-						"hash": "82259401a38bbc59e515c121272c27cc5d1d273f",
 						"snaks": {
 							"P143": [
 								{
@@ -2555,7 +2525,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "c0603c64db77950db4507e9487e281f3971aa739",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -2578,7 +2547,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "38483a10fb013b5eba8bf8a47a618173300b1432",
 						"snaks": {
 							"P143": [
 								{
@@ -2624,7 +2592,6 @@
 						]
 					},
 					{
-						"hash": "80cc83e81e1b1cfa77cd4b2b462be1715e776b4f",
 						"snaks": {
 							"P143": [
 								{
@@ -2670,7 +2637,6 @@
 						]
 					},
 					{
-						"hash": "af0769d0a6b8b057d97427b2166386697d09e046",
 						"snaks": {
 							"P143": [
 								{
@@ -2734,7 +2700,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "74263be2caed1eca211feafcb84369f5417f61c4",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -2757,7 +2722,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "6d767fc36894c7bcf0b8d09fdf3f41047b7a4d22",
 						"snaks": {
 							"P143": [
 								{
@@ -2803,7 +2767,6 @@
 						]
 					},
 					{
-						"hash": "d0299f0d3d200445d922ca452c6389e33dd196be",
 						"snaks": {
 							"P143": [
 								{
@@ -2849,7 +2812,6 @@
 						]
 					},
 					{
-						"hash": "85fda16fc969dea071564ce0a50dc7f70b7bfd01",
 						"snaks": {
 							"P143": [
 								{
@@ -2913,7 +2875,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "d7cc394a1193ccf6cf98889d300d548326bf6aaa",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -2936,7 +2897,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "15d22c887bd1c5a3be30ac4883560fb58945563b",
 						"snaks": {
 							"P143": [
 								{
@@ -2982,7 +2942,6 @@
 						]
 					},
 					{
-						"hash": "3815ea192e1feb5119342ac4890886c322ef5511",
 						"snaks": {
 							"P143": [
 								{
@@ -3028,7 +2987,6 @@
 						]
 					},
 					{
-						"hash": "6a235bafb0535b1310808f0c24c1a46c3e26a64f",
 						"snaks": {
 							"P143": [
 								{
@@ -3092,7 +3050,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "da7ce7f964f5db0999a1b0ca165bba51f6859863",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -3115,7 +3072,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "969226f0d40eb2e225202a88750797e885b65b9b",
 						"snaks": {
 							"P143": [
 								{
@@ -3161,7 +3117,6 @@
 						]
 					},
 					{
-						"hash": "e8e6b9703e5ef32a46018a58d3aa6a8458c8ff47",
 						"snaks": {
 							"P143": [
 								{
@@ -3225,7 +3180,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "4031097852ec375d2ec501f165face439cd319c2",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -3248,7 +3202,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "4f812ebe4e86236697eaaca97e2a7e16e9d3cff6",
 						"snaks": {
 							"P143": [
 								{
@@ -3294,7 +3247,6 @@
 						]
 					},
 					{
-						"hash": "44f1ba6c3dd7f39b3f6982d5e0b3e150f083a9cc",
 						"snaks": {
 							"P143": [
 								{
@@ -3358,7 +3310,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "d338225c69010de6cb98d2d04e0ed1d88ef66fa4",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -3381,7 +3332,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "b7ffd8537a15a19c700e5bfa15ec34e83128fba8",
 						"snaks": {
 							"P143": [
 								{
@@ -3427,7 +3377,6 @@
 						]
 					},
 					{
-						"hash": "8eece580bb40fff2936d3453f5fdab6348f37ccf",
 						"snaks": {
 							"P143": [
 								{
@@ -3491,7 +3440,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "a773dc8bc3655c3e169aadb3a8702590587c5140",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -3510,7 +3458,6 @@
 					],
 					"P582": [
 						{
-							"hash": "7f475c6cdcc04b9d77d4847f8eb1495c89405205",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -3536,7 +3483,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "448a4b26ae7159dd4e4074d4fb63fc1173e96c94",
 						"snaks": {
 							"P248": [
 								{
@@ -3570,7 +3516,6 @@
 						]
 					},
 					{
-						"hash": "8b9733ec3c3c1375cca38be3b1f302f1fb860553",
 						"snaks": {
 							"P143": [
 								{
@@ -3634,7 +3579,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "86023722592a42671529a85a227d2b834565e35d",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -3653,7 +3597,6 @@
 					],
 					"P805": [
 						{
-							"hash": "9700ac4838f02ab2a414fc22205d89736eddc964",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -3675,7 +3618,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "9700027b968746afbf568357d517e652cf6ec4f7",
 						"snaks": {
 							"P143": [
 								{
@@ -3721,7 +3663,6 @@
 						]
 					},
 					{
-						"hash": "3ca92319d77535b9a9e9455765d56787c4700052",
 						"snaks": {
 							"P143": [
 								{
@@ -3785,7 +3726,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "15f2e808e6ca623d22dae81d73ca178bb50028fd",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -3800,7 +3740,6 @@
 					],
 					"P580": [
 						{
-							"hash": "8f4bc84031baa76d67fbd3dc7e80a6d5c4370ad1",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -3826,7 +3765,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "a7c23931f6becc162a324d7c24acfdeb9b877568",
 						"snaks": {
 							"P143": [
 								{
@@ -3872,7 +3810,6 @@
 						]
 					},
 					{
-						"hash": "d5b5cb4ddac6b204603153eb922d7806ac19d5a0",
 						"snaks": {
 							"P143": [
 								{
@@ -3918,7 +3855,6 @@
 						]
 					},
 					{
-						"hash": "d55294a171a01e245fb2a41a22be5d69c650695d",
 						"snaks": {
 							"P143": [
 								{
@@ -3964,7 +3900,6 @@
 						]
 					},
 					{
-						"hash": "4af76e3f422b04b846c41f541cdd702b3f264610",
 						"snaks": {
 							"P143": [
 								{
@@ -4028,7 +3963,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "3e848c54c86151511f6051a0c43505affdf562eb",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -4047,7 +3981,6 @@
 					],
 					"P805": [
 						{
-							"hash": "612e66941ea3de2cf41620ba082110ee744c6c20",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -4069,7 +4002,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "b18f5f2487132ec00c66c2e3d6ec8b79e2ec0334",
 						"snaks": {
 							"P143": [
 								{
@@ -4115,7 +4047,6 @@
 						]
 					},
 					{
-						"hash": "7ccaaf14816ead78143a3a5966e882e472d0a708",
 						"snaks": {
 							"P143": [
 								{
@@ -4161,7 +4092,6 @@
 						]
 					},
 					{
-						"hash": "dd29405c1be5ddb6eb8f86096b7b06b80390b74f",
 						"snaks": {
 							"P143": [
 								{
@@ -4225,7 +4155,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "b02a66113859bd98bc054295a1d05335ed91b7d6",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -4248,7 +4177,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "6eaf0ad92a5a97d2e450ea6e6288ffbc0f4e856e",
 						"snaks": {
 							"P143": [
 								{
@@ -4294,7 +4222,6 @@
 						]
 					},
 					{
-						"hash": "55de1cf4657ced4afaba22c8c72fcc63b8c9ac4a",
 						"snaks": {
 							"P143": [
 								{
@@ -4328,7 +4255,6 @@
 						]
 					},
 					{
-						"hash": "9a8dac08639c48a6a7195cc66538f9a1301aa1ba",
 						"snaks": {
 							"P143": [
 								{
@@ -4392,7 +4318,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "f70b6b4ce5f65d67586fce5fcd5512face149916",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -4415,7 +4340,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "c1d29bc724b50be823bffc7332004d8ef40f31f0",
 						"snaks": {
 							"P143": [
 								{
@@ -4468,7 +4392,6 @@
 						]
 					},
 					{
-						"hash": "001417b66bf3f6a9b46fe7d278d3826eb7185bbc",
 						"snaks": {
 							"P143": [
 								{
@@ -4514,7 +4437,6 @@
 						]
 					},
 					{
-						"hash": "2fc9a7bcdd0ffe621f9be6169cc2d04b46236441",
 						"snaks": {
 							"P143": [
 								{
@@ -4566,7 +4488,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "eef8498335af99e649f0199e556976d113dd8869",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -4585,7 +4506,6 @@
 					],
 					"P582": [
 						{
-							"hash": "3ff679fff41f2a7743ec45e5b914820f44710102",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -4611,7 +4531,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "1944e7a65d29ebcb27df9bb058013a6379881b0a",
 						"snaks": {
 							"P143": [
 								{
@@ -4657,7 +4576,6 @@
 						]
 					},
 					{
-						"hash": "1149f5739341c1d80806f567ca34834472515c0d",
 						"snaks": {
 							"P143": [
 								{
@@ -4721,7 +4639,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "8bcab136ae6673222761066b34f73fa4be4676ee",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -4744,7 +4661,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "c3d4cb17a9a5db5eefe861a9e45e45c6d68544da",
 						"snaks": {
 							"P143": [
 								{
@@ -4808,7 +4724,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "6d039d91b567a4c50aef4444b2cd7b0bff19d8bd",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -4831,7 +4746,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "044f474613324880beb3cdc1059039407be78e4e",
 						"snaks": {
 							"P248": [
 								{
@@ -4865,7 +4779,6 @@
 						]
 					},
 					{
-						"hash": "79a2f2f74061e211d73c3666e1556221d6c8fc2b",
 						"snaks": {
 							"P143": [
 								{
@@ -4929,7 +4842,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "62b3a19f43f5b78a1915cc3b80747f2d245a52f4",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -4952,7 +4864,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "255dbe2ea4a1ba414a31a544c58545602b143b27",
 						"snaks": {
 							"P143": [
 								{
@@ -4998,7 +4909,6 @@
 						]
 					},
 					{
-						"hash": "82f2eb8e4eb2504edf963539c78610e2dc6fba82",
 						"snaks": {
 							"P143": [
 								{
@@ -5062,7 +4972,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "4f34b389b5c41afbfa4f6bc97d11e764e38be720",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -5085,7 +4994,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "92b712e6635aa4fb1ab4a4bc2dce70aea612c295",
 						"snaks": {
 							"P143": [
 								{
@@ -5131,7 +5039,6 @@
 						]
 					},
 					{
-						"hash": "0b969aeebfebcdf86adebbafa7a023c6eb287047",
 						"snaks": {
 							"P143": [
 								{
@@ -5177,7 +5084,6 @@
 						]
 					},
 					{
-						"hash": "7b47a5e1cb1ebfbd0c6901d74fc64531300ca506",
 						"snaks": {
 							"P143": [
 								{
@@ -5241,7 +5147,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "5325672bcc60a281320fa1a5b93a4f4145285db4",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -5264,7 +5169,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "72b01f1305475a5d845ff8225721aedb4e049080",
 						"snaks": {
 							"P143": [
 								{
@@ -5310,7 +5214,6 @@
 						]
 					},
 					{
-						"hash": "64e3ba0570e00dc73ffb03e8a6a1ab58afdfb5ba",
 						"snaks": {
 							"P143": [
 								{
@@ -5374,7 +5277,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "b0c490d3f73aafbf01eeeb14bd4466e54db42480",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -5397,7 +5299,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "b304a48c17e3ddcb24825929b60ab2c4d2eaf3fb",
 						"snaks": {
 							"P143": [
 								{
@@ -5443,7 +5344,6 @@
 						]
 					},
 					{
-						"hash": "52494c778fd67b195fd0b09476b1d7e8ce1830ed",
 						"snaks": {
 							"P143": [
 								{
@@ -5489,7 +5389,6 @@
 						]
 					},
 					{
-						"hash": "9159714bea1b3562ca02d4354c5e38e7e6de275a",
 						"snaks": {
 							"P143": [
 								{
@@ -5553,7 +5452,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "116fd47312b32478f89e7dfa50f621c71b9e35e9",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -5576,7 +5474,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "83d59d83b2ad3c3845df4b212259ec3edc0b714a",
 						"snaks": {
 							"P143": [
 								{
@@ -5610,7 +5507,6 @@
 						]
 					},
 					{
-						"hash": "2960d3bd9c60239cd391c91b547d228d8187fb64",
 						"snaks": {
 							"P143": [
 								{
@@ -5662,7 +5558,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "31124b4d246948c22e87a6d4042931351259f1bd",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -5685,7 +5580,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "e64125aedd81ff944c1d2ca0098899fa5fca7156",
 						"snaks": {
 							"P143": [
 								{
@@ -5731,7 +5625,6 @@
 						]
 					},
 					{
-						"hash": "20a93520d19e48738b8582f228b776d8b25a6d97",
 						"snaks": {
 							"P143": [
 								{
@@ -5777,7 +5670,6 @@
 						]
 					},
 					{
-						"hash": "db53529be73c7396f10e4e0bd5a2fa683ac6cdbf",
 						"snaks": {
 							"P143": [
 								{
@@ -5841,7 +5733,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "fc701d4425814364862cc3c8c4351acc7b93c9ec",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -5864,7 +5755,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "6082619e79d995f328e6df2f5b8a95af540377aa",
 						"snaks": {
 							"P143": [
 								{
@@ -5922,7 +5812,6 @@
 						]
 					},
 					{
-						"hash": "f225e83265792117812ca201429eb1e9a780dabe",
 						"snaks": {
 							"P143": [
 								{
@@ -5968,7 +5857,6 @@
 						]
 					},
 					{
-						"hash": "a0c925a4c6f1eff22f23f68eba4b65a4d1c7aaae",
 						"snaks": {
 							"P143": [
 								{
@@ -6032,7 +5920,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "f1ae9821d5acc6630d51b28f0c3a498dd0d95789",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -6055,7 +5942,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "7b17b6b651cc4212fdbdfd7c3923095a1d73955d",
 						"snaks": {
 							"P143": [
 								{
@@ -6101,7 +5987,6 @@
 						]
 					},
 					{
-						"hash": "1ad652b21047828703c7933ea5a8e7b048785746",
 						"snaks": {
 							"P143": [
 								{
@@ -6165,7 +6050,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "20fd81e64c24caf23199069f3bd0779842bbe417",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -6188,7 +6072,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "f4fb59aa83c10f09ee721d563f10b47ba582e0ff",
 						"snaks": {
 							"P143": [
 								{
@@ -6234,7 +6117,6 @@
 						]
 					},
 					{
-						"hash": "86a42177a3e875b33ba435b1ed59b36800954bf2",
 						"snaks": {
 							"P143": [
 								{
@@ -6286,7 +6168,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "dfef789ba5541cbeeceb01d678e17cd4e6e64d1a",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -6309,7 +6190,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "f169ddcf8cfb65593ff9ff382601b0d4ded50a5d",
 						"snaks": {
 							"P143": [
 								{
@@ -6355,7 +6235,6 @@
 						]
 					},
 					{
-						"hash": "503999665227dba4cb4fd66322834934e12c324e",
 						"snaks": {
 							"P143": [
 								{
@@ -6401,7 +6280,6 @@
 						]
 					},
 					{
-						"hash": "c0709d121bc19dac6e33404edfc4c2079d300d74",
 						"snaks": {
 							"P143": [
 								{
@@ -6465,7 +6343,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "82c02200d9eda36b2237690c424f334a2d9a825a",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -6488,7 +6365,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "cb761704036fd214c3d98413197da5fea0563e04",
 						"snaks": {
 							"P143": [
 								{
@@ -6534,7 +6410,6 @@
 						]
 					},
 					{
-						"hash": "70e810f2e529a238147bdd2ed39ec79f6c423602",
 						"snaks": {
 							"P143": [
 								{
@@ -6598,7 +6473,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "f7c7fa1a3b8a3dab6d32f935892f9d2c97f58339",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -6621,7 +6495,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "95bfea1fc987ef32080bb26090bb25badcb689fd",
 						"snaks": {
 							"P143": [
 								{
@@ -6667,7 +6540,6 @@
 						]
 					},
 					{
-						"hash": "393c7ccefff193e64142cbc2573fa948ca32e5f0",
 						"snaks": {
 							"P143": [
 								{
@@ -6725,7 +6597,6 @@
 						]
 					},
 					{
-						"hash": "549c05ffb4de0af097e7610229171e7e568eaa82",
 						"snaks": {
 							"P143": [
 								{
@@ -6777,7 +6648,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "633efdb775e458a1d3f74b94447c9d7588a29946",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -6800,7 +6670,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "883dfe6552309ce5d09152b91bfbc85536eb14d1",
 						"snaks": {
 							"P143": [
 								{
@@ -6846,7 +6715,6 @@
 						]
 					},
 					{
-						"hash": "8c676ff8d58060ea91f44a06719bafeed258f7f3",
 						"snaks": {
 							"P143": [
 								{
@@ -6910,7 +6778,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "c4db875ff599f91c6f39be0f6e8249c1f7079397",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -6933,7 +6800,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "d79100a394ceadb9ea1d35542684d6d22dc8807c",
 						"snaks": {
 							"P143": [
 								{
@@ -6979,7 +6845,6 @@
 						]
 					},
 					{
-						"hash": "351047a7024dfe390e4a02fb94d9974351639e93",
 						"snaks": {
 							"P143": [
 								{
@@ -7043,7 +6908,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "f648fcc14ba76822d28e5fca5fcc7a877f222f9a",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -7066,7 +6930,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "b9673a72473c1786b682f7ea6ac25bf57bd234e0",
 						"snaks": {
 							"P143": [
 								{
@@ -7112,7 +6975,6 @@
 						]
 					},
 					{
-						"hash": "96668dea5efe0681a2509afe04b6ed3317ad2e93",
 						"snaks": {
 							"P143": [
 								{
@@ -7176,7 +7038,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "3ee9fc0de18ad177a546fdb3140d93d56dcd6954",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -7199,7 +7060,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "135f33dd232b21c87ead578665a9a08c1c7ad71d",
 						"snaks": {
 							"P143": [
 								{
@@ -7233,7 +7093,6 @@
 						]
 					},
 					{
-						"hash": "8022ff3f74b01e0913aa678bfcfe1479b71b396b",
 						"snaks": {
 							"P143": [
 								{
@@ -7297,7 +7156,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "05b2ab39de8e0fa92f299b078601b390ad02ffe4",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -7320,7 +7178,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "fdbd3cd1a2b6859908e9b90a6f38c289d9ecaddc",
 						"snaks": {
 							"P143": [
 								{
@@ -7366,7 +7223,6 @@
 						]
 					},
 					{
-						"hash": "1f5c582a2bc472747cde93c23e1439b6ebee22ed",
 						"snaks": {
 							"P143": [
 								{
@@ -7430,7 +7286,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "ba3154c54871b0e15c676cd1b8d78f5409297c4f",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -7453,7 +7308,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "e2cf7d93d9fc2ddde31a5a2ede67f70b0c90961a",
 						"snaks": {
 							"P143": [
 								{
@@ -7499,7 +7353,6 @@
 						]
 					},
 					{
-						"hash": "601c42c353a0c420bfa5df35022b90c5a624a79b",
 						"snaks": {
 							"P143": [
 								{
@@ -7563,7 +7416,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "864c0eb3cc3f355ab06b70423f7b749dbe15fb14",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -7586,7 +7438,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "d1eb63d1076a592f0d51b78a292223a3257b6a71",
 						"snaks": {
 							"P143": [
 								{
@@ -7632,7 +7483,6 @@
 						]
 					},
 					{
-						"hash": "fa302021c7dfca905655c9e42ed3716037c1f66b",
 						"snaks": {
 							"P143": [
 								{
@@ -7678,7 +7528,6 @@
 						]
 					},
 					{
-						"hash": "21a7898945e925e13516628c4d7a083a36d83c9c",
 						"snaks": {
 							"P143": [
 								{
@@ -7742,7 +7591,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "2a22ccd06cdd234d12f797d569b502c80651abfc",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -7765,7 +7613,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "bbc01efe90b25801b613ca65bfbc4d72d5c18908",
 						"snaks": {
 							"P143": [
 								{
@@ -7811,7 +7658,6 @@
 						]
 					},
 					{
-						"hash": "df7cbee9cfaea9aca6880cdb097e9ffe88372765",
 						"snaks": {
 							"P143": [
 								{
@@ -7875,7 +7721,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "7a7e29c9d5ce206917bf15ec769651a0c634e8b3",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -7898,7 +7743,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "b04411cc2b1c64e9f0645fd5233c82bc9e31c36f",
 						"snaks": {
 							"P143": [
 								{
@@ -7944,7 +7788,6 @@
 						]
 					},
 					{
-						"hash": "4a6eee5da55d93ead84a2828520856591044fca7",
 						"snaks": {
 							"P143": [
 								{
@@ -7990,7 +7833,6 @@
 						]
 					},
 					{
-						"hash": "aa30e2aefd54168d4e1f0438a1c45963389e43b6",
 						"snaks": {
 							"P143": [
 								{
@@ -8054,7 +7896,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "2a15bbf60114e080cadc1da3dce1e55f81c6e956",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -8077,7 +7918,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "a1bdb4af6a85f0fe2c876ae0ce396d5971f72a2a",
 						"snaks": {
 							"P143": [
 								{
@@ -8123,7 +7963,6 @@
 						]
 					},
 					{
-						"hash": "089b9ede1dd674009722b1f6e0265868cb97dcc9",
 						"snaks": {
 							"P143": [
 								{
@@ -8169,7 +8008,6 @@
 						]
 					},
 					{
-						"hash": "4fb34483a60e65dac1a425e412589ed8180c035e",
 						"snaks": {
 							"P143": [
 								{
@@ -8233,7 +8071,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "335210268326bcf73a184458f72670efa40805b7",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -8256,7 +8093,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "5c3c7dd6f15362c6e2b291eefac7884e8714b4ac",
 						"snaks": {
 							"P143": [
 								{
@@ -8302,7 +8138,6 @@
 						]
 					},
 					{
-						"hash": "75343ea77a45a190ab277beb78849677eae6db83",
 						"snaks": {
 							"P143": [
 								{
@@ -8366,7 +8201,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "afd9942cd21792814802b9ed163c12d7f0c56d4b",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -8385,7 +8219,6 @@
 					],
 					"P805": [
 						{
-							"hash": "b724261bcff7ebbb70740ab8c3d56cdab8c85b3b",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -8407,7 +8240,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "a9dac72a806665601aa27aa5d878a18d556daf2f",
 						"snaks": {
 							"P143": [
 								{
@@ -8472,7 +8304,6 @@
 						]
 					},
 					{
-						"hash": "695eef723651967b06c94457ac58aa4c338f3eac",
 						"snaks": {
 							"P143": [
 								{
@@ -8537,7 +8368,6 @@
 						]
 					},
 					{
-						"hash": "eda1f8051280ca24e6c3c1bf5a059fa00de9850f",
 						"snaks": {
 							"P143": [
 								{
@@ -8620,7 +8450,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "40b1ffcaf3e7ee9a89006bb8823ad624b8b72e1d",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -8639,7 +8468,6 @@
 					],
 					"P582": [
 						{
-							"hash": "518c4242df03f7b19097067ae41b0a1313462e4a",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -8665,7 +8493,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "6b1f3c405939adf8d46d5efe2ac88a4dbe171b97",
 						"snaks": {
 							"P143": [
 								{
@@ -8730,7 +8557,6 @@
 						]
 					},
 					{
-						"hash": "b0f3b71d06a8fd70ea2bdc7d28965e62714d935b",
 						"snaks": {
 							"P143": [
 								{
@@ -8795,7 +8621,6 @@
 						]
 					},
 					{
-						"hash": "b72d02e0ce94c17c43e2df4ce6b41a7015a5047a",
 						"snaks": {
 							"P143": [
 								{
@@ -8878,7 +8703,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "8751aa1bdb4285fded655cf8599d44ea64c5323e",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -8917,7 +8741,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "7188914937145bebcd0839c786a482d1951fbdbe",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -8978,7 +8801,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "38e6accec8ca3eea4d5e4b1dd0244ec6be9fa678",
 						"snaks": {
 							"P248": [
 								{
@@ -9031,7 +8853,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "3f6d49f5c7cf3ed17f4fa9c37fa0d782e6f42ad2",
 						"snaks": {
 							"P248": [
 								{
@@ -9065,7 +8886,6 @@
 						]
 					},
 					{
-						"hash": "ac3129c33b942ddc2f3c09231936365f27c7392d",
 						"snaks": {
 							"P143": [
 								{
@@ -9132,7 +8952,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "0cf2112c2c2058a671ae8b833ceb03ae95c74508",
 						"snaks": {
 							"P248": [
 								{
@@ -9186,7 +9005,6 @@
 				"qualifiers": {
 					"P582": [
 						{
-							"hash": "e68a0d9728a6c6478d35dfe3be4409dfcc6e6327",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -9205,7 +9023,6 @@
 					],
 					"P580": [
 						{
-							"hash": "08d064cd27a8d5cee596ef9add744b835219d615",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -9231,7 +9048,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "604f171b5c3af6effe4cede666dbcdc0469e4da7",
 						"snaks": {
 							"P143": [
 								{
@@ -9295,7 +9111,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "47c515b79f80e24e03375b327f2ac85184765d5b",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -9318,7 +9133,6 @@
 				"rank": "preferred",
 				"references": [
 					{
-						"hash": "c1ac432d172b92cbacd82824f58d31f2bf51fc99",
 						"snaks": {
 							"P143": [
 								{
@@ -9364,7 +9178,6 @@
 						]
 					},
 					{
-						"hash": "e023eb29c80348f6ad20c61cdd9e9107f300db7a",
 						"snaks": {
 							"P143": [
 								{
@@ -9410,7 +9223,6 @@
 						]
 					},
 					{
-						"hash": "2f15f55374a04df360741f9ab3aee2bafa61fb87",
 						"snaks": {
 							"P143": [
 								{
@@ -9474,7 +9286,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "e883a14ce5c992abaa225ba88d96dfaaff2ec5df",
 						"snaks": {
 							"P854": [
 								{
@@ -9491,7 +9302,6 @@
 						"snaks-order": ["P854"]
 					},
 					{
-						"hash": "ef7878b4472b3ae182f84c34c8f8ee7639051562",
 						"snaks": {
 							"P248": [
 								{
@@ -9546,7 +9356,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "08c1f95d4d064597ba38f25cbb0d6c2c30b3175d",
 						"snaks": {
 							"P854": [
 								{
@@ -9577,7 +9386,6 @@
 						]
 					},
 					{
-						"hash": "7b98aa614330cdaa036c93e878f535b9f5b19304",
 						"snaks": {
 							"P248": [
 								{
@@ -9630,7 +9438,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "a5ea1e3db489e01932f06c92fe0622ec7ac91486",
 						"snaks": {
 							"P248": [
 								{
@@ -9700,7 +9507,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "aa52e4ed4fd159fe5976d388f22c4f591608fc6a",
 						"snaks": {
 							"P248": [
 								{
@@ -9753,7 +9559,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "ecc95ec2de4146fffcda0c1d758aacfce1a8bfff",
 						"snaks": {
 							"P854": [
 								{
@@ -9770,7 +9575,6 @@
 						"snaks-order": ["P854"]
 					},
 					{
-						"hash": "520271150938a07c2885120e25ccee314677a64b",
 						"snaks": {
 							"P854": [
 								{
@@ -9806,7 +9610,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "66fef619e863411424dd0cadef9dd5cf3f32f947",
 						"snaks": {
 							"P854": [
 								{
@@ -9837,7 +9640,6 @@
 						]
 					},
 					{
-						"hash": "f385743ef4f03910400816998de7a6d3371b0baa",
 						"snaks": {
 							"P854": [
 								{
@@ -9873,7 +9675,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "40bc52edd2fc2e8567809ab0ce71bac2487418c0",
 						"snaks": {
 							"P248": [
 								{
@@ -9926,7 +9727,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "aa52e4ed4fd159fe5976d388f22c4f591608fc6a",
 						"snaks": {
 							"P248": [
 								{
@@ -9979,7 +9779,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "308bf8edbbaedcdc36f984815dd7fc972444ae59",
 						"snaks": {
 							"P248": [
 								{
@@ -10032,7 +9831,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "38e6accec8ca3eea4d5e4b1dd0244ec6be9fa678",
 						"snaks": {
 							"P248": [
 								{
@@ -10086,7 +9884,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "444d4f3c2ba8ca043329a976941ffcaefa724496",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -10121,7 +9918,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "6a8e3ee6f7d211008316ff05bb087cc98a21a802",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -10134,7 +9930,6 @@
 							}
 						},
 						{
-							"hash": "9c2a7f5f6442c87288e258fb394411dff25c0315",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -10147,7 +9942,6 @@
 							}
 						},
 						{
-							"hash": "93600a6d3533ac99241a604367b99c2600f5e6a0",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -10166,7 +9960,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "49c1b7b00c2043e28c1d7114c4e1b86d5c91937b",
 						"snaks": {
 							"P248": [
 								{
@@ -10230,7 +10023,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "27aaad69649c9d9eb079c4ffeca1a4f558d2ce43",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -10265,7 +10057,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "744d079fc8cd3e467a7dd86fe44b44e47fd0dcf8",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -10300,7 +10091,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "de251c07b478c03a0d0e660f016ad5dbb1177eef",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -10335,7 +10125,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "8c3de37e1b6faa3b6107ca405cd33aa1e2437cb9",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -10370,7 +10159,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "a3b028abf56aeaab8ef0d738e63dc894e883c25d",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -10405,7 +10193,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "7cfaa28bb101bd28dc9de77992323e73d83acf20",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -10440,7 +10227,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "53772e61c9db51771239ddccc3a2d9281cca26c0",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -10455,7 +10241,6 @@
 					],
 					"P580": [
 						{
-							"hash": "4f1e21f1f88734837eb3051e890d6a8644177c73",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -10497,7 +10282,6 @@
 				"qualifiers": {
 					"P582": [
 						{
-							"hash": "0b9e9bc44004c500d29636cceb12624961ac18e6",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -10516,7 +10300,6 @@
 					],
 					"P580": [
 						{
-							"hash": "3453421f57391a85c31d6fa6e4bcfcd94b8982ca",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -10535,7 +10318,6 @@
 					],
 					"P805": [
 						{
-							"hash": "c7737686ab379966b3122c6c650a689ff638d6d6",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -10574,7 +10356,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "5171574c099730636c29b8556374aa5c50e31527",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -10593,7 +10374,6 @@
 					],
 					"P582": [
 						{
-							"hash": "19df9fe647df78d19c5a45656472907ca25a33ec",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -10612,7 +10392,6 @@
 					],
 					"P805": [
 						{
-							"hash": "3aa720762cb4e70d0f156ec7eac3da894f89e292",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -10651,7 +10430,6 @@
 				"qualifiers": {
 					"P582": [
 						{
-							"hash": "97e09a481f4ea318875b9eabccdd53d36ab2300a",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -10670,7 +10448,6 @@
 					],
 					"P580": [
 						{
-							"hash": "db5ebef9d8af9ced8be98def8bc3b0b5d0c6fb9f",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -10696,7 +10473,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "9ef897148fe3133c66721f0b12ac2f6eeb13d917",
 						"snaks": {
 							"P143": [
 								{
@@ -10730,7 +10506,6 @@
 						]
 					},
 					{
-						"hash": "a39f4bfafc134bf92a5f87f3cc337af80e7e95e0",
 						"snaks": {
 							"P143": [
 								{
@@ -10797,7 +10572,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "3fede38f2119e06bdd610b03ddb6cc251033bb66",
 						"snaks": {
 							"P143": [
 								{
@@ -10864,7 +10638,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "998169991b226a419a6faf0436f1f779c2e66050",
 						"snaks": {
 							"P854": [
 								{
@@ -10881,7 +10654,6 @@
 						"snaks-order": ["P854"]
 					},
 					{
-						"hash": "6fb8bf68550cb6e4405215b0281c2db63754a790",
 						"snaks": {
 							"P143": [
 								{
@@ -10952,7 +10724,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "91244aa76bdb380f64e207a62aee903f071d3db1",
 						"snaks": {
 							"P248": [
 								{
@@ -11038,7 +10809,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "594a9c08536d65755fb28bbd6a2a309ccc8174ed",
 						"snaks": {
 							"P248": [
 								{
@@ -11091,7 +10861,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "c155e9b2467746455bc87a1ae864a6fbc11dd5f5",
 						"snaks": {
 							"P248": [
 								{
@@ -11146,7 +10915,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "f980b4042edf72b001358d3001cf65f817a6e7f9",
 						"snaks": {
 							"P143": [
 								{
@@ -11211,7 +10979,6 @@
 						]
 					},
 					{
-						"hash": "ce23f9e697691b48f4edc214cc2c6dc7be53c04b",
 						"snaks": {
 							"P143": [
 								{
@@ -11389,7 +11156,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "79cf84408a61cbfe7df12b1801b21cfab187069b",
 						"snaks": {
 							"P248": [
 								{
@@ -11428,7 +11194,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "a5ea1e3db489e01932f06c92fe0622ec7ac91486",
 						"snaks": {
 							"P248": [
 								{
@@ -11481,7 +11246,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "79cf84408a61cbfe7df12b1801b21cfab187069b",
 						"snaks": {
 							"P248": [
 								{
@@ -11521,7 +11285,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "20ce3c8a241f069cef7a587b3b42db1f64be175b",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -11544,7 +11307,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "94cff2eca4092517e5dc7e11bf02a6ef08df8e54",
 						"snaks": {
 							"P248": [
 								{
@@ -11628,7 +11390,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "c04d1460bab8b5629c8d34a68daf977fb95989d4",
 						"snaks": {
 							"P248": [
 								{
@@ -11712,7 +11473,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "5f19db09c595961598d97f64c44c7bc33537307c",
 						"snaks": {
 							"P248": [
 								{
@@ -11777,7 +11537,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "4e54656ec5f5556a0a031159aa105dde37b3a559",
 						"snaks": {
 							"P248": [
 								{
@@ -11945,7 +11704,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "f572258777767df585f7f4b6b0b7f13136a3e163",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -12137,7 +11895,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "ef7878b4472b3ae182f84c34c8f8ee7639051562",
 						"snaks": {
 							"P248": [
 								{
@@ -12211,7 +11968,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "b68fa2b9aa0e549033e5bbc7df47d70d809ae9c5",
 						"snaks": {
 							"P248": [
 								{
@@ -12263,7 +12019,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "f70116eac7f49194478b3025330bfd8dcffa3c69",
 						"snaks": {
 							"P143": [
 								{
@@ -12301,7 +12056,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "f70116eac7f49194478b3025330bfd8dcffa3c69",
 						"snaks": {
 							"P143": [
 								{
@@ -12339,7 +12093,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "f70116eac7f49194478b3025330bfd8dcffa3c69",
 						"snaks": {
 							"P143": [
 								{
@@ -12417,7 +12170,6 @@
 				"qualifiers": {
 					"P459": [
 						{
-							"hash": "e99ee8adb4c83373c3f3f4a510e9dfc92d70f7d8",
 							"snaktype": "value",
 							"property": "P459",
 							"datatype": "wikibase-item",
@@ -12432,7 +12184,6 @@
 					],
 					"P580": [
 						{
-							"hash": "e1410eb9be2d9d8c2bbea5b30cbcf9955dbac1d0",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -12451,7 +12202,6 @@
 					],
 					"P582": [
 						{
-							"hash": "8a7ef246558fc87bd4e712bbdb56c3a48359f5f4",
 							"snaktype": "novalue",
 							"property": "P582"
 						}
@@ -12466,7 +12216,6 @@
 				"rank": "preferred",
 				"references": [
 					{
-						"hash": "527e37d09f6b28f81ecbcbfa85dc4b79d783b297",
 						"snaks": {
 							"P143": [
 								{
@@ -12504,7 +12253,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "4d556d5b5f669e0d86f02dfe68b64a2e8db91201",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -12523,7 +12271,6 @@
 					],
 					"P582": [
 						{
-							"hash": "ded67a77ec03334f88843fd1359d2e08b11bb2ba",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -12542,7 +12289,6 @@
 					],
 					"P459": [
 						{
-							"hash": "fab8b93f13175ac28021555a79d7aa853b704bb5",
 							"snaktype": "value",
 							"property": "P459",
 							"datatype": "wikibase-item",
@@ -12581,7 +12327,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "8a46f5e204e870aa8ab6cbf37c6af1dca3169107",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -12600,7 +12345,6 @@
 					],
 					"P582": [
 						{
-							"hash": "7bfe0159056fd28d336406a3f268f51e9ead5370",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -12619,7 +12363,6 @@
 					],
 					"P459": [
 						{
-							"hash": "bc8f500f97ae986357b7d49bf1534fa6b8eeabb6",
 							"snaktype": "value",
 							"property": "P459",
 							"datatype": "wikibase-item",
@@ -12632,7 +12375,6 @@
 							}
 						},
 						{
-							"hash": "776c95810f0689ebe7042047c8c5de892befb831",
 							"snaktype": "value",
 							"property": "P459",
 							"datatype": "wikibase-item",
@@ -12671,7 +12413,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "785ec137f025f2e6eed2ceee477c8e9589f0604a",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -12690,7 +12431,6 @@
 					],
 					"P582": [
 						{
-							"hash": "6f84f4c766dd21f5fca4aa2f799390f3056632e8",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -12709,7 +12449,6 @@
 					],
 					"P459": [
 						{
-							"hash": "6be2257eedd769c73acaf8e35363073d4123cc1d",
 							"snaktype": "value",
 							"property": "P459",
 							"datatype": "wikibase-item",
@@ -12748,7 +12487,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "22526bfe5a84f3beb8b71bd61ca86395aa959819",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -12767,7 +12505,6 @@
 					],
 					"P582": [
 						{
-							"hash": "a11fb0549110de142d357d2d3259efac5ee67d8c",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -12786,7 +12523,6 @@
 					],
 					"P459": [
 						{
-							"hash": "fe7e3cfcb4619d00d0e74c69d73256f0fcd63d65",
 							"snaktype": "value",
 							"property": "P459",
 							"datatype": "wikibase-item",
@@ -12825,7 +12561,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "3d6bae29208fcc83ad9158be346d3d0630b055a1",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -12844,7 +12579,6 @@
 					],
 					"P582": [
 						{
-							"hash": "c320469d7f184d8c8bf305af1ed4af36e686020e",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -12863,7 +12597,6 @@
 					],
 					"P459": [
 						{
-							"hash": "646259d4214963b1cf91d717a7a5ad1ff63fc892",
 							"snaktype": "value",
 							"property": "P459",
 							"datatype": "wikibase-item",
@@ -12876,7 +12609,6 @@
 							}
 						},
 						{
-							"hash": "9960abf982095f367705e51ee9f77943068a7136",
 							"snaktype": "value",
 							"property": "P459",
 							"datatype": "wikibase-item",
@@ -12915,7 +12647,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "5a9bacae861f798d97606597173f019111d072fb",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -12934,7 +12665,6 @@
 					],
 					"P582": [
 						{
-							"hash": "d1f8aa4a9e7785c6142105472b4f85054bd6c722",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -12953,7 +12683,6 @@
 					],
 					"P459": [
 						{
-							"hash": "d56f46b924017168358f73ce7428924fdc026eb2",
 							"snaktype": "value",
 							"property": "P459",
 							"datatype": "wikibase-item",
@@ -12992,7 +12721,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "b603754d27d7bd89ee21bf1bb305b72968167c3f",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -13011,7 +12739,6 @@
 					],
 					"P582": [
 						{
-							"hash": "5ca3c30ef61ef90b73ccaf79ca7cdc127706467c",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -13030,7 +12757,6 @@
 					],
 					"P459": [
 						{
-							"hash": "b19277403f764bdab12b37a84ef116bf8429a5df",
 							"snaktype": "value",
 							"property": "P459",
 							"datatype": "wikibase-item",
@@ -13069,7 +12795,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "8aaea0e81cb3fbf789621789e614617cc9f06ae0",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -13088,7 +12813,6 @@
 					],
 					"P582": [
 						{
-							"hash": "e9b9599d20c76b25d54d51dbe84dd480936fddeb",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -13107,7 +12831,6 @@
 					],
 					"P459": [
 						{
-							"hash": "5f441d9a5e97cef60b9224865ef497f08c3ff47d",
 							"snaktype": "value",
 							"property": "P459",
 							"datatype": "wikibase-item",
@@ -13146,7 +12869,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "4ab7832c8356b0cf9661d45f66952a0155402209",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -13165,7 +12887,6 @@
 					],
 					"P582": [
 						{
-							"hash": "9090bae67d3e55beafb05e2726973ecf9a84f50c",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -13184,7 +12905,6 @@
 					],
 					"P459": [
 						{
-							"hash": "232abbfe6b26a5260b82acfe3826c346d40c5003",
 							"snaktype": "value",
 							"property": "P459",
 							"datatype": "wikibase-item",
@@ -13197,7 +12917,6 @@
 							}
 						},
 						{
-							"hash": "e23e19ddc1f09e6eca79597411bd44a9d6e6183c",
 							"snaktype": "value",
 							"property": "P459",
 							"datatype": "wikibase-item",
@@ -13236,7 +12955,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "e5da64885576d59efa3051b2b926a77cf399e0ad",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -13255,7 +12973,6 @@
 					],
 					"P582": [
 						{
-							"hash": "ed883b042ac7a3c73422120cf6686d8d36874b13",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -13274,7 +12991,6 @@
 					],
 					"P459": [
 						{
-							"hash": "0aacb73e515faf405d66972e482c484745e9c7b2",
 							"snaktype": "value",
 							"property": "P459",
 							"datatype": "wikibase-item",
@@ -13287,7 +13003,6 @@
 							}
 						},
 						{
-							"hash": "da841338144640e692012d8fc99ba4f74cf8080c",
 							"snaktype": "value",
 							"property": "P459",
 							"datatype": "wikibase-item",
@@ -13347,7 +13062,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "a017cc73701303597b51e1e68045cb933a1e4ca7",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -13366,14 +13080,12 @@
 					],
 					"P582": [
 						{
-							"hash": "8a7ef246558fc87bd4e712bbdb56c3a48359f5f4",
 							"snaktype": "novalue",
 							"property": "P582"
 						}
 					],
 					"P459": [
 						{
-							"hash": "257128f1eed2275635b0fa74d7f4fd0b3a3800b8",
 							"snaktype": "value",
 							"property": "P459",
 							"datatype": "wikibase-item",
@@ -13396,7 +13108,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "47f69131d6a30fbb887634c0b7ba303cef30afac",
 						"snaks": {
 							"P143": [
 								{
@@ -13479,7 +13190,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "02b9cbfe2aae708179fa5dec88e5cf7dbafb775e",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -13498,7 +13208,6 @@
 					],
 					"P582": [
 						{
-							"hash": "c83def2b92a3edc8bb01a53c2e945f46412217cc",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -13540,7 +13249,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "f55b71186352140eabd795e14496b88ef22b9102",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -13559,7 +13267,6 @@
 					],
 					"P582": [
 						{
-							"hash": "75939975465c4299715e760da34d2b7c732761a8",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -13601,7 +13308,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "4804e14c64ea13cc1b977b5f28fe145d9d80f86a",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -13620,7 +13326,6 @@
 					],
 					"P582": [
 						{
-							"hash": "292ce4984da577a9c03cd602103fd28dbca3440f",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -13662,7 +13367,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "927595efdb31088306f5f2d656ec8c2f6f1972df",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -13681,7 +13385,6 @@
 					],
 					"P582": [
 						{
-							"hash": "1ca5a81a8b1bbe8874677acb40bd8774b7f0692b",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -13723,7 +13426,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "a2f3f4a990798a177117ac7dc0d0b103c88a1e9d",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -13742,7 +13444,6 @@
 					],
 					"P582": [
 						{
-							"hash": "1c30cfc56d13538bb0a2227b4499f70546f40090",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -13784,7 +13485,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "8e0c61b40573482d97a020a61e598369c85c18c1",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -13803,7 +13503,6 @@
 					],
 					"P582": [
 						{
-							"hash": "c9044810e91f8424b9b63d74210d613770ffea6f",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -13845,7 +13544,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "4de4392746fee5290616ee2badfb1b574b2c69fb",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -13864,7 +13562,6 @@
 					],
 					"P582": [
 						{
-							"hash": "7a483a1e3c573d86ee8667fd654b8c39990375ee",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -13906,7 +13603,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "997b7fe7bea82b1fa4aa97f5ebe92fbd3e6044fd",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -13925,7 +13621,6 @@
 					],
 					"P582": [
 						{
-							"hash": "64b1e140cf2b18c931f2c93d6dc0057fbb6412e0",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -13951,7 +13646,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "c21d92ea078fd12cab7100102767d89778a7edb0",
 						"snaks": {
 							"P143": [
 								{
@@ -14036,7 +13730,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "652230c40877c852729e7f7daa5ba88d75880853",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -14055,7 +13748,6 @@
 					],
 					"P582": [
 						{
-							"hash": "7f475c6cdcc04b9d77d4847f8eb1495c89405205",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -14097,7 +13789,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "f4d3ce166a14c7c19f5647d65e51c29c16e7d459",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -14120,7 +13811,6 @@
 				"rank": "preferred",
 				"references": [
 					{
-						"hash": "646e4782c6acb35e7d672c764e1229ecfb252ec6",
 						"snaks": {
 							"P248": [
 								{
@@ -14166,7 +13856,6 @@
 						]
 					},
 					{
-						"hash": "aa17d10ddfd7b01214e044ff9e6ea0ff511866f1",
 						"snaks": {
 							"P248": [
 								{
@@ -14207,7 +13896,6 @@
 						]
 					},
 					{
-						"hash": "95af5cac010fc39c76bf367265df7d9db417f21d",
 						"snaks": {
 							"P143": [
 								{
@@ -14273,7 +13961,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "35d4d24e981bf05f8d17da3ee0edd5e8451b00fb",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -14292,7 +13979,6 @@
 					],
 					"P580": [
 						{
-							"hash": "4136d9b6df96726ce23d7026cfedfa875f624fc1",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -14318,7 +14004,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "a8503e4ef79fe87a3c89d9edabf5443c4de1362d",
 						"snaks": {
 							"P248": [
 								{
@@ -14452,7 +14137,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "d6e3ab4045fb3f3feea77895bc6b27e663fc878a",
 						"snaks": {
 							"P143": [
 								{
@@ -14509,7 +14193,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "d6e3ab4045fb3f3feea77895bc6b27e663fc878a",
 						"snaks": {
 							"P143": [
 								{
@@ -14547,7 +14230,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "73057782312f850e2ed69c4c28ad162f57f6d390",
 						"snaks": {
 							"P248": [
 								{
@@ -14585,7 +14267,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "b923b0d68beb300866b87ead39f61e63ec30d8af",
 						"snaks": {
 							"P248": [
 								{
@@ -14646,7 +14327,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "17b4257f4bd588a106b94741b69a996d7072f947",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -14661,7 +14341,6 @@
 					],
 					"P580": [
 						{
-							"hash": "bc4a9dd568bc32b78c0b17a4d3f05379db80d79e",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -14687,7 +14366,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "be879092ed843b76c038029ca015c6491b6daa3d",
 						"snaks": {
 							"P143": [
 								{
@@ -14752,7 +14430,6 @@
 						]
 					},
 					{
-						"hash": "f09fa57f1bae0d4fb0aea00be0d6ec10eb13d1e6",
 						"snaks": {
 							"P143": [
 								{
@@ -14817,7 +14494,6 @@
 						]
 					},
 					{
-						"hash": "126f56a314f4d8f5674e9cd4c364a7df75a835cb",
 						"snaks": {
 							"P143": [
 								{
@@ -14900,7 +14576,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "74891dc93b1fe76691cd42c39a4f7901bfb82aac",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -14915,7 +14590,6 @@
 					],
 					"P580": [
 						{
-							"hash": "3bc66ceb96ce251277f759bdbb6954c79d5c7783",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -14941,7 +14615,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "0e045ac1ed1c5970e233d69c5bf9008a5a747d75",
 						"snaks": {
 							"P143": [
 								{
@@ -15006,7 +14679,6 @@
 						]
 					},
 					{
-						"hash": "6b0ea19dbdf6d837a78a546263483e79ab4d4cd9",
 						"snaks": {
 							"P143": [
 								{
@@ -15071,7 +14743,6 @@
 						]
 					},
 					{
-						"hash": "21cf9986fe0cb2b56b9c03a0697d07e1bcfe9bb0",
 						"snaks": {
 							"P143": [
 								{
@@ -15154,7 +14825,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "0ebe682849c270b255c4b30b439d414e44e34c2f",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -15169,7 +14839,6 @@
 					],
 					"P580": [
 						{
-							"hash": "bcb2b3fb11d77a60dc33eb98ddae5e43173d4693",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -15195,7 +14864,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "503dd960fe1ee43744024455f799b16a0d4d55da",
 						"snaks": {
 							"P143": [
 								{
@@ -15260,7 +14928,6 @@
 						]
 					},
 					{
-						"hash": "57f054e0bca27519a4c27c847f0b494781157b2c",
 						"snaks": {
 							"P143": [
 								{
@@ -15325,7 +14992,6 @@
 						]
 					},
 					{
-						"hash": "06ae448990e1effe3bca510dc3704944f53ecba8",
 						"snaks": {
 							"P143": [
 								{
@@ -15408,7 +15074,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "b1b7b3e27a7a49ee9b3537f5e94fa8c1603ce3b4",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -15427,7 +15092,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "5ed15511a6832f7673def4d3f50c48b4c0f93d86",
 						"snaks": {
 							"P143": [
 								{
@@ -15492,7 +15156,6 @@
 						]
 					},
 					{
-						"hash": "b2ecb887c154840e0e149d17c422f5509ccfc635",
 						"snaks": {
 							"P143": [
 								{
@@ -15557,7 +15220,6 @@
 						]
 					},
 					{
-						"hash": "1de095b52ab20739ec2ce46e6ce6f8ba115dbe0f",
 						"snaks": {
 							"P143": [
 								{
@@ -15640,7 +15302,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "8ed105efe62204b64673701ea8f716242c326b4d",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -15655,7 +15316,6 @@
 					],
 					"P580": [
 						{
-							"hash": "fb1c4a26a9e4fe3426d085cef1068d7776e67c5a",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -15681,7 +15341,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "767de4e1738af4e5e7aeb72f2a25da3d8f9556b9",
 						"snaks": {
 							"P143": [
 								{
@@ -15727,7 +15386,6 @@
 						]
 					},
 					{
-						"hash": "32f3235ddf01a6fdfdaaada1c9f16900bb27e4c5",
 						"snaks": {
 							"P143": [
 								{
@@ -15773,7 +15431,6 @@
 						]
 					},
 					{
-						"hash": "094464645cb90dfc92a9ff6c0ab88ebc880d0f30",
 						"snaks": {
 							"P143": [
 								{
@@ -15837,7 +15494,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "826247b7d25f8753b1cf421d59ba80cc73c3ff8d",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -15852,7 +15508,6 @@
 					],
 					"P580": [
 						{
-							"hash": "9ef85b3902238a654553bf226c85d5d18d017547",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -15878,7 +15533,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "64b8c2559e151ba0d970d5f119aaaf02b5e38a38",
 						"snaks": {
 							"P143": [
 								{
@@ -15924,7 +15578,6 @@
 						]
 					},
 					{
-						"hash": "caa9a69ed3c462a9d934f36c65d47a76eefe1db8",
 						"snaks": {
 							"P143": [
 								{
@@ -15970,7 +15623,6 @@
 						]
 					},
 					{
-						"hash": "dd88d8aeef858658ea4c9ee136e74731bcd0bba0",
 						"snaks": {
 							"P143": [
 								{
@@ -16034,7 +15686,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "9ef85b3902238a654553bf226c85d5d18d017547",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -16053,7 +15704,6 @@
 					],
 					"P805": [
 						{
-							"hash": "a5ad165d0b6bda8e28276d36baf2d4737c421aa6",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -16075,7 +15725,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "b9ce136cf06328c62576b937e591fc5662422020",
 						"snaks": {
 							"P143": [
 								{
@@ -16121,7 +15770,6 @@
 						]
 					},
 					{
-						"hash": "07d8a72d25295904fe5482f4b7c36b8b357dd6e9",
 						"snaks": {
 							"P143": [
 								{
@@ -16167,7 +15815,6 @@
 						]
 					},
 					{
-						"hash": "75343714a114ab25a9ae2d6e9025530d4ed59a34",
 						"snaks": {
 							"P143": [
 								{
@@ -16231,7 +15878,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "9ef85b3902238a654553bf226c85d5d18d017547",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -16250,7 +15896,6 @@
 					],
 					"P805": [
 						{
-							"hash": "60e5aa2ab3481a768f224a1c20135de9fdb4d9ae",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -16272,7 +15917,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "c87e58edc8f118f7c5e5a6ca1a297d6de3df196d",
 						"snaks": {
 							"P143": [
 								{
@@ -16318,7 +15962,6 @@
 						]
 					},
 					{
-						"hash": "c846ac3b41a9d8ad3e831deeddc58ed10571ae70",
 						"snaks": {
 							"P143": [
 								{
@@ -16382,7 +16025,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "dc2b87da1487b537c873b54f498e68273ce6660c",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -16401,7 +16043,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "1fbbd02367eef633b5ac7179ae77b8fda7c66887",
 						"snaks": {
 							"P143": [
 								{
@@ -16447,7 +16088,6 @@
 						]
 					},
 					{
-						"hash": "e20e2cb88fc5464b4722556b6deedfc37641d252",
 						"snaks": {
 							"P143": [
 								{
@@ -16511,7 +16151,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "d2c9f876e18e3c52731c822b747c76e270c146ca",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -16530,7 +16169,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "0e09f83086929999476a29bf5c4cca8c75063ff0",
 						"snaks": {
 							"P143": [
 								{
@@ -16576,7 +16214,6 @@
 						]
 					},
 					{
-						"hash": "8822d70640db37784ead95aa331604e4c20980b2",
 						"snaks": {
 							"P143": [
 								{
@@ -16622,7 +16259,6 @@
 						]
 					},
 					{
-						"hash": "7f8a56b8841ebdfdca87390ae0eb2bdea40bd44d",
 						"snaks": {
 							"P143": [
 								{
@@ -16686,7 +16322,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "fbb7c6c08ca56b16814674ce7e5aeb17bbcafc90",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -16705,7 +16340,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "ed2ee671e47b1605b634f06690afdcf717b034be",
 						"snaks": {
 							"P143": [
 								{
@@ -16751,7 +16385,6 @@
 						]
 					},
 					{
-						"hash": "352e66b46d005d948c331f29657fb97b226c3102",
 						"snaks": {
 							"P143": [
 								{
@@ -16797,7 +16430,6 @@
 						]
 					},
 					{
-						"hash": "e31ddeecdd18959dc9ea0ebb07e7acfa4bbbc028",
 						"snaks": {
 							"P143": [
 								{
@@ -16861,7 +16493,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "9ef85b3902238a654553bf226c85d5d18d017547",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -16880,7 +16511,6 @@
 					],
 					"P805": [
 						{
-							"hash": "80ee3c853b8272cbb757679f7f2e56b89dc4d376",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -16902,7 +16532,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "b7f4e2242800a1b838f73f26da49f5061ed67563",
 						"snaks": {
 							"P143": [
 								{
@@ -16948,7 +16577,6 @@
 						]
 					},
 					{
-						"hash": "090d320d999f19baa7e5e21b9970dcf6e80b5cc9",
 						"snaks": {
 							"P143": [
 								{
@@ -16994,7 +16622,6 @@
 						]
 					},
 					{
-						"hash": "d8aca6855cb600d8e66d2ae866783163272d2002",
 						"snaks": {
 							"P143": [
 								{
@@ -17058,7 +16685,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "edc186fb8b4e2d15c9b28c7316a741db21fc0251",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -17077,7 +16703,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "8ebdc331e076a0152260cabcf4e14d574410b1e7",
 						"snaks": {
 							"P143": [
 								{
@@ -17123,7 +16748,6 @@
 						]
 					},
 					{
-						"hash": "9ca794304277fa4063a40394c5429c3fd059e7ae",
 						"snaks": {
 							"P143": [
 								{
@@ -17169,7 +16793,6 @@
 						]
 					},
 					{
-						"hash": "feac9cc4fafb8a5de1be67a97f78d26be2544cf2",
 						"snaks": {
 							"P143": [
 								{
@@ -17233,7 +16856,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "f3236725fb55ee4472975235e704adea8ecb1285",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -17252,7 +16874,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "5c652fffd03b3ff97d746a93b779dfcff2b0dce3",
 						"snaks": {
 							"P143": [
 								{
@@ -17298,7 +16919,6 @@
 						]
 					},
 					{
-						"hash": "3ddad94a2a9de219258b648332f8b38ec3ed40cc",
 						"snaks": {
 							"P143": [
 								{
@@ -17344,7 +16964,6 @@
 						]
 					},
 					{
-						"hash": "14d47f8e98abdad10ff4def6d9fb2a58692780f3",
 						"snaks": {
 							"P143": [
 								{
@@ -17408,7 +17027,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "a789512a58efb66273d26b091529f5a7985bec39",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -17427,7 +17045,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "9463fe16b25373c8189bc9be144cb8d93af65858",
 						"snaks": {
 							"P143": [
 								{
@@ -17473,7 +17090,6 @@
 						]
 					},
 					{
-						"hash": "c9bce89a53c513cf4598179a62d1b9070de2051f",
 						"snaks": {
 							"P143": [
 								{
@@ -17519,7 +17135,6 @@
 						]
 					},
 					{
-						"hash": "f86533099ce1b4a441a1c69243926b6c43df9d98",
 						"snaks": {
 							"P143": [
 								{
@@ -17583,7 +17198,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "a9e63310678d3437fee2b5d1b5ba24ffa080bd65",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -17598,7 +17212,6 @@
 					],
 					"P580": [
 						{
-							"hash": "dc1078c4b8d2a77eee310c29dc658658eb85fea0",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -17624,7 +17237,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "bf3d7c2bae9662a32ace27b533d09918a8ddb336",
 						"snaks": {
 							"P143": [
 								{
@@ -17670,7 +17282,6 @@
 						]
 					},
 					{
-						"hash": "03f87395a6175ff73e7e6e8df3763304b7f433a3",
 						"snaks": {
 							"P143": [
 								{
@@ -17716,7 +17327,6 @@
 						]
 					},
 					{
-						"hash": "6f9df64a815ca27212f20d900ecf31a5e6430243",
 						"snaks": {
 							"P143": [
 								{
@@ -17780,7 +17390,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "0c9774263a72de807f0ace8457fde8b452b790c1",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -17799,7 +17408,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "4fd744801670864f02177ef48c722544981fade0",
 						"snaks": {
 							"P143": [
 								{
@@ -17845,7 +17453,6 @@
 						]
 					},
 					{
-						"hash": "19dc291acd5e4b1055584b4bb22ff21803cb4c3c",
 						"snaks": {
 							"P143": [
 								{
@@ -17928,7 +17535,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "aedd4b9e9e4679164d60c172fb53fc6794d4f573",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -17943,7 +17549,6 @@
 					],
 					"P580": [
 						{
-							"hash": "bb31ca5b9a08b400ebe7b7172e31409296cca068",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -17969,7 +17574,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "6fed87c4167f46e14d5ab8b1175dc3c6fe6312ed",
 						"snaks": {
 							"P143": [
 								{
@@ -18034,7 +17638,6 @@
 						]
 					},
 					{
-						"hash": "bf46249fb9880a33966423bae6a22252f8c76ef7",
 						"snaks": {
 							"P143": [
 								{
@@ -18099,7 +17702,6 @@
 						]
 					},
 					{
-						"hash": "da0da54f52712f6e7a5ecf083140af0b8a929f26",
 						"snaks": {
 							"P143": [
 								{
@@ -18182,7 +17784,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "e83d7d00d4117101e663c091020bf2b2ca1f65e7",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -18201,7 +17802,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "34f8cc4b03e4184596281fd64cde002801d83484",
 						"snaks": {
 							"P143": [
 								{
@@ -18266,7 +17866,6 @@
 						]
 					},
 					{
-						"hash": "c14e3336843df73172d9794443119260a12bf15e",
 						"snaks": {
 							"P143": [
 								{
@@ -18331,7 +17930,6 @@
 						]
 					},
 					{
-						"hash": "64a4eb3442a96df420f7a0f44a91b60d2f485670",
 						"snaks": {
 							"P143": [
 								{
@@ -18414,7 +18012,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "f8f1c17195749355db7536e97a83e9da9b9f3ed2",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -18433,7 +18030,6 @@
 					],
 					"P805": [
 						{
-							"hash": "fb76fc46666e93556f0aeadb93815ffbee979c55",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -18455,7 +18051,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "1b3d51c307f468809393d634ae31fa2873d5f1da",
 						"snaks": {
 							"P143": [
 								{
@@ -18520,7 +18115,6 @@
 						]
 					},
 					{
-						"hash": "2e48f6861a7f3685f11568e49688c49cc7bfbc36",
 						"snaks": {
 							"P143": [
 								{
@@ -18558,7 +18152,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "fb76fc46666e93556f0aeadb93815ffbee979c55",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -18573,7 +18166,6 @@
 					],
 					"P580": [
 						{
-							"hash": "7f972e5197c61db9c6b201e296cddd59eb601dd3",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -18599,7 +18191,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "277687dc6959842072c83f521febbc123fb8603a",
 						"snaks": {
 							"P143": [
 								{
@@ -18664,7 +18255,6 @@
 						]
 					},
 					{
-						"hash": "c21090ce2254d4ad16af34119ae2750cf909d28b",
 						"snaks": {
 							"P143": [
 								{
@@ -18729,7 +18319,6 @@
 						]
 					},
 					{
-						"hash": "dbf2bb25ddd70ddcf8b0f1a7f27ac558cbeff72a",
 						"snaks": {
 							"P143": [
 								{
@@ -18812,7 +18401,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "188d21ed188052dc84b5a9c4d97fcb53bfcd9655",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -18827,7 +18415,6 @@
 					],
 					"P580": [
 						{
-							"hash": "57c34011aef4177077abfb791b8c71b3b20c9656",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -18853,7 +18440,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "46b87262e8b8d6bcc0a76a6c2db4f508dbfb33f9",
 						"snaks": {
 							"P143": [
 								{
@@ -18918,7 +18504,6 @@
 						]
 					},
 					{
-						"hash": "46cc30d3a521e877f04f6e18f889bf31c2490cd5",
 						"snaks": {
 							"P143": [
 								{
@@ -18983,7 +18568,6 @@
 						]
 					},
 					{
-						"hash": "cdde3ddbfbb61060c08027f2b4c5eccca58d657e",
 						"snaks": {
 							"P143": [
 								{
@@ -19066,7 +18650,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "7f972e5197c61db9c6b201e296cddd59eb601dd3",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -19085,7 +18668,6 @@
 					],
 					"P805": [
 						{
-							"hash": "3e179e3e08af8b91ffeb402d349e1a4164f4a82e",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -19107,7 +18689,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "e6b0595426290fcf390385363cd61b44ead57ba6",
 						"snaks": {
 							"P143": [
 								{
@@ -19172,7 +18753,6 @@
 						]
 					},
 					{
-						"hash": "48d59caf198359e019814654f04c53dc19b1a6a2",
 						"snaks": {
 							"P143": [
 								{
@@ -19237,7 +18817,6 @@
 						]
 					},
 					{
-						"hash": "c893700fd6a7d9c4e8818d480c72b5ffff307d38",
 						"snaks": {
 							"P143": [
 								{
@@ -19320,7 +18899,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "b973cc44f4be93630ea164f96562265e8fd40cd1",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -19335,7 +18913,6 @@
 					],
 					"P580": [
 						{
-							"hash": "3bc66ceb96ce251277f759bdbb6954c79d5c7783",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -19361,7 +18938,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "ff133280b5361dfed1059e2de438f1c53e866770",
 						"snaks": {
 							"P143": [
 								{
@@ -19426,7 +19002,6 @@
 						]
 					},
 					{
-						"hash": "3d088434767ba3a56bcad61b4b59b9f67a6b195f",
 						"snaks": {
 							"P143": [
 								{
@@ -19491,7 +19066,6 @@
 						]
 					},
 					{
-						"hash": "8b36f319a4144c18cd602a56b2733f2429034ce0",
 						"snaks": {
 							"P143": [
 								{
@@ -19574,7 +19148,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "4718f11d1c85e74f6fcc2b84d74059a3ef2c718f",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -19593,7 +19166,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "d92c62d193b432834d937ee2bb476501a484756d",
 						"snaks": {
 							"P143": [
 								{
@@ -19658,7 +19230,6 @@
 						]
 					},
 					{
-						"hash": "307ab68484ab50ff6c609fc8ec0901605a75d3f2",
 						"snaks": {
 							"P143": [
 								{
@@ -19723,7 +19294,6 @@
 						]
 					},
 					{
-						"hash": "0a61361c86ec79e500b6168021dac621ef596d49",
 						"snaks": {
 							"P143": [
 								{
@@ -19806,7 +19376,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "77b01d55d83440484758343fea375d135c1ae22d",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -19821,7 +19390,6 @@
 					],
 					"P580": [
 						{
-							"hash": "4decf4ed88f4633d1c58d041051edb9872e321b7",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -19847,7 +19415,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "8aff4530a0f4f03824a8e05e6686f7e60ab28355",
 						"snaks": {
 							"P143": [
 								{
@@ -19912,7 +19479,6 @@
 						]
 					},
 					{
-						"hash": "a0c9370a34e6da1a8cef3049a62626faf8fb1323",
 						"snaks": {
 							"P143": [
 								{
@@ -19977,7 +19543,6 @@
 						]
 					},
 					{
-						"hash": "00180f7166cd583f939d6637e6efa6084fe2a801",
 						"snaks": {
 							"P143": [
 								{
@@ -20060,7 +19625,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "9c34a03292882779426e1900d6ec8598f977f36c",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -20079,7 +19643,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "34ef110080a65a860bcbd41a9fab3f5d8417083d",
 						"snaks": {
 							"P143": [
 								{
@@ -20144,7 +19707,6 @@
 						]
 					},
 					{
-						"hash": "03e8c39dec3eae4aca720106a8b8b17da349d345",
 						"snaks": {
 							"P143": [
 								{
@@ -20209,7 +19771,6 @@
 						]
 					},
 					{
-						"hash": "63808bfa2bea1414cd9b5ba9d422e8d4fc8abb42",
 						"snaks": {
 							"P143": [
 								{
@@ -20292,7 +19853,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "9cc962b61760ded704b720192b0a89c370b7be50",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -20311,7 +19871,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "dcff8fcb4f13b3ebb6a45b094779cfed2942bfd1",
 						"snaks": {
 							"P143": [
 								{
@@ -20376,7 +19935,6 @@
 						]
 					},
 					{
-						"hash": "33f018b5a8ce4dab2e38f2ff9bd4eadf580af5ba",
 						"snaks": {
 							"P143": [
 								{
@@ -20459,7 +20017,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "558df8558493b5590055d1aaff12f80f42bb9638",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -20478,7 +20035,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "bdc3d897cf2f00ebe6933fe3b82777977145d5d2",
 						"snaks": {
 							"P143": [
 								{
@@ -20543,7 +20099,6 @@
 						]
 					},
 					{
-						"hash": "e25c0771dbf50768dd834e788f20674a2c5a2952",
 						"snaks": {
 							"P143": [
 								{
@@ -20608,7 +20163,6 @@
 						]
 					},
 					{
-						"hash": "dc3e06abcb4db7a2ab61e765d7a84eed9dd9a12a",
 						"snaks": {
 							"P143": [
 								{
@@ -20691,7 +20245,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "04f3b7ee572324da751f35c03dc1583e83d1b8b3",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -20706,7 +20259,6 @@
 					],
 					"P580": [
 						{
-							"hash": "cf07725c7c45ca46780ff6e84edab5e2e7ca8006",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -20732,7 +20284,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "1f41ce26ac0533f4f28666667b33b0a4946b08c8",
 						"snaks": {
 							"P143": [
 								{
@@ -20797,7 +20348,6 @@
 						]
 					},
 					{
-						"hash": "6e403a74b968fe0b8b8a15a32d66446b8768288e",
 						"snaks": {
 							"P143": [
 								{
@@ -20862,7 +20412,6 @@
 						]
 					},
 					{
-						"hash": "5effc9af4a60075c73d4829b9da1cfb67bb2aee4",
 						"snaks": {
 							"P143": [
 								{
@@ -20945,7 +20494,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "a4057fd9f1f0a9d31f14146d0e789ea943af7990",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -20964,7 +20512,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "eefdee75bf6b488a6c4c6419028f1c48454f7266",
 						"snaks": {
 							"P143": [
 								{
@@ -21029,7 +20576,6 @@
 						]
 					},
 					{
-						"hash": "91ffc7275a4d834d46277e1525edac86ff411e9d",
 						"snaks": {
 							"P143": [
 								{
@@ -21094,7 +20640,6 @@
 						]
 					},
 					{
-						"hash": "90cce8831d55a49b38f18e0567f9fc7039cbcd3e",
 						"snaks": {
 							"P143": [
 								{
@@ -21177,7 +20722,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "b73d9745ecb6eb14bf9ed501f3bdca58dd4b2477",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -21196,7 +20740,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "06fa3f0510c8ff345da7ee0f9145ee43b50a4340",
 						"snaks": {
 							"P143": [
 								{
@@ -21261,7 +20804,6 @@
 						]
 					},
 					{
-						"hash": "5a4bd52533a4dfcceb1f08eaf74893b0eba8d6fe",
 						"snaks": {
 							"P143": [
 								{
@@ -21326,7 +20868,6 @@
 						]
 					},
 					{
-						"hash": "000ef99d7e5fe270d56b01a44362d841957f7e9c",
 						"snaks": {
 							"P143": [
 								{
@@ -21409,7 +20950,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "820d4b787e6e56c04def8f63b008f7e085540872",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -21424,7 +20964,6 @@
 					],
 					"P580": [
 						{
-							"hash": "49122f21e96305b8461f95d8e59fd8b65737a523",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -21450,7 +20989,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "adc9fb4dbdab498a35d6c26b9dbfebb0204694da",
 						"snaks": {
 							"P143": [
 								{
@@ -21515,7 +21053,6 @@
 						]
 					},
 					{
-						"hash": "226d42cd1feb35fb1b49dc58b1ffad9a0467b7c6",
 						"snaks": {
 							"P143": [
 								{
@@ -21580,7 +21117,6 @@
 						]
 					},
 					{
-						"hash": "a2304e7f1867e2153a5b55758cd28126b4d2b68e",
 						"snaks": {
 							"P143": [
 								{
@@ -21663,7 +21199,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "4a626df1edade2d6e026537542831c76e971fc7d",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -21682,7 +21217,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "9e58788b2ca5ada09298285664bc089bac578234",
 						"snaks": {
 							"P143": [
 								{
@@ -21747,7 +21281,6 @@
 						]
 					},
 					{
-						"hash": "64d02ae7ceaa6f2f5a49d4bc9fd5c79484b50c2f",
 						"snaks": {
 							"P143": [
 								{
@@ -21812,7 +21345,6 @@
 						]
 					},
 					{
-						"hash": "d61bb095bbfae1b1fc6ccb4c6b3878322c547dfc",
 						"snaks": {
 							"P143": [
 								{
@@ -21895,7 +21427,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "285348013c109c511d19cca5861caef342ba1fc9",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -21910,7 +21441,6 @@
 					],
 					"P580": [
 						{
-							"hash": "271919a89ac693cf75f0dd748b4f8825a3635588",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -21936,7 +21466,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "8e4e3ed95ba226d694b7b8bdd87a069daba9399b",
 						"snaks": {
 							"P143": [
 								{
@@ -22001,7 +21530,6 @@
 						]
 					},
 					{
-						"hash": "a0afeb82754be19b29453fb2660568cfb311de5e",
 						"snaks": {
 							"P143": [
 								{
@@ -22066,7 +21594,6 @@
 						]
 					},
 					{
-						"hash": "2e418ea48552a8aac98066f468160e089836a2a1",
 						"snaks": {
 							"P143": [
 								{
@@ -22149,7 +21676,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "9d803b65e49eeabfb450939c9f1cf82a05842ba1",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -22164,7 +21690,6 @@
 					],
 					"P580": [
 						{
-							"hash": "24533d79c29e6c8429f6ac4a9131d406f3b32749",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -22190,7 +21715,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "82346e1a31a5cfba51d7fbaae598b232bab67999",
 						"snaks": {
 							"P143": [
 								{
@@ -22255,7 +21779,6 @@
 						]
 					},
 					{
-						"hash": "2321919e3141c11397d0a64f5277dff48a65de8c",
 						"snaks": {
 							"P143": [
 								{
@@ -22320,7 +21843,6 @@
 						]
 					},
 					{
-						"hash": "7d810ada26b7d71e805e8c50ee263ebc3c7721d7",
 						"snaks": {
 							"P143": [
 								{
@@ -22403,7 +21925,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "c2fdd994bb3526d4bf19b57871456087433ebc65",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -22422,7 +21943,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "b0bf00022f907e20d17cb5dc23b1fe0253a639ca",
 						"snaks": {
 							"P143": [
 								{
@@ -22487,7 +22007,6 @@
 						]
 					},
 					{
-						"hash": "3ca4257892aa2a6e05dd5487a17ec8a24d4cb274",
 						"snaks": {
 							"P143": [
 								{
@@ -22570,7 +22089,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "c602e15b3c001bbb7abc8b4b3ae72756c742fc0e",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -22585,7 +22103,6 @@
 					],
 					"P580": [
 						{
-							"hash": "d88f12ce1c6f1b24ecc20f601023754192c58374",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -22611,7 +22128,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "aa06e86b814b9aafc896381c5a2eb927bc3c5611",
 						"snaks": {
 							"P143": [
 								{
@@ -22676,7 +22192,6 @@
 						]
 					},
 					{
-						"hash": "7ec162477d1d290b003a8278be570c882a8d7655",
 						"snaks": {
 							"P143": [
 								{
@@ -22741,7 +22256,6 @@
 						]
 					},
 					{
-						"hash": "db92848f8a3632622c494a6204f8f2e1cc6a1efb",
 						"snaks": {
 							"P143": [
 								{
@@ -22824,7 +22338,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "120516243b349fbe90bdc18a8afb95d1aefdec62",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -22839,7 +22352,6 @@
 					],
 					"P580": [
 						{
-							"hash": "e52af6de9a7449e31b81a931cd6e542411a2e00f",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -22865,7 +22377,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "a47e390f9e9a66881403166a0914775f24d96431",
 						"snaks": {
 							"P143": [
 								{
@@ -22930,7 +22441,6 @@
 						]
 					},
 					{
-						"hash": "7b735da8437a62436f70d7a19c6ef85d6d1b4b86",
 						"snaks": {
 							"P143": [
 								{
@@ -22995,7 +22505,6 @@
 						]
 					},
 					{
-						"hash": "924430e922c0c92e96d52f6cabcad889fdffc4a3",
 						"snaks": {
 							"P143": [
 								{
@@ -23078,7 +22587,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "401b4fd125673c8016ceddfd68802df1049aecd6",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -23097,7 +22605,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "b13291586266d488f14e43c8523aed6f241ef38b",
 						"snaks": {
 							"P143": [
 								{
@@ -23162,7 +22669,6 @@
 						]
 					},
 					{
-						"hash": "8fb1ceac1e2a440612202f9a9ba674e2f926b790",
 						"snaks": {
 							"P143": [
 								{
@@ -23227,7 +22733,6 @@
 						]
 					},
 					{
-						"hash": "8c72a51b06a7fa252e017c30d19926fc6129d1c5",
 						"snaks": {
 							"P143": [
 								{
@@ -23310,7 +22815,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "b90ec40747729a1ad1e52a3abd99fa9a2bc565b4",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -23325,7 +22829,6 @@
 					],
 					"P580": [
 						{
-							"hash": "c4db875ff599f91c6f39be0f6e8249c1f7079397",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -23351,7 +22854,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "29b0eab7c6ed942405dabeb2cc66378b4e43eda4",
 						"snaks": {
 							"P143": [
 								{
@@ -23416,7 +22918,6 @@
 						]
 					},
 					{
-						"hash": "ebc48565185d777e7079b3887690d2c51e0ef20c",
 						"snaks": {
 							"P143": [
 								{
@@ -23481,7 +22982,6 @@
 						]
 					},
 					{
-						"hash": "a95db983102a848d04641ddd59d01a6fe7355c36",
 						"snaks": {
 							"P143": [
 								{
@@ -23564,7 +23064,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "d5a684cb7fb1d0e937f486fe52cb8ef1b3cd69f4",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -23579,7 +23078,6 @@
 					],
 					"P580": [
 						{
-							"hash": "3bc66ceb96ce251277f759bdbb6954c79d5c7783",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -23605,7 +23103,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "77e12f6a021fdebb2f9a77a8f482d0a76f622376",
 						"snaks": {
 							"P143": [
 								{
@@ -23670,7 +23167,6 @@
 						]
 					},
 					{
-						"hash": "cb5bee91ebd6f57858ac14f1bb13767c82a116f7",
 						"snaks": {
 							"P143": [
 								{
@@ -23735,7 +23231,6 @@
 						]
 					},
 					{
-						"hash": "ea55932a8f4758144cac7dd3f776269f5dce8ff0",
 						"snaks": {
 							"P143": [
 								{
@@ -23818,7 +23313,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "eeac96ad4075bed07776ee93c16e30867301dca7",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -23837,7 +23331,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "464cb1f6ae6aef56aa78e38392440b36ec505b6c",
 						"snaks": {
 							"P143": [
 								{
@@ -23902,7 +23395,6 @@
 						]
 					},
 					{
-						"hash": "7b35c6423cd20e4cb1a64777e3465015787173e6",
 						"snaks": {
 							"P143": [
 								{
@@ -23967,7 +23459,6 @@
 						]
 					},
 					{
-						"hash": "6d184d5cf31c5299abbe9b82ca959305e6cd6a23",
 						"snaks": {
 							"P143": [
 								{
@@ -24050,7 +23541,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "eb3a81290e5ff864e4d0e965a7bed24d33f3ae15",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -24065,7 +23555,6 @@
 					],
 					"P580": [
 						{
-							"hash": "fd337a3e171acce394511dbd08fdccb89aefe23a",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -24091,7 +23580,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "26b9fdc3aa7d4cdbbcb6be6bbe3b7dc007532cfd",
 						"snaks": {
 							"P143": [
 								{
@@ -24156,7 +23644,6 @@
 						]
 					},
 					{
-						"hash": "27ccb265041176f2cededb0835b11a940f50abe6",
 						"snaks": {
 							"P143": [
 								{
@@ -24221,7 +23708,6 @@
 						]
 					},
 					{
-						"hash": "38bdfe2bfdd35322735e21ce283c9602bc02ece6",
 						"snaks": {
 							"P143": [
 								{
@@ -24304,7 +23790,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "322aae5befb08c7e9dfecab96c0301515e4a7e21",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -24319,7 +23804,6 @@
 					],
 					"P580": [
 						{
-							"hash": "d1fd6b9cbbf862f561ffef857335b09210db02c2",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -24345,7 +23829,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "1d978edbd72862ea064daf2831a98695f44164bb",
 						"snaks": {
 							"P143": [
 								{
@@ -24410,7 +23893,6 @@
 						]
 					},
 					{
-						"hash": "13cee374f5c8568dfbb5db989c68c65b5cacc144",
 						"snaks": {
 							"P143": [
 								{
@@ -24493,7 +23975,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "28cc6980eff28dcb6279fb165bad8f8c1f689f1c",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -24508,7 +23989,6 @@
 					],
 					"P580": [
 						{
-							"hash": "dfef789ba5541cbeeceb01d678e17cd4e6e64d1a",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -24534,7 +24014,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "f4c978d0b9382c049ddee69ef32aaddb7597c63a",
 						"snaks": {
 							"P143": [
 								{
@@ -24599,7 +24078,6 @@
 						]
 					},
 					{
-						"hash": "4c875387b3230fc83c6b0ceacc797329bb0bb4d1",
 						"snaks": {
 							"P143": [
 								{
@@ -24664,7 +24142,6 @@
 						]
 					},
 					{
-						"hash": "6575dc2635dd580b9d54bcc60f3adab356c94f98",
 						"snaks": {
 							"P143": [
 								{
@@ -24747,7 +24224,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "c249349a965cf249643a7f37872f9d0ace5bea50",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -24762,7 +24238,6 @@
 					],
 					"P580": [
 						{
-							"hash": "fe2978d0d867b10483578e2339b6873e6b42104f",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -24788,7 +24263,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "99f964b70250cddd3f5fea571ae7370400260dd7",
 						"snaks": {
 							"P143": [
 								{
@@ -24853,7 +24327,6 @@
 						]
 					},
 					{
-						"hash": "a041b701b810209a43e930d7332e8e716d4f20e9",
 						"snaks": {
 							"P143": [
 								{
@@ -24918,7 +24391,6 @@
 						]
 					},
 					{
-						"hash": "20f0c6c47c73ea89ad1a7b0b5070cccf0937d49e",
 						"snaks": {
 							"P143": [
 								{
@@ -25001,7 +24473,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "3560810ba939edacadb01c71cc30dbd979c6a056",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -25016,7 +24487,6 @@
 					],
 					"P580": [
 						{
-							"hash": "2fcff1b014e073578b1e48fc8664b5109430b743",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -25042,7 +24512,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "ff9cca6296fde58f49d8535ba291ae56bf5150fb",
 						"snaks": {
 							"P143": [
 								{
@@ -25107,7 +24576,6 @@
 						]
 					},
 					{
-						"hash": "f251e366cd1f3c8f9ccb3b999086c08cdc6917d6",
 						"snaks": {
 							"P143": [
 								{
@@ -25190,7 +24658,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "19660b6eeb0897e4b387104c105f7940e3941155",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -25205,7 +24672,6 @@
 					],
 					"P580": [
 						{
-							"hash": "d31cac2b27c10704a5b81ae598da2a55d1897df4",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -25231,7 +24697,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "27e5f26ad9bbee132624185f5bd0d45b48c36297",
 						"snaks": {
 							"P143": [
 								{
@@ -25296,7 +24761,6 @@
 						]
 					},
 					{
-						"hash": "f87c93c4276e1fa390349535a5db69e11dbc8095",
 						"snaks": {
 							"P143": [
 								{
@@ -25361,7 +24825,6 @@
 						]
 					},
 					{
-						"hash": "c302d26a514e0be18fb16afcf10184700b4bdb5c",
 						"snaks": {
 							"P143": [
 								{
@@ -25444,7 +24907,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "ef6ff9965727d24b41d598368e4e40cebc061e00",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -25459,7 +24921,6 @@
 					],
 					"P580": [
 						{
-							"hash": "88df248cdc06997718c46bde151c960897473321",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -25485,7 +24946,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "9886b258eac1675fa8cb667eb5e1acb8aca2288a",
 						"snaks": {
 							"P143": [
 								{
@@ -25568,7 +25028,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "1c57d999e5622a75c92cf61deba720c0605203ec",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -25583,7 +25042,6 @@
 					],
 					"P580": [
 						{
-							"hash": "3bc66ceb96ce251277f759bdbb6954c79d5c7783",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -25609,7 +25067,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "c0adca7a16b39a35171d37bad97db9105db79fc5",
 						"snaks": {
 							"P143": [
 								{
@@ -25674,7 +25131,6 @@
 						]
 					},
 					{
-						"hash": "082e2a6545f3b90608ce19f11beddcb1f90a0969",
 						"snaks": {
 							"P143": [
 								{
@@ -25739,7 +25195,6 @@
 						]
 					},
 					{
-						"hash": "eb3b8ed169a733369ef3dc801b5635fc4b8ae70c",
 						"snaks": {
 							"P143": [
 								{
@@ -25822,7 +25277,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "5faa2379258055e995f879a47f7997b05655301f",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -25837,7 +25291,6 @@
 					],
 					"P580": [
 						{
-							"hash": "c837555906d8acb5d1153dc4bdc43b8753528c80",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -25863,7 +25316,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "d813f6dbdb3bf3a210cd93c983481990b6173e63",
 						"snaks": {
 							"P143": [
 								{
@@ -25928,7 +25380,6 @@
 						]
 					},
 					{
-						"hash": "f081a468c56f414cc41c06bd195e7e9a5d7cc519",
 						"snaks": {
 							"P143": [
 								{
@@ -26011,7 +25462,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "c4983079ace73ec30e7b1443932ae3854bd5145c",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -26026,7 +25476,6 @@
 					],
 					"P580": [
 						{
-							"hash": "c4db875ff599f91c6f39be0f6e8249c1f7079397",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -26052,7 +25501,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "ef2073414d55202aa8a318fe4d9ad219b6b197c8",
 						"snaks": {
 							"P143": [
 								{
@@ -26117,7 +25565,6 @@
 						]
 					},
 					{
-						"hash": "b3f4ae0f98ecceaa96b9b0455bd74549701dcdb5",
 						"snaks": {
 							"P143": [
 								{
@@ -26182,7 +25629,6 @@
 						]
 					},
 					{
-						"hash": "9c76ea9a654b8aa278acbe4895d2eb79fd35165a",
 						"snaks": {
 							"P143": [
 								{
@@ -26265,7 +25711,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "01264c9ebd7b0827fee2ee1eefadb64f7b170f34",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -26284,7 +25729,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "abcdb6ef043ac3a0b8f945921db35ceb5eb3b1e6",
 						"snaks": {
 							"P143": [
 								{
@@ -26349,7 +25793,6 @@
 						]
 					},
 					{
-						"hash": "e332103d26d4fdfbd26c0de15d80a9fab00a332f",
 						"snaks": {
 							"P143": [
 								{
@@ -26414,7 +25857,6 @@
 						]
 					},
 					{
-						"hash": "8327f9878f85f568aef54508838a4024b493fedc",
 						"snaks": {
 							"P143": [
 								{
@@ -26497,7 +25939,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "05c1a8ee3c36105e2e34ef75b3c80b467137760a",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -26512,7 +25953,6 @@
 					],
 					"P580": [
 						{
-							"hash": "fe2978d0d867b10483578e2339b6873e6b42104f",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -26538,7 +25978,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "b18bb6aecc2837c833d352632bfeb9b3523ebbc3",
 						"snaks": {
 							"P143": [
 								{
@@ -26603,7 +26042,6 @@
 						]
 					},
 					{
-						"hash": "de20ec133f74a6e31d3acbea7f7188f530d782d0",
 						"snaks": {
 							"P143": [
 								{
@@ -26656,7 +26094,6 @@
 						]
 					},
 					{
-						"hash": "47d55481c03c867acd350f5dcc2e31c0c4712fab",
 						"snaks": {
 							"P143": [
 								{
@@ -26739,7 +26176,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "97c3cd9a6ddf696abd5c6afdc2c14acec0b338d6",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -26754,7 +26190,6 @@
 					],
 					"P580": [
 						{
-							"hash": "c4db875ff599f91c6f39be0f6e8249c1f7079397",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -26780,7 +26215,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "6c01a6338c1d84aee3f0eedc270bd35df1c9fc62",
 						"snaks": {
 							"P143": [
 								{
@@ -26845,7 +26279,6 @@
 						]
 					},
 					{
-						"hash": "3dcb230ed95e93e5805a41cf8199e9e68c757cba",
 						"snaks": {
 							"P143": [
 								{
@@ -26910,7 +26343,6 @@
 						]
 					},
 					{
-						"hash": "eb80a437688ca9bf1f1da7091182b5b32bf51174",
 						"snaks": {
 							"P143": [
 								{
@@ -26993,7 +26425,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "01c911c1b117588b4499d9271080893ee7f6a766",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -27008,7 +26439,6 @@
 					],
 					"P580": [
 						{
-							"hash": "932368bbf7edc57f96d8ebb8846497b84534e35a",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -27034,7 +26464,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "ff3716619413514fe3413a5d775a87b29c48b6fc",
 						"snaks": {
 							"P143": [
 								{
@@ -27099,7 +26528,6 @@
 						]
 					},
 					{
-						"hash": "80e23b9bda531cb9aa086204a1c0c8c7b8d5240e",
 						"snaks": {
 							"P143": [
 								{
@@ -27182,7 +26610,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "e6753b5c506af940e3a21cca83f63c9c91f0ff22",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -27201,7 +26628,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "7ba983fdb953963e21ecaa29252161991a20055f",
 						"snaks": {
 							"P143": [
 								{
@@ -27266,7 +26692,6 @@
 						]
 					},
 					{
-						"hash": "6a59fc82393222e298c36d0d0ca820f877443cd1",
 						"snaks": {
 							"P143": [
 								{
@@ -27331,7 +26756,6 @@
 						]
 					},
 					{
-						"hash": "120293375f3fb7d485505b3451dfbed354e67214",
 						"snaks": {
 							"P143": [
 								{
@@ -27414,7 +26838,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "aaf301d6546c70796b234771ae4aca24f25ce4f5",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -27433,7 +26856,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "f45f22d0142c16ee00613793cd74a1af994bc537",
 						"snaks": {
 							"P143": [
 								{
@@ -27498,7 +26920,6 @@
 						]
 					},
 					{
-						"hash": "2d675cfe736006f72d19c1056ff6b2b8543b8c81",
 						"snaks": {
 							"P143": [
 								{
@@ -27563,7 +26984,6 @@
 						]
 					},
 					{
-						"hash": "129928077f15161d8b1127f8ebbd8f8858c61d6f",
 						"snaks": {
 							"P143": [
 								{
@@ -27646,7 +27066,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "94b8ebe366540b93def43d16bad4f56bf883c74e",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -27661,7 +27080,6 @@
 					],
 					"P580": [
 						{
-							"hash": "44554caa27c457a615d56a08a39b1d56d0c31d38",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -27687,7 +27105,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "1ccd64f21a469c2d2e2ca16b3fd07cbe38be446c",
 						"snaks": {
 							"P143": [
 								{
@@ -27752,7 +27169,6 @@
 						]
 					},
 					{
-						"hash": "b4716d28b16f35363c193622612544c9e6e02be9",
 						"snaks": {
 							"P143": [
 								{
@@ -27817,7 +27233,6 @@
 						]
 					},
 					{
-						"hash": "adbe97b2001980ba3f2a71f497d09ae50962ff2f",
 						"snaks": {
 							"P143": [
 								{
@@ -27900,7 +27315,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "78e8366044ddf218c6f9591ffb19619084bd1173",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -27919,7 +27333,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "55bfb932681c71bf8c8baf15da2d2bf4dde03094",
 						"snaks": {
 							"P143": [
 								{
@@ -27984,7 +27397,6 @@
 						]
 					},
 					{
-						"hash": "cc2d8c8a6f2e4817f24c88dacc63b8f9f66ee09d",
 						"snaks": {
 							"P143": [
 								{
@@ -28049,7 +27461,6 @@
 						]
 					},
 					{
-						"hash": "68bac342bc0608ba5fdcca0247f368f9dfa0e18b",
 						"snaks": {
 							"P143": [
 								{
@@ -28132,7 +27543,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "adf455331a6de308e9f8e141e9c58dc63057bdf6",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -28151,7 +27561,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "cb6703a145c21608dbc1b21b092f384bb8563a4b",
 						"snaks": {
 							"P143": [
 								{
@@ -28216,7 +27625,6 @@
 						]
 					},
 					{
-						"hash": "25335d9781524974b9ee44c05a3f720b90ea2f8b",
 						"snaks": {
 							"P143": [
 								{
@@ -28299,7 +27707,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "d51b9855e92b981c8f6bd361ce722a7b268e3b85",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -28314,7 +27721,6 @@
 					],
 					"P580": [
 						{
-							"hash": "414edb8986ef29414fc7ab1c358e29a672162d0d",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -28340,7 +27746,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "dddb0ec5d0d8ac2f488b961cd1a382e79f73dea0",
 						"snaks": {
 							"P143": [
 								{
@@ -28405,7 +27810,6 @@
 						]
 					},
 					{
-						"hash": "350a62a38da96afa970cfa4f2445117bb5f90805",
 						"snaks": {
 							"P143": [
 								{
@@ -28500,7 +27904,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "6c3d1b4433e1da04dd4f67801d9a5630018d9403",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -28515,7 +27918,6 @@
 					],
 					"P580": [
 						{
-							"hash": "f7c7fa1a3b8a3dab6d32f935892f9d2c97f58339",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -28541,7 +27943,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "8cc8321648b26e505f313575f25cd48698044a6f",
 						"snaks": {
 							"P143": [
 								{
@@ -28606,7 +28007,6 @@
 						]
 					},
 					{
-						"hash": "19689ba02796865bcf5a4b47fdc35cd0f1a68404",
 						"snaks": {
 							"P143": [
 								{
@@ -28689,7 +28089,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "681fd084504bee75578d0baea540292321124c7d",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -28704,7 +28103,6 @@
 					],
 					"P580": [
 						{
-							"hash": "fb98b830d306a82951d2f2f5c76897729c292b8c",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -28730,7 +28128,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "9a58e167bf1d64e60a2f1f6535fd2e8ba62ee828",
 						"snaks": {
 							"P143": [
 								{
@@ -28795,7 +28192,6 @@
 						]
 					},
 					{
-						"hash": "4c1539c1561cc03d6dde993286f896964df384fc",
 						"snaks": {
 							"P143": [
 								{
@@ -28866,7 +28262,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "f5eab964a45c61784598553b59ee3b02cf3d1c3f",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -28881,7 +28276,6 @@
 					],
 					"P580": [
 						{
-							"hash": "f6c5fb85738213971c676d1d317f342e1d64f7b0",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -28907,7 +28301,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "a87dc76759209e4e0632a044f8163eb236b69cb4",
 						"snaks": {
 							"P143": [
 								{
@@ -28972,7 +28365,6 @@
 						]
 					},
 					{
-						"hash": "a39563c9a2f6c8bbbf6339d51b4d46fa6ddafd20",
 						"snaks": {
 							"P143": [
 								{
@@ -29043,7 +28435,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "ffeca550cac0feede24a033c66b76dc7ef3ad1fb",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -29062,7 +28453,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "71f0d3474e6d20720a27c07c16458fb7436c5d04",
 						"snaks": {
 							"P143": [
 								{
@@ -29127,7 +28517,6 @@
 						]
 					},
 					{
-						"hash": "2de32beafe663f388001278cd419fb02ebca02ac",
 						"snaks": {
 							"P143": [
 								{
@@ -29198,7 +28587,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "a402b4b8654433175ede8cf371d41d88f3fb9383",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -29213,7 +28601,6 @@
 					],
 					"P580": [
 						{
-							"hash": "afc4165c8b328df86ad794103ce66fe722e829d4",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -29239,7 +28626,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "e9347eb790e54353e0b0c131f74c79604c0a2fd1",
 						"snaks": {
 							"P143": [
 								{
@@ -29292,7 +28678,6 @@
 						]
 					},
 					{
-						"hash": "021a80663beddcc9cafff246a3c09ac332680c1b",
 						"snaks": {
 							"P143": [
 								{
@@ -29357,7 +28742,6 @@
 						]
 					},
 					{
-						"hash": "41304ba7db6da61fced0909a0951fc39c4bdad36",
 						"snaks": {
 							"P143": [
 								{
@@ -29440,7 +28824,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "6a5093beb84e6972ada006cad632d80bfbb14aed",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -29455,7 +28838,6 @@
 					],
 					"P580": [
 						{
-							"hash": "dc1078c4b8d2a77eee310c29dc658658eb85fea0",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -29481,7 +28863,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "d393c902f4a20f4bb5c143191d573ed832770dc7",
 						"snaks": {
 							"P143": [
 								{
@@ -29546,7 +28927,6 @@
 						]
 					},
 					{
-						"hash": "8e0a97bfe01b3289845c872ff56873e36b133dc9",
 						"snaks": {
 							"P143": [
 								{
@@ -29629,7 +29009,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "a2dbdeb796a5f48b4fb6f0931b37ac87c37dc8d1",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -29648,7 +29027,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "251da58fd290cbc415fe311e1e58e81cf699adb9",
 						"snaks": {
 							"P143": [
 								{
@@ -29713,7 +29091,6 @@
 						]
 					},
 					{
-						"hash": "d19e6613363a03fc3d5c41fdab93204352007ebc",
 						"snaks": {
 							"P143": [
 								{
@@ -29796,7 +29173,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "d2483343daecf232c579d4d11b054f8a41876609",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -29815,7 +29191,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "d7e87cefd66c4359a4e2df559bcc009b7bb754e7",
 						"snaks": {
 							"P143": [
 								{
@@ -29880,7 +29255,6 @@
 						]
 					},
 					{
-						"hash": "c91d5c5ab49159fa54470a686eada0dc62f60632",
 						"snaks": {
 							"P143": [
 								{
@@ -29951,7 +29325,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "f166be4f5a36d7672adf373eea82021df00cdf9a",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -29966,7 +29339,6 @@
 					],
 					"P580": [
 						{
-							"hash": "a1e4e9b74eaf3545a0c8ee3693665beafa999804",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -29992,7 +29364,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "596eb35375a634f0b9dc4c17f7c015084a38bc0c",
 						"snaks": {
 							"P143": [
 								{
@@ -30057,7 +29428,6 @@
 						]
 					},
 					{
-						"hash": "6c97c9375c0c1679173adffb822a45d59e162fc4",
 						"snaks": {
 							"P143": [
 								{
@@ -30140,7 +29510,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "a0a798158aa245ddfa760d2ac2db953cf39c8105",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -30155,7 +29524,6 @@
 					],
 					"P580": [
 						{
-							"hash": "19cfa759ffbb38360add737069cd75711a5340b9",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -30181,7 +29549,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "b98c350ae3cf298f3d419a4f35ec5b1cffb531da",
 						"snaks": {
 							"P143": [
 								{
@@ -30246,7 +29613,6 @@
 						]
 					},
 					{
-						"hash": "d6da636f401b9064afbe8803a71bbf933a025d50",
 						"snaks": {
 							"P143": [
 								{
@@ -30329,7 +29695,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "14a854673845c9642803fccf47e693accd62dabc",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -30348,7 +29713,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "a87b1a28a4b4d50cfcce3deafeacb3627750d151",
 						"snaks": {
 							"P143": [
 								{
@@ -30431,7 +29795,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "b5ef6e8793665907ec468fc3575ae1dc0cb4c47f",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -30450,7 +29813,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "ad4ce2b9e41a489704dc4661ffaeb14f633803dd",
 						"snaks": {
 							"P143": [
 								{
@@ -30533,7 +29895,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "2195f3af6504d113e3f8bcf5903ec2ad9735e814",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -30552,7 +29913,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "50f0e7e89ef745a6c9c2978e0335af9ec7545b76",
 						"snaks": {
 							"P143": [
 								{
@@ -30617,7 +29977,6 @@
 						]
 					},
 					{
-						"hash": "8ddbd9d0d5b6263d340f85d1b03b964b19090d75",
 						"snaks": {
 							"P143": [
 								{
@@ -30700,7 +30059,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "b2f577713546325c4657255b79f39ec6d1949b54",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -30715,7 +30073,6 @@
 					],
 					"P580": [
 						{
-							"hash": "8751aa1bdb4285fded655cf8599d44ea64c5323e",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -30741,7 +30098,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "9ff56d0dc7b5df4ff08fdf84cab7f0b1c099765b",
 						"snaks": {
 							"P143": [
 								{
@@ -30806,7 +30162,6 @@
 						]
 					},
 					{
-						"hash": "9967d9d0dc8fd9f6598612f4fb722974a2a29f6c",
 						"snaks": {
 							"P143": [
 								{
@@ -30889,7 +30244,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "199fe997d295540bdfe308c2bdc85c86c959cb84",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -30908,7 +30262,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "5e652c576dd7aab439c3687272ac4d5ae6febceb",
 						"snaks": {
 							"P143": [
 								{
@@ -30973,7 +30326,6 @@
 						]
 					},
 					{
-						"hash": "7d87e35669e175593c6e4698ab47cf531d11e164",
 						"snaks": {
 							"P143": [
 								{
@@ -31056,7 +30408,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "0ccb48985b152f7846c628f34b0bf3f0f708ee78",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -31075,7 +30426,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "0bfb7aa1862fbe72db0c4ede869d04cd2ffc85b7",
 						"snaks": {
 							"P143": [
 								{
@@ -31140,7 +30490,6 @@
 						]
 					},
 					{
-						"hash": "8bbd9ed602312f3ad2604369dedf53cb0fc82372",
 						"snaks": {
 							"P143": [
 								{
@@ -31223,7 +30572,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "e44e18519512a2c5885bbc18d883f81fcdb7de1d",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -31242,7 +30590,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "69afce1b0dd1a0b3d9d79ccb7861f9991075754a",
 						"snaks": {
 							"P143": [
 								{
@@ -31307,7 +30654,6 @@
 						]
 					},
 					{
-						"hash": "1bea1e705c21c9a9dfad26acbd9f332d31ad6bc1",
 						"snaks": {
 							"P143": [
 								{
@@ -31378,7 +30724,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "54e12c92213a22c6a03db940f996ac1c976dad7f",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -31393,7 +30738,6 @@
 					],
 					"P580": [
 						{
-							"hash": "c4f3eb6930d89684ac9c771ef7bc5006b5808039",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -31419,7 +30763,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "3edb7f2898560b4e6e03eb86c041b7a07e8e22aa",
 						"snaks": {
 							"P143": [
 								{
@@ -31484,7 +30827,6 @@
 						]
 					},
 					{
-						"hash": "15bcefb0f53469aac82fb6b80c2b2596ff5e1312",
 						"snaks": {
 							"P143": [
 								{
@@ -31555,7 +30897,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "426f62ba7ac2d2a0912d0c8f0028c42a1f6baa24",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -31574,7 +30915,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "961a18c747cc09f524986fb5e7ba339e33b84e2a",
 						"snaks": {
 							"P143": [
 								{
@@ -31639,7 +30979,6 @@
 						]
 					},
 					{
-						"hash": "f747317d72ce32ad916c0695693939d731f899ee",
 						"snaks": {
 							"P143": [
 								{
@@ -31722,7 +31061,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "c35f64c2545ed6e5a7c73baf3ec9cc356d593a0b",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -31737,7 +31075,6 @@
 					],
 					"P580": [
 						{
-							"hash": "4ee353fb840df8bfe0eadd7e2ea381cef5104c00",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -31763,7 +31100,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "1ff2c7e27ad85176083c7265d9645375f339f282",
 						"snaks": {
 							"P143": [
 								{
@@ -31828,7 +31164,6 @@
 						]
 					},
 					{
-						"hash": "fbb7b3f7c3d8a126abb6834a7308ec9317892336",
 						"snaks": {
 							"P143": [
 								{
@@ -31911,7 +31246,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "b422fcba3534c6020cdfa642434453213e0c392f",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -31926,7 +31260,6 @@
 					],
 					"P580": [
 						{
-							"hash": "f6c5fb85738213971c676d1d317f342e1d64f7b0",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -31952,7 +31285,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "3229aad7e76b0c423008c07e37268ce7e8484529",
 						"snaks": {
 							"P143": [
 								{
@@ -32017,7 +31349,6 @@
 						]
 					},
 					{
-						"hash": "ffc903b38fb3d0ed7506792f3d8c0c6597aa4c78",
 						"snaks": {
 							"P143": [
 								{
@@ -32100,7 +31431,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "a918eb9a484a2d5b1a1d3ca775878e595e96c0de",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -32115,7 +31445,6 @@
 					],
 					"P580": [
 						{
-							"hash": "a0c1a2ee7cd97c998fa300f9b2345e210f250c5f",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -32141,7 +31470,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "a15b2c2f59c185662386cbd19e39c5878485fdea",
 						"snaks": {
 							"P143": [
 								{
@@ -32206,7 +31534,6 @@
 						]
 					},
 					{
-						"hash": "c108f8b8376387f42dfc55bd0f80b77fe9d2936d",
 						"snaks": {
 							"P143": [
 								{
@@ -32289,7 +31616,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "f54a7f916cac51e556ac17537263aaf108e140fa",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -32308,7 +31634,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "f3ff680b09adc9d7b9573e608f1db88d6bcb0461",
 						"snaks": {
 							"P143": [
 								{
@@ -32373,7 +31698,6 @@
 						]
 					},
 					{
-						"hash": "c999a8b1a024a0ebcf9313dad69861da6f77bb25",
 						"snaks": {
 							"P143": [
 								{
@@ -32456,7 +31780,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "d5ec00e11645da5d20f4c5192aba2c5bc4fb5417",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -32471,7 +31794,6 @@
 					],
 					"P580": [
 						{
-							"hash": "01fe00b9aaf418d05df88bb43bd41e502edb52cb",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -32497,7 +31819,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "e2a6d6d70076f9c5aa33d4aa46b71b028346436a",
 						"snaks": {
 							"P143": [
 								{
@@ -32562,7 +31883,6 @@
 						]
 					},
 					{
-						"hash": "8fe20800ff571593f4e701d3a0f99490a6aa94d4",
 						"snaks": {
 							"P143": [
 								{
@@ -32645,7 +31965,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "1c324532f89ca928c80871d92a1d8095b9e63060",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -32660,7 +31979,6 @@
 					],
 					"P580": [
 						{
-							"hash": "f6c5fb85738213971c676d1d317f342e1d64f7b0",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -32686,7 +32004,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "e0c31f916dbf1040efca4aa1f016c2c8a29a10f8",
 						"snaks": {
 							"P143": [
 								{
@@ -32751,7 +32068,6 @@
 						]
 					},
 					{
-						"hash": "e5d95b7d167f2d4a0b6cbd287454d44e90f8f110",
 						"snaks": {
 							"P143": [
 								{
@@ -32822,7 +32138,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "ad94c73569d57792986d460c7061e4aa2b2499e1",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -32841,7 +32156,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "51b9f186293abd2e0bc3f6b0701c6ea6bad3a9bb",
 						"snaks": {
 							"P143": [
 								{
@@ -32906,7 +32220,6 @@
 						]
 					},
 					{
-						"hash": "e1d22e9a6761acae0bcc1f2c5d52e27979890309",
 						"snaks": {
 							"P143": [
 								{
@@ -32977,7 +32290,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "8459bb0f71eb36ddb517a9572bb9e70a6062f2bb",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -32992,7 +32304,6 @@
 					],
 					"P580": [
 						{
-							"hash": "004bdc883de07ebb9fc57d9656366b0fd15cb9d6",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -33018,7 +32329,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "f1ed921c1b2aed3c96adb5c4db14b3cb34fcf491",
 						"snaks": {
 							"P143": [
 								{
@@ -33083,7 +32393,6 @@
 						]
 					},
 					{
-						"hash": "76a3fb5ecbe329e9b00ca28abe22d1470c1ea0ed",
 						"snaks": {
 							"P143": [
 								{
@@ -33166,7 +32475,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "f5f7d9b7a11a22371fc1ca876ad222af688e4bef",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -33185,7 +32493,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "4423b9a80c0a8cb7249e37bae315554e526a6917",
 						"snaks": {
 							"P143": [
 								{
@@ -33250,7 +32557,6 @@
 						]
 					},
 					{
-						"hash": "a228bd934b73d6e73d71ad047d661ef53a7c9b45",
 						"snaks": {
 							"P143": [
 								{
@@ -33321,7 +32627,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "32c5c111dd6b11c4530f1d2b724b963288d82694",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -33340,7 +32645,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "ceb3cbe890ccf7f8af9d38a306cbc42b546d0b21",
 						"snaks": {
 							"P143": [
 								{
@@ -33405,7 +32709,6 @@
 						]
 					},
 					{
-						"hash": "9a08ebd8616c1ff46eaf1a7808d6a13cd8da9fea",
 						"snaks": {
 							"P143": [
 								{
@@ -33488,7 +32791,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "c0df9817ac11469679cd1416372ec5c8a6247f74",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -33503,7 +32805,6 @@
 					],
 					"P580": [
 						{
-							"hash": "8751aa1bdb4285fded655cf8599d44ea64c5323e",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -33529,7 +32830,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "f9cb2d2e4759ca12e0d3e166a949d6c77fbc3eff",
 						"snaks": {
 							"P143": [
 								{
@@ -33594,7 +32894,6 @@
 						]
 					},
 					{
-						"hash": "9310c1cb6354af8e62dadb953a4309f32103d429",
 						"snaks": {
 							"P143": [
 								{
@@ -33677,7 +32976,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "f8c08438e99fb1adbc1cafeb4e5b57c3098a58e2",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -33692,7 +32990,6 @@
 					],
 					"P580": [
 						{
-							"hash": "b041da77a7e4e30fdd8564b24c1f28c5f03b9674",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -33718,7 +33015,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "3b31274b0e0eae8f037a87cac2700e84da10d066",
 						"snaks": {
 							"P143": [
 								{
@@ -33783,7 +33079,6 @@
 						]
 					},
 					{
-						"hash": "984cf056a853478def39022872f7f728c1cc5286",
 						"snaks": {
 							"P143": [
 								{
@@ -33866,7 +33161,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "f194b9be2c8d079a525b535393c59e48a8e7b0f1",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -33885,7 +33179,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "f9116b7262645ed7f7a73ca48c078b47f5a80418",
 						"snaks": {
 							"P143": [
 								{
@@ -33950,7 +33243,6 @@
 						]
 					},
 					{
-						"hash": "2c02da2185fe8c3ce8a7ad0bc17d0d4f17c75cdb",
 						"snaks": {
 							"P143": [
 								{
@@ -34033,7 +33325,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "133426da299c268c0b8c6d05b8b38ab69ca061e8",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -34048,7 +33339,6 @@
 					],
 					"P580": [
 						{
-							"hash": "4136d9b6df96726ce23d7026cfedfa875f624fc1",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -34074,7 +33364,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "6b6ea394d13176e2c75a0d4860b5239c8dcbe5b6",
 						"snaks": {
 							"P143": [
 								{
@@ -34139,7 +33428,6 @@
 						]
 					},
 					{
-						"hash": "5cd947a653c12329dccacc1e677c5862b0ac56f5",
 						"snaks": {
 							"P143": [
 								{
@@ -34222,7 +33510,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "ca0ee3b4678629f2837c4a83db9f5e056fbd599b",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -34241,7 +33528,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "2ca8d90af1387398e2cc9f3af77e51bd97f2e019",
 						"snaks": {
 							"P143": [
 								{
@@ -34324,7 +33610,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "b9076f5e3cd58c901a820f643358a0bc1045e3ae",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -34339,7 +33624,6 @@
 					],
 					"P580": [
 						{
-							"hash": "e99dad8295265b182fe4bdc410d66fe57edaff39",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -34365,7 +33649,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "634f72d086cdc0a69a73c32f0243e0c8e6eabf7b",
 						"snaks": {
 							"P143": [
 								{
@@ -34430,7 +33713,6 @@
 						]
 					},
 					{
-						"hash": "54e847faba0b9a30afbad608164be68b2ada1f78",
 						"snaks": {
 							"P143": [
 								{
@@ -34513,7 +33795,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "aafd527a21bd30956520301ca864022c6e4cb28c",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -34528,7 +33809,6 @@
 					],
 					"P580": [
 						{
-							"hash": "ba3154c54871b0e15c676cd1b8d78f5409297c4f",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -34554,7 +33834,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "2bc0cd4d9034e1a2f712bbe3fc03466ce3f44d47",
 						"snaks": {
 							"P143": [
 								{
@@ -34619,7 +33898,6 @@
 						]
 					},
 					{
-						"hash": "cb6aae338adc94e477e2f15d5efe1a9651daf726",
 						"snaks": {
 							"P143": [
 								{
@@ -34702,7 +33980,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "4759c274787fe2c95bd496c51a76177bd5673747",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -34721,7 +33998,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "505b5d296b54fd4a52d3e3dd55ba603b05963daf",
 						"snaks": {
 							"P143": [
 								{
@@ -34786,7 +34062,6 @@
 						]
 					},
 					{
-						"hash": "0d874a261aa430c4572492527db1e4d0ec4d2bd0",
 						"snaks": {
 							"P143": [
 								{
@@ -34869,7 +34144,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "eb31aa8e1775ca804282878843b6dcd53105f403",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -34888,7 +34162,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "94d97e263b4e01f4a3338d2c1a45da51298a448c",
 						"snaks": {
 							"P143": [
 								{
@@ -34953,7 +34226,6 @@
 						]
 					},
 					{
-						"hash": "3b9ee4ff8d282f07dc17b295b0433d0af033ca62",
 						"snaks": {
 							"P143": [
 								{
@@ -35018,7 +34290,6 @@
 						]
 					},
 					{
-						"hash": "9d56d62553afd5621c3a95bb238ec8a224e641d8",
 						"snaks": {
 							"P143": [
 								{
@@ -35101,7 +34372,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "33fd18a6f4adecd0f252b17593e6ee1183a13718",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -35120,7 +34390,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "be6c3086655a20af4855ac821ee1dad69bb8ae35",
 						"snaks": {
 							"P143": [
 								{
@@ -35185,7 +34454,6 @@
 						]
 					},
 					{
-						"hash": "5bcfbe7b7181d8c94c5d42fde7e7978acbeaf303",
 						"snaks": {
 							"P143": [
 								{
@@ -35250,7 +34518,6 @@
 						]
 					},
 					{
-						"hash": "ac2c8e73d99f116df1c8d974d9200e6f18f72fe8",
 						"snaks": {
 							"P143": [
 								{
@@ -35333,7 +34600,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "6462b3852903015d7be3ed22c05623e83c22fdba",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -35348,7 +34614,6 @@
 					],
 					"P580": [
 						{
-							"hash": "ef909318eb079c1842f01247712d7b245a0089d2",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -35374,7 +34639,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "ace0462b79a2ee1280dc6bb166b313aa2bc11b93",
 						"snaks": {
 							"P143": [
 								{
@@ -35439,7 +34703,6 @@
 						]
 					},
 					{
-						"hash": "00c7676ca244ef6c2d00e34b1f36da0688cec3cc",
 						"snaks": {
 							"P143": [
 								{
@@ -35504,7 +34767,6 @@
 						]
 					},
 					{
-						"hash": "bc42d53ec6d7315710305f87576ab71a55eb5b19",
 						"snaks": {
 							"P143": [
 								{
@@ -35587,7 +34849,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "2144f7d9df799c59d270836472b12710511881fb",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -35602,7 +34863,6 @@
 					],
 					"P580": [
 						{
-							"hash": "a5cda7fe6c449fd77c499221dcfe63163b00330f",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -35628,7 +34888,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "26ac6d2a838a7a791e504b50125e39d8784efd6a",
 						"snaks": {
 							"P143": [
 								{
@@ -35693,7 +34952,6 @@
 						]
 					},
 					{
-						"hash": "5f540fc05078dc660308b51a6758c1a2f8fe82a8",
 						"snaks": {
 							"P143": [
 								{
@@ -35776,7 +35034,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "b20af9548abc6f38507048260cb23b34aa1bbad6",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -35791,7 +35048,6 @@
 					],
 					"P580": [
 						{
-							"hash": "3bf4f5bfb318dbd8c5c0168f99e5da4cb234e270",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -35817,7 +35073,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "cf20c221aaaed6346dc9d7d0885683504a64abef",
 						"snaks": {
 							"P143": [
 								{
@@ -35882,7 +35137,6 @@
 						]
 					},
 					{
-						"hash": "397d02b2d2d3dc2aa74fb9a7431f201933eb2a3e",
 						"snaks": {
 							"P143": [
 								{
@@ -35965,7 +35219,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "5b86748f2ae75f3abd8df485a5a5213d8fc05225",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -35980,7 +35233,6 @@
 					],
 					"P580": [
 						{
-							"hash": "c6c2ff01e56919d955fa8e5dfeb4d587fe6fc6e2",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -36006,7 +35258,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "ca9973efe7f0a514c2e33f0a5af0883d3078b9cf",
 						"snaks": {
 							"P143": [
 								{
@@ -36071,7 +35322,6 @@
 						]
 					},
 					{
-						"hash": "706ddb75841f57f705091143ff7780096d1578da",
 						"snaks": {
 							"P143": [
 								{
@@ -36154,7 +35404,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "f5e930aaf5b686a850734b5d92049652182c5fb7",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -36173,7 +35422,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "9bdb57c70ed2884a03430f66b79c5a86085ee285",
 						"snaks": {
 							"P143": [
 								{
@@ -36238,7 +35486,6 @@
 						]
 					},
 					{
-						"hash": "762b2e5d60760664bcf0bc3bbab3f0f1a9514211",
 						"snaks": {
 							"P143": [
 								{
@@ -36321,7 +35568,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "ea652cf1ba6742984ef4c39db71e77094dacee58",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -36340,7 +35586,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "7c0abc3ae14450c73389128edc355eab30df2fb7",
 						"snaks": {
 							"P143": [
 								{
@@ -36405,7 +35650,6 @@
 						]
 					},
 					{
-						"hash": "f1054ab678048346f1525fafb33b093b0ab6c4b1",
 						"snaks": {
 							"P143": [
 								{
@@ -36488,7 +35732,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "da0bd1595e36c746a8ac358d412c8f78f90d82c5",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -36507,7 +35750,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "7537fe592859bfbcfec0ed6ecbdd36073cc4e5d6",
 						"snaks": {
 							"P143": [
 								{
@@ -36572,7 +35814,6 @@
 						]
 					},
 					{
-						"hash": "b1cd16c960648641cd0d6c99118c3a51e9acccaa",
 						"snaks": {
 							"P143": [
 								{
@@ -36655,7 +35896,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "a58b7900ed6b91c038304c4dab0ba51af61be795",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -36670,7 +35910,6 @@
 					],
 					"P580": [
 						{
-							"hash": "3bc66ceb96ce251277f759bdbb6954c79d5c7783",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -36696,7 +35935,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "d10d22d22366dc05a3beda600446144d8e37e5c0",
 						"snaks": {
 							"P143": [
 								{
@@ -36761,7 +35999,6 @@
 						]
 					},
 					{
-						"hash": "e194c85cb3e2db2ef373d6bb3a91a745d268d7ae",
 						"snaks": {
 							"P143": [
 								{
@@ -36826,7 +36063,6 @@
 						]
 					},
 					{
-						"hash": "00bccece38b8bcea50f5c45d257241db54758b95",
 						"snaks": {
 							"P143": [
 								{
@@ -36909,7 +36145,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "f09ec1488ce93dbd845c58e19b30520485e454ce",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -36928,7 +36163,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "e7c530c3958ab23d913aa67f5f9212f99fb5f20a",
 						"snaks": {
 							"P143": [
 								{
@@ -36993,7 +36227,6 @@
 						]
 					},
 					{
-						"hash": "ebd9d29cecf28d9d06b4280762984a5448d7d309",
 						"snaks": {
 							"P143": [
 								{
@@ -37064,7 +36297,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "5f81ac0caf7f9e0a0b72d4fa9d332b300fd48b6a",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -37079,7 +36311,6 @@
 					],
 					"P580": [
 						{
-							"hash": "44091599e70399d5cf1776752940da85f00ba42e",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -37105,7 +36336,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "69cd72b7c05ce8b14a1f5ac353560f496485431a",
 						"snaks": {
 							"P143": [
 								{
@@ -37170,7 +36400,6 @@
 						]
 					},
 					{
-						"hash": "83d6a8c11e24e60aa1479b54f3c99ebea58e70ce",
 						"snaks": {
 							"P143": [
 								{
@@ -37253,7 +36482,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "da109a34e7ab5118a5da86bc160fa5b5cd8e9458",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -37272,7 +36500,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "5fa4f0146a24f37ecc4b334fc6781fea1f4f64d4",
 						"snaks": {
 							"P143": [
 								{
@@ -37337,7 +36564,6 @@
 						]
 					},
 					{
-						"hash": "a832a6025efe9f5c6a2e3296fd315c7cf508e8df",
 						"snaks": {
 							"P143": [
 								{
@@ -37420,7 +36646,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "28798f3a04ba1d15fb2aabd6788fc8832f0dfbbb",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -37439,7 +36664,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "b7937a0de21f2bc06af2da8ca376bc85f26e644e",
 						"snaks": {
 							"P143": [
 								{
@@ -37504,7 +36728,6 @@
 						]
 					},
 					{
-						"hash": "9c0e27483f5d66c20913f2afedde8f1ddb1f8ad2",
 						"snaks": {
 							"P143": [
 								{
@@ -37587,7 +36810,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "ff16421ef180f5c6979a91642de1a519cad3c831",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -37606,7 +36828,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "dcd06c0e18c07466d3fd0513f38a92101e29a383",
 						"snaks": {
 							"P143": [
 								{
@@ -37671,7 +36892,6 @@
 						]
 					},
 					{
-						"hash": "2e850de0827eb928bb8918373e38d767b0fa53a6",
 						"snaks": {
 							"P143": [
 								{
@@ -37754,7 +36974,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "49b011316e2eeb9f6414df5b78ff24329b8b7fc4",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -37773,7 +36992,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "a411ab1c08783828ee1a1ce70d04f0b9a7172b5d",
 						"snaks": {
 							"P143": [
 								{
@@ -37838,7 +37056,6 @@
 						]
 					},
 					{
-						"hash": "3967ae20f9bde7889c4bbf2c5917c1d4385e96e7",
 						"snaks": {
 							"P143": [
 								{
@@ -37921,7 +37138,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "0df4188dcb64d44e672d46bb990fd6916e12c678",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -37940,7 +37156,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "54c3a8255bade0420c07b22817804008683c448c",
 						"snaks": {
 							"P143": [
 								{
@@ -38005,7 +37220,6 @@
 						]
 					},
 					{
-						"hash": "8f11c4fed3a433b18560750cb5c277072b390f56",
 						"snaks": {
 							"P143": [
 								{
@@ -38088,7 +37302,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "0f904cfe802ccf8a3f8399883ac26ca7821e8f67",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -38107,7 +37320,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "7f3a62bbb7501530dc34d6388ebf855f7f779424",
 						"snaks": {
 							"P143": [
 								{
@@ -38172,7 +37384,6 @@
 						]
 					},
 					{
-						"hash": "5191237181819fa71e69284544a746eba6da008a",
 						"snaks": {
 							"P143": [
 								{
@@ -38255,7 +37466,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "f54dfed043b49cfa87612db9225e5c74eb294b96",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -38270,7 +37480,6 @@
 					],
 					"P580": [
 						{
-							"hash": "8540b99ad89c011c89099dcb1d55c194f62c91c8",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -38296,7 +37505,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "ce33e786574255349a3196c554a1d58fe42ac4e6",
 						"snaks": {
 							"P143": [
 								{
@@ -38361,7 +37569,6 @@
 						]
 					},
 					{
-						"hash": "31116c26c4b6d02f0b7a518851de3fab6a1595bf",
 						"snaks": {
 							"P143": [
 								{
@@ -38432,7 +37639,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "1826c9c42b76a394b34ea8e2938223863099a8d6",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -38451,7 +37657,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "449515f5005ee625d3a8a80c14faaafdaea12277",
 						"snaks": {
 							"P143": [
 								{
@@ -38516,7 +37721,6 @@
 						]
 					},
 					{
-						"hash": "eab58d828c9fba8ace1d96756c701b070414089f",
 						"snaks": {
 							"P143": [
 								{
@@ -38587,7 +37791,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "9c66c353b13ee791239af8858dec94776a0f8253",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -38602,7 +37805,6 @@
 					],
 					"P580": [
 						{
-							"hash": "17319390ebbbc53e90d86aabf943caa4d51d8314",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -38619,7 +37821,6 @@
 							}
 						},
 						{
-							"hash": "d8749619e0fbcde74bdd31ec9f9832e07c22f031",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -38645,7 +37846,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "206714c3f0c8b87dde06e962cfeb8f65d167f329",
 						"snaks": {
 							"P143": [
 								{
@@ -38710,7 +37910,6 @@
 						]
 					},
 					{
-						"hash": "be671334660c941a405c250529405dbae3f31e15",
 						"snaks": {
 							"P143": [
 								{
@@ -38775,7 +37974,6 @@
 						]
 					},
 					{
-						"hash": "f2654e9edab58da389da372266dc0f60afbffde1",
 						"snaks": {
 							"P143": [
 								{
@@ -38858,7 +38056,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "30b7ccd48995c31fd1ec8ff66d41f1867c4f0d4f",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -38877,7 +38074,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "758e97da36e85887ccdb5c089bf48f2134c2e337",
 						"snaks": {
 							"P143": [
 								{
@@ -38942,7 +38138,6 @@
 						]
 					},
 					{
-						"hash": "70e2ddb27807aa72c4ba46c608d12ceb9268d5fb",
 						"snaks": {
 							"P143": [
 								{
@@ -39025,7 +38220,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "8a2a5571ab5ded87db241aaf48e1c748f0fb9313",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -39040,7 +38234,6 @@
 					],
 					"P580": [
 						{
-							"hash": "e9bea5cad6382ba4ce56c29fd3a35647430cb894",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -39059,7 +38252,6 @@
 					],
 					"P582": [
 						{
-							"hash": "19df9fe647df78d19c5a45656472907ca25a33ec",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -39086,7 +38278,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "6f71a09484a8c1b5009eacbf4dfb45e6d13ee755",
 						"snaks": {
 							"P143": [
 								{
@@ -39151,7 +38342,6 @@
 						]
 					},
 					{
-						"hash": "f671b4ec448dbfa21b927379b993ae95e21e594a",
 						"snaks": {
 							"P143": [
 								{
@@ -39234,7 +38424,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "4bcaf973c28f49ab6e741169b134190009c5f701",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -39249,7 +38438,6 @@
 					],
 					"P580": [
 						{
-							"hash": "ad2e6a39486aaa674c063ac0617aef90c472f3f9",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -39275,7 +38463,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "400b0f2b62dce08fb07ded49cacf3c536c127159",
 						"snaks": {
 							"P143": [
 								{
@@ -39340,7 +38527,6 @@
 						]
 					},
 					{
-						"hash": "05c4b2d1c49f74346d33b5e08b0896c277da3de1",
 						"snaks": {
 							"P143": [
 								{
@@ -39405,7 +38591,6 @@
 						]
 					},
 					{
-						"hash": "78cf1c6aeff4e56434355da60fcb17b168dd81d2",
 						"snaks": {
 							"P143": [
 								{
@@ -39488,7 +38673,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "cd1d80caeb54eebe19ae0b92c83dc0c0b6753425",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -39503,7 +38687,6 @@
 					],
 					"P580": [
 						{
-							"hash": "989dcb1e494fbe44bb27d1377f31cf91b34a524c",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -39529,7 +38712,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "40a6702161725848f42d414856a5369ca87d05c7",
 						"snaks": {
 							"P143": [
 								{
@@ -39594,7 +38776,6 @@
 						]
 					},
 					{
-						"hash": "a1f01dbad776cbc1067cb3c6ea7b19b980a83d2a",
 						"snaks": {
 							"P143": [
 								{
@@ -39665,7 +38846,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "673192ee568f2962a2cd0e48021d06a708213f8e",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -39680,7 +38860,6 @@
 					],
 					"P580": [
 						{
-							"hash": "a531f078fc2115474cd4d876d37717e5f210b33e",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -39706,7 +38885,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "2ea7663f044f3e65bb49d003dcad4cd33a49f60f",
 						"snaks": {
 							"P143": [
 								{
@@ -39771,7 +38949,6 @@
 						]
 					},
 					{
-						"hash": "9b80d63b6923d2cc43215051f3b9b3ecdb17fe6d",
 						"snaks": {
 							"P143": [
 								{
@@ -39836,7 +39013,6 @@
 						]
 					},
 					{
-						"hash": "769c69e448c0dc0376d7f6fb7cac9f65f271726b",
 						"snaks": {
 							"P143": [
 								{
@@ -39919,7 +39095,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "c4ebff6b23713b8f806d94f2bd6a226624fbb6e6",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -39934,7 +39109,6 @@
 					],
 					"P580": [
 						{
-							"hash": "191f65d0287abb7f4f1ab88b6381ff110326b5d5",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -39960,7 +39134,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "60f329df1b2b336802db5a746d2faef3d66f711a",
 						"snaks": {
 							"P143": [
 								{
@@ -40025,7 +39198,6 @@
 						]
 					},
 					{
-						"hash": "d4194236a1a6d5542333ac1d1ffc203a5c080616",
 						"snaks": {
 							"P143": [
 								{
@@ -40090,7 +39262,6 @@
 						]
 					},
 					{
-						"hash": "d90e0c58f91c04369523ae4863831e0c4c7942e3",
 						"snaks": {
 							"P143": [
 								{
@@ -40173,7 +39344,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "6fac92d9083d04952c08c573a6c46d298cd3de40",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -40192,7 +39362,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "6e7bc94ab1308e1baf0afe60e20e74ca80f477c4",
 						"snaks": {
 							"P143": [
 								{
@@ -40257,7 +39426,6 @@
 						]
 					},
 					{
-						"hash": "5dfed75eb7ecdbe092ba38b56771ebf8266eedbc",
 						"snaks": {
 							"P143": [
 								{
@@ -40340,7 +39508,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "807d6734887cac2ea1c877a1535766070164122f",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -40355,7 +39522,6 @@
 					],
 					"P580": [
 						{
-							"hash": "95fb3d52db29ec34e784bd11644d01231e4775df",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -40381,7 +39547,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "6e34e942e833ce4c3296d1b1625bdc4ab1abcec7",
 						"snaks": {
 							"P143": [
 								{
@@ -40446,7 +39611,6 @@
 						]
 					},
 					{
-						"hash": "686391b776aaeb880cd41234405376c18d638645",
 						"snaks": {
 							"P143": [
 								{
@@ -40511,7 +39675,6 @@
 						]
 					},
 					{
-						"hash": "a447889fce52d9c3e7c6362b68309aa5190968a1",
 						"snaks": {
 							"P143": [
 								{
@@ -40594,7 +39757,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "5b19dfac975689c5cfbc007d6d4f7de520f91da8",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -40609,7 +39771,6 @@
 					],
 					"P580": [
 						{
-							"hash": "c3455e60be11c26d55393f90314fa2dfa81d1ac6",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -40635,7 +39796,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "4d7470ebc82160425611e8df660f4d869261181c",
 						"snaks": {
 							"P143": [
 								{
@@ -40700,7 +39860,6 @@
 						]
 					},
 					{
-						"hash": "7ca64e1d48a27c3c5a3531e4eb97ce20a97196c5",
 						"snaks": {
 							"P143": [
 								{
@@ -40765,7 +39924,6 @@
 						]
 					},
 					{
-						"hash": "dfd78da54d6e7d55f46dcdaee730e1a773149318",
 						"snaks": {
 							"P143": [
 								{
@@ -40848,7 +40006,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "9857d6996b602cb2e58bc98834e1a2362a8bc6e9",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -40863,7 +40020,6 @@
 					],
 					"P580": [
 						{
-							"hash": "570eb52f36f4f6775759b81e76d1b8e5a344271d",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -40889,7 +40045,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "453fa2cfd59b66f5cbd6e6bd3ce8ad0505040423",
 						"snaks": {
 							"P143": [
 								{
@@ -40954,7 +40109,6 @@
 						]
 					},
 					{
-						"hash": "b57997463ef318406ce29fe0d992bda0f9b1b4bb",
 						"snaks": {
 							"P143": [
 								{
@@ -41037,7 +40191,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "8df7f34e3b3fb94d56f7bb81cb627252d2a060d3",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -41056,7 +40209,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "31c8e4c12643e0cd642ccde93e91d40f0ed6c349",
 						"snaks": {
 							"P143": [
 								{
@@ -41121,7 +40273,6 @@
 						]
 					},
 					{
-						"hash": "89787d9d9a22238f4f76dd8ead7d7daa0452f052",
 						"snaks": {
 							"P143": [
 								{
@@ -41204,7 +40355,6 @@
 				"qualifiers": {
 					"P805": [
 						{
-							"hash": "cabfe705516006bffdf085fa1dc3fa266d665a95",
 							"snaktype": "value",
 							"property": "P805",
 							"datatype": "wikibase-item",
@@ -41223,7 +40373,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "8706ec1ff1fac9cedeb1c23b57a55200092b5e2b",
 						"snaks": {
 							"P143": [
 								{
@@ -41288,7 +40437,6 @@
 						]
 					},
 					{
-						"hash": "762dc57fdd167899d63151b2c6fb71970e86bcd9",
 						"snaks": {
 							"P143": [
 								{
@@ -41371,7 +40519,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "95ad32f6c423272bb0ad2ac0d1112f49d9700e83",
 						"snaks": {
 							"P143": [
 								{
@@ -41476,7 +40623,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "7eb64cf9621d34c54fd4bd040ed4b61a88c4a1a0",
 						"snaks": {
 							"P143": [
 								{
@@ -41496,7 +40642,6 @@
 						"snaks-order": ["P143"]
 					},
 					{
-						"hash": "faed536155d37c7ae71e4f4d672ae5f0744a8a2e",
 						"snaks": {
 							"P143": [
 								{
@@ -41542,7 +40687,6 @@
 						]
 					},
 					{
-						"hash": "34bb9f0e0de68e662bf4a06f051ccf46ba52ccb3",
 						"snaks": {
 							"P143": [
 								{
@@ -41609,7 +40753,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "50f5bcc0e840893ba19c9b60bd39a8e9250c5b5c",
 						"snaks": {
 							"P143": [
 								{
@@ -41674,7 +40817,6 @@
 						]
 					},
 					{
-						"hash": "933d911f3ab3288cec01286f54af8e71b94f4524",
 						"snaks": {
 							"P143": [
 								{
@@ -41739,7 +40881,6 @@
 						]
 					},
 					{
-						"hash": "3ab614a3bddfa451822d92b1d69446f9994bdeca",
 						"snaks": {
 							"P143": [
 								{
@@ -41826,7 +40967,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "25a88a6321b56989fa1fe1dab23cc1c4614c501e",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -41849,7 +40989,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "fe75687d8b10879ef39b65af23a26bac4b0c3ae6",
 						"snaks": {
 							"P143": [
 								{
@@ -41922,7 +41061,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "fb4ecf78a99865106371513c939ca3b1dcf824ce",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -41945,7 +41083,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "9315f56f7e2666a2ccd2a2809a9bd6ed3128d58a",
 						"snaks": {
 							"P143": [
 								{
@@ -42018,7 +41155,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "2f3f944f8fd8a89b0c2a76aba135b3ddc6098e19",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -42041,7 +41177,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "9315f56f7e2666a2ccd2a2809a9bd6ed3128d58a",
 						"snaks": {
 							"P143": [
 								{
@@ -42114,7 +41249,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "ace737e97072f36c469c372dedbc972b9b01eeae",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -42137,7 +41271,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "86d39e1ccdd14f3c08251b50a25c04765cb2c66f",
 						"snaks": {
 							"P143": [
 								{
@@ -42210,7 +41343,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "059531c2f98e24bb1a9073ba9e0f79daf37fe7c1",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -42233,7 +41365,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "2f22e96e78b5ce902595d316b4df6d43b09091f3",
 						"snaks": {
 							"P143": [
 								{
@@ -42306,7 +41437,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "002b03230db931e135f5b7ae3826cb52baf75620",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -42329,7 +41459,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "20048bd0a10759323829a2767b548c0eba186218",
 						"snaks": {
 							"P143": [
 								{
@@ -42402,7 +41531,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "3bb6e98cb37cb9419e1442deef3aedf590f8ded4",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -42425,7 +41553,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "547470a214b5ae04a6b7085e89175a05d67692c1",
 						"snaks": {
 							"P143": [
 								{
@@ -42498,7 +41625,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "c40a3db4baa83ce4df1ab5ec45c12ca310880dc9",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -42521,7 +41647,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "81bcf9848bdd59178ea2447389e285e71fa53a59",
 						"snaks": {
 							"P143": [
 								{
@@ -42594,7 +41719,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "bb220b4a55941d3e32e42eff2d8d3fc1ecde5d7c",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -42617,7 +41741,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "92b8c3e4bca86197304c393e38c3e78c04b2deea",
 						"snaks": {
 							"P143": [
 								{
@@ -42690,7 +41813,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "9d393b63c6498342243951c1a4df658b71c2fad4",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -42713,7 +41835,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "84a98896b571bb5d95e45533962db61470960349",
 						"snaks": {
 							"P143": [
 								{
@@ -42786,7 +41907,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "58dfd233d0b05386a659d5d6d83a9a02ba3cf2ea",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -42809,7 +41929,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "c5fb51de622387c6c2ce26c373cc5a86035139ec",
 						"snaks": {
 							"P143": [
 								{
@@ -42882,7 +42001,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "79f5feafd3046ca2f9cbb922be74655cb08f00c9",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -42905,7 +42023,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "cab7d504b9f14650f8855a5de6f650c0b18abc8f",
 						"snaks": {
 							"P143": [
 								{
@@ -42978,7 +42095,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "b1b02452f52bfeb77ba93f7506f13b1516306b66",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -43001,7 +42117,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "19862b7e8d4ae76c77dc4102bfb084841654b859",
 						"snaks": {
 							"P143": [
 								{
@@ -43074,7 +42189,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "483015ccef1d2c905c04c0ecedc1bb9afcea2d49",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -43097,7 +42211,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "e043c0c180f8e718e2e0f4fe664cdad41dec2570",
 						"snaks": {
 							"P143": [
 								{
@@ -43170,7 +42283,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "0866d0f255ec6809fa68e4893315adee8efaec8d",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -43193,7 +42305,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "1d557dde584b66b8e70de2b0d282978415210999",
 						"snaks": {
 							"P143": [
 								{
@@ -43266,7 +42377,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "85d389e2e6998ff2557751c3b27ad48be1d89244",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -43289,7 +42399,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "6a1785f8ee80a32a76cc002f6f5f8d97f96f2188",
 						"snaks": {
 							"P143": [
 								{
@@ -43362,7 +42471,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "b6e9694ff1d5688d9e60670e055f06ee89b9f831",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -43385,7 +42493,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "8e1b561586f96efe84a3fe7e5b4d897c5de24d46",
 						"snaks": {
 							"P143": [
 								{
@@ -43458,7 +42565,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "7062762feeca9c4036a68c0a8c2a1f5b08561e3f",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -43481,7 +42587,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "f336654b532fdb31e6bfd4a3f0ab41e9368e7a4f",
 						"snaks": {
 							"P143": [
 								{
@@ -43554,7 +42659,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "c381e326fb738e37a34ae7abba49f2be0d24e8d4",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -43577,7 +42681,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "07a7841c6b84f0ee1ce076eb65033f9de697c9fe",
 						"snaks": {
 							"P143": [
 								{
@@ -43650,7 +42753,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "54f5aba05e6e317184e047544e5a2b39d565516b",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -43673,7 +42775,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "1fafc6c2b0c2c3785a2de51d35b05eaf4bc505ac",
 						"snaks": {
 							"P143": [
 								{
@@ -43746,7 +42847,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "d8a7d41db3d60c1206634d51cf7ea2cc4b245eb4",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -43769,7 +42869,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "cd2776fb0ffe0ddff9720b3732c8568f0b7d32f7",
 						"snaks": {
 							"P143": [
 								{
@@ -43842,7 +42941,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "b250a1445754899a2a5110e5f85f5523d520bd0c",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -43865,7 +42963,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "e9eb73dcca09759af88e768b61c4eeab8b74495e",
 						"snaks": {
 							"P143": [
 								{
@@ -43938,7 +43035,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "a71f336f794c411df5e086e383e2eceb57b8ccdf",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -43961,7 +43057,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "baa448180fa7881e039d47f249b41c6731d7aa34",
 						"snaks": {
 							"P143": [
 								{
@@ -44034,7 +43129,6 @@
 				"qualifiers": {
 					"P585": [
 						{
-							"hash": "6a3d19a9c8b23a2b29e57171cc68f162bf3be781",
 							"snaktype": "value",
 							"property": "P585",
 							"datatype": "time",
@@ -44057,7 +43151,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "7983d1e74c3d529fe0f1f1fc11e73eecb345051f",
 						"snaks": {
 							"P143": [
 								{
@@ -44130,7 +43223,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "11e8070b7cd9971bab3019fb6acbbb2e222ed02c",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -44153,7 +43245,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "9ee82a4b6e3dfa05bdfe2bde3662ead13c3d5874",
 						"snaks": {
 							"P143": [
 								{
@@ -44206,7 +43297,6 @@
 						]
 					},
 					{
-						"hash": "7db397c1b55a415afc35493eeeb338d8d7f967da",
 						"snaks": {
 							"P143": [
 								{
@@ -44277,7 +43367,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "a4e015a2f825ae3a379b0571c6f7ed2350941cda",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -44296,7 +43385,6 @@
 					],
 					"P582": [
 						{
-							"hash": "bf61a7de44747575aa3ce85dd45986e17f1a94cf",
 							"snaktype": "value",
 							"property": "P582",
 							"datatype": "time",
@@ -44322,7 +43410,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "bbbc56635d1fd43708572675b0b089c9d990df71",
 						"snaks": {
 							"P143": [
 								{
@@ -44375,7 +43462,6 @@
 						]
 					},
 					{
-						"hash": "6679524a3dbc4f0b12a71d302899ca6ecda6cc16",
 						"snaks": {
 							"P143": [
 								{
@@ -44446,7 +43532,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "f572258777767df585f7f4b6b0b7f13136a3e163",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -44469,7 +43554,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "fe1ccc1e7d614d4becba0acd0f27f4b312abce4e",
 						"snaks": {
 							"P143": [
 								{
@@ -44534,7 +43618,6 @@
 						]
 					},
 					{
-						"hash": "91414652b538fb5be58bc9be01a22568d90271df",
 						"snaks": {
 							"P143": [
 								{
@@ -44617,7 +43700,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "0c6d91c8241e429b5f9a5d9cf6f80b071cd98e20",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -44656,7 +43738,6 @@
 				"qualifiers": {
 					"P580": [
 						{
-							"hash": "ad2bb5a827ec5d459f62c2bcec907a862c8a9687",
 							"snaktype": "value",
 							"property": "P580",
 							"datatype": "time",
@@ -44679,7 +43760,6 @@
 				"rank": "normal",
 				"references": [
 					{
-						"hash": "582d6ed305d84117636746061133f8eeb1cc2732",
 						"snaks": {
 							"P143": [
 								{
@@ -44744,7 +43824,6 @@
 						]
 					},
 					{
-						"hash": "0914116caaa422c83b2d43cd5d2cc9585ffbb9ca",
 						"snaks": {
 							"P143": [
 								{
