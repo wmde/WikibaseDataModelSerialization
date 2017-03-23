@@ -26,19 +26,6 @@ class DeserializerFactoryTest extends \PHPUnit_Framework_TestCase {
 		$this->assertTrue( true, 'No exception occurred during deserialization' );
 	}
 
-	public function testNewEntityDeserializer() {
-		$this->assertTrue( $this->buildDeserializerFactory()->newEntityDeserializer()->isDeserializerFor(
-			array(
-				'type' => 'item'
-			)
-		) );
-		$this->assertTrue( $this->buildDeserializerFactory()->newEntityDeserializer()->isDeserializerFor(
-			array(
-				'type' => 'property'
-			)
-		) );
-	}
-
 	public function testNewItemDeserializer() {
 		$this->assertDeserializesWithoutException(
 			$this->buildDeserializerFactory()->newItemDeserializer(),
