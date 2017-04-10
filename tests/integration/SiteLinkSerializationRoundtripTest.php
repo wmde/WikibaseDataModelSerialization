@@ -20,8 +20,9 @@ class SiteLinkSerializationRoundtripTest extends \PHPUnit_Framework_TestCase {
 	 * @dataProvider siteLinkProvider
 	 */
 	public function testSiteLinkSerializationRoundtrips( SiteLink $siteLink ) {
-		$serializerFactory = new SerializerFactory( new DataValueSerializer() );
+		$serializerFactory = new SerializerFactory( [], new DataValueSerializer() );
 		$deserializerFactory = new DeserializerFactory(
+			[],
 			new DataValueDeserializer(),
 			new BasicEntityIdParser()
 		);

@@ -23,8 +23,26 @@ class EntitySerializationRoundtripTest extends \PHPUnit_Framework_TestCase {
 	 * @dataProvider entityProvider
 	 */
 	public function testEntitySerializationRoundtrips( EntityDocument $entity ) {
-		$serializerFactory = new SerializerFactory( new DataValueSerializer() );
+		$serializerFactory = new SerializerFactory(
+			[
+				function ( SerializerFactory $factory ) {
+					return $factory->newItemSerializer();
+				},
+				function ( SerializerFactory $factory ) {
+					return $factory->newPropertySerializer();
+				},
+			],
+			new DataValueSerializer()
+		);
 		$deserializerFactory = new DeserializerFactory(
+			[
+				function ( DeserializerFactory $factory ) {
+					return $factory->newItemDeserializer();
+				},
+				function ( DeserializerFactory $factory ) {
+					return $factory->newPropertyDeserializer();
+				},
+			],
 			new DataValueDeserializer(),
 			new BasicEntityIdParser()
 		);

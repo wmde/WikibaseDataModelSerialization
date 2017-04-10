@@ -21,8 +21,9 @@ class StatementListSerializationRoundtripTest extends \PHPUnit_Framework_TestCas
 	 * @dataProvider snaksProvider
 	 */
 	public function testSnakSerializationRoundtrips( StatementList $statements ) {
-		$serializerFactory = new SerializerFactory( new DataValueSerializer() );
+		$serializerFactory = new SerializerFactory( [], new DataValueSerializer() );
 		$deserializerFactory = new DeserializerFactory(
+			[],
 			new DataValueDeserializer(),
 			new BasicEntityIdParser()
 		);

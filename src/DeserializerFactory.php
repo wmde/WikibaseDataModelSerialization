@@ -5,6 +5,7 @@ namespace Wikibase\DataModel;
 use Deserializers\Deserializer;
 use Deserializers\DispatchableDeserializer;
 use Deserializers\DispatchingDeserializer;
+use UnexpectedValueException;
 use Wikibase\DataModel\Deserializers\AliasGroupListDeserializer;
 use Wikibase\DataModel\Deserializers\EntityIdDeserializer;
 use Wikibase\DataModel\Deserializers\ItemDeserializer;
@@ -32,6 +33,11 @@ use Wikibase\DataModel\Entity\EntityIdParser;
 class DeserializerFactory {
 
 	/**
+	 * @var DispatchableDeserializer[]|callable[]
+	 */
+	private $entityDeserializers;
+
+	/**
 	 * @var Deserializer
 	 */
 	private $dataValueDeserializer;
@@ -42,27 +48,48 @@ class DeserializerFactory {
 	private $entityIdParser;
 
 	/**
+	 * @since 3.0 added the required $entityDeserializers argument
+	 *
+	 * @param DispatchableDeserializer[]|callable[] $entityDeserializers A list of either
+	 *  DispatchableDeserializer objects that are able to deserialize Entities, or callables that
+	 *  return such objects. The callables must accept the DeserializerFactory as first argument.
 	 * @param Deserializer $dataValueDeserializer deserializer for DataValue objects
 	 * @param EntityIdParser $entityIdParser
 	 */
 	public function __construct(
+		array $entityDeserializers,
 		Deserializer $dataValueDeserializer,
 		EntityIdParser $entityIdParser
 	) {
+		$this->entityDeserializers = $entityDeserializers;
 		$this->dataValueDeserializer = $dataValueDeserializer;
 		$this->entityIdParser = $entityIdParser;
 	}
 
 	/**
-	 * Returns a Deserializer that can deserialize Item and Property objects.
-	 *
-	 * @return DispatchableDeserializer
+	 * @throws UnexpectedValueException
+	 * @return DispatchableDeserializer A dispatching deserializer that can deserialize whatever the
+	 *  entity deserializers given in the constructor support. There is no default support for Items
+	 *  or Properties.
 	 */
 	public function newEntityDeserializer() {
-		return new DispatchingDeserializer( array(
-			$this->newItemDeserializer(),
-			$this->newPropertyDeserializer()
-		) );
+		$deserializers = [];
+
+		foreach ( $this->entityDeserializers as $deserializer ) {
+			if ( is_callable( $deserializer ) ) {
+				$deserializer = call_user_func( $deserializer, $this );
+			}
+
+			if ( !( $deserializer instanceof DispatchableDeserializer ) ) {
+				throw new UnexpectedValueException(
+					'Expected a DispatchableDeserializer or a callable returning one'
+				);
+			}
+
+			$deserializers[] = $deserializer;
+		}
+
+		return new DispatchingDeserializer( $deserializers );
 	}
 
 	/**
