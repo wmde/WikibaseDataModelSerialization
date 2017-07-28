@@ -9,6 +9,7 @@ use DataValues\StringValue;
 use DataValues\TimeValue;
 use DataValues\UnknownValue;
 use Deserializers\Deserializer;
+use Deserializers\DispatchingDeserializer;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 use SplFileInfo;
@@ -41,7 +42,10 @@ class EntityDeserializationCompatibilityTest extends \PHPUnit_Framework_TestCase
 			new BasicEntityIdParser()
 		);
 
-		$this->deserializer = $deserializerFactory->newEntityDeserializer();
+		$this->deserializer = new DispatchingDeserializer( [
+			$deserializerFactory->newItemDeserializer(),
+			$deserializerFactory->newPropertyDeserializer(),
+		] );
 	}
 
 	/**

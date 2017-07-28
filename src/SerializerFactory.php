@@ -3,7 +3,6 @@
 namespace Wikibase\DataModel;
 
 use InvalidArgumentException;
-use Serializers\DispatchingSerializer;
 use Serializers\Serializer;
 use Wikibase\DataModel\Serializers\AliasGroupListSerializer;
 use Wikibase\DataModel\Serializers\AliasGroupSerializer;
@@ -91,18 +90,6 @@ class SerializerFactory {
 	 */
 	private function shouldSerializeReferenceSnaksWithHash() {
 		return !(bool)( $this->options & self::OPTION_SERIALIZE_REFERENCE_SNAKS_WITHOUT_HASH );
-	}
-
-	/**
-	 * Returns a Serializer that can serialize Item and Property objects.
-	 *
-	 * @return Serializer
-	 */
-	public function newEntitySerializer() {
-		return new DispatchingSerializer( array(
-			$this->newItemSerializer(),
-			$this->newPropertySerializer()
-		) );
 	}
 
 	/**

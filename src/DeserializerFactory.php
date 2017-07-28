@@ -4,7 +4,6 @@ namespace Wikibase\DataModel;
 
 use Deserializers\Deserializer;
 use Deserializers\DispatchableDeserializer;
-use Deserializers\DispatchingDeserializer;
 use Wikibase\DataModel\Deserializers\AliasGroupListDeserializer;
 use Wikibase\DataModel\Deserializers\EntityIdDeserializer;
 use Wikibase\DataModel\Deserializers\ItemDeserializer;
@@ -51,18 +50,6 @@ class DeserializerFactory {
 	) {
 		$this->dataValueDeserializer = $dataValueDeserializer;
 		$this->entityIdParser = $entityIdParser;
-	}
-
-	/**
-	 * Returns a Deserializer that can deserialize Item and Property objects.
-	 *
-	 * @return DispatchableDeserializer
-	 */
-	public function newEntityDeserializer() {
-		return new DispatchingDeserializer( array(
-			$this->newItemDeserializer(),
-			$this->newPropertyDeserializer()
-		) );
 	}
 
 	/**

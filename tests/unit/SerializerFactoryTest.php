@@ -37,18 +37,6 @@ class SerializerFactoryTest extends \PHPUnit_Framework_TestCase {
 		$this->assertTrue( true, 'No exception occurred during serialization' );
 	}
 
-	public function testNewEntitySerializer() {
-		$this->assertSerializesWithoutException(
-			$this->buildSerializerFactory()->newEntitySerializer(),
-			new Item()
-		);
-
-		$this->assertSerializesWithoutException(
-			$this->buildSerializerFactory()->newEntitySerializer(),
-			Property::newFromType( 'string' )
-		);
-	}
-
 	public function testNewItemSerializer() {
 		$this->assertSerializesWithoutException(
 			$this->buildSerializerFactory()->newItemSerializer(),
