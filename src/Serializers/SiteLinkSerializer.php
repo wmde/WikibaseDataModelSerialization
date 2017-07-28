@@ -7,6 +7,7 @@ use Serializers\Exceptions\SerializationException;
 use Serializers\Exceptions\UnsupportedObjectException;
 use Wikibase\DataModel\Entity\ItemId;
 use Wikibase\DataModel\SiteLink;
+use Wikibase\DataModel\Slotty;
 
 /**
  * Package private
@@ -47,11 +48,19 @@ class SiteLinkSerializer implements DispatchableSerializer {
 	}
 
 	private function getSerialized( SiteLink $siteLink ) {
-		return array(
+		$serialization = array(
 			'site' => $siteLink->getSiteId(),
 			'title' => $siteLink->getPageName(),
 			'badges' => $this->serializeBadges( $siteLink->getBadges() )
 		);
+
+		if ( $siteLink instanceof Slotty ) {
+			$slottySerializer = new SlottySerializer();
+			$slots = $slottySerializer->serialize( $siteLink );
+			$serialization = array_merge( $slots, $serialization );
+		}
+
+		return $serialization;
 	}
 
 	/**
