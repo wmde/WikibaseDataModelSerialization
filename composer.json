@@ -57,14 +57,8 @@
 	"scripts": {
 		"test": [
 			"composer validate --no-interaction",
+			"phpcs -p -s",
 			"phpunit"
-		],
-		"ci": [
-			"@cs",
-			"@test"
-		],
-		"cs": [
-			"phpcs -p -s"
 		]
 	}
 }
