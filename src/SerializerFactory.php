@@ -37,17 +37,17 @@ class SerializerFactory {
 	const OPTION_OBJECTS_FOR_MAPS = 1;
 	/**
 	 * @since 1.7.0
-	 * @deprecated use OPTION_SERIALIZE_SNAKS_WITHOUT_HASH
+	 * @deprecated since 2.5 use OPTION_SERIALIZE_SNAKS_WITHOUT_HASH
 	 */
 	const OPTION_SERIALIZE_MAIN_SNAKS_WITHOUT_HASH = 2;
 	/**
 	 * @since 1.7.0
-	 * @deprecated use OPTION_SERIALIZE_SNAKS_WITHOUT_HASH
+	 * @deprecated since 2.5 use OPTION_SERIALIZE_SNAKS_WITHOUT_HASH
 	 */
 	const OPTION_SERIALIZE_QUALIFIER_SNAKS_WITHOUT_HASH = 4;
 	/**
 	 * @since 1.7.0
-	 * @deprecated use OPTION_SERIALIZE_SNAKS_WITHOUT_HASH
+	 * @deprecated since 2.5 use OPTION_SERIALIZE_SNAKS_WITHOUT_HASH
 	 */
 	const OPTION_SERIALIZE_REFERENCE_SNAKS_WITHOUT_HASH = 8;
 	/**
