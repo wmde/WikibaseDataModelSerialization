@@ -1,5 +1,13 @@
 # Wikibase DataModel Serialization release notes
 
+## 3.0.0 (dev)
+
+* Removed the deprecated `SerializerFactory` options
+  `OPTION_SERIALIZE_MAIN_SNAKS_WITHOUT_HASH`,
+  `OPTION_SERIALIZE_QUALIFIER_SNAKS_WITHOUT_HASH` and
+  `OPTION_SERIALIZE_REFERENCE_SNAKS_WITHOUT_HASH`
+  (use `OPTION_SERIALIZE_SNAKS_WITHOUT_HASH` instead)
+
 ## 2.7.0 (2018-03-28)
 
 * Fixed `AliasGroupListDeserializer` and `TermListDeserializer` misbehaving when confronted with
