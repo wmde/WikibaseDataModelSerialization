@@ -1,6 +1,6 @@
 # Wikibase DataModel Serialization release notes
 
-## 2.6.0 (2017-09-15)
+## 2.6.0 (2017-09-18)
 
 * Added compatibility with DataValues Number 0.9
 
