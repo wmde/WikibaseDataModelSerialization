@@ -159,15 +159,4 @@ class SerializerFactoryTest extends TestCase {
 		);
 	}
 
-	public function testSerializeSnaksWithoutHashConstant() {
-		$this->assertSame(
-			// expected:
-			SerializerFactory::OPTION_SERIALIZE_MAIN_SNAKS_WITHOUT_HASH |
-			SerializerFactory::OPTION_SERIALIZE_QUALIFIER_SNAKS_WITHOUT_HASH |
-			SerializerFactory::OPTION_SERIALIZE_REFERENCE_SNAKS_WITHOUT_HASH,
-			// actual:
-			SerializerFactory::OPTION_SERIALIZE_SNAKS_WITHOUT_HASH
-		);
-	}
-
 }

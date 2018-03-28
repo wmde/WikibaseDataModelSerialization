@@ -37,28 +37,10 @@ class SerializerFactory {
 	/** @since 1.2.0 */
 	const OPTION_OBJECTS_FOR_MAPS = 1;
 	/**
-	 * @since 1.7.0
-	 * @deprecated since 2.5 use OPTION_SERIALIZE_SNAKS_WITHOUT_HASH
-	 */
-	const OPTION_SERIALIZE_MAIN_SNAKS_WITHOUT_HASH = 2;
-	/**
-	 * @since 1.7.0
-	 * @deprecated since 2.5 use OPTION_SERIALIZE_SNAKS_WITHOUT_HASH
-	 */
-	const OPTION_SERIALIZE_QUALIFIER_SNAKS_WITHOUT_HASH = 4;
-	/**
-	 * @since 1.7.0
-	 * @deprecated since 2.5 use OPTION_SERIALIZE_SNAKS_WITHOUT_HASH
-	 */
-	const OPTION_SERIALIZE_REFERENCE_SNAKS_WITHOUT_HASH = 8;
-	/**
 	 * Omit hashes when serializing snaks.
 	 * @since 2.5.0
 	 */
-	const OPTION_SERIALIZE_SNAKS_WITHOUT_HASH = 14; /* =
-		self::OPTION_SERIALIZE_MAIN_SNAKS_WITHOUT_HASH |
-		self::OPTION_SERIALIZE_QUALIFIER_SNAKS_WITHOUT_HASH |
-		self::OPTION_SERIALIZE_REFERENCE_SNAKS_WITHOUT_HASH; */
+	const OPTION_SERIALIZE_SNAKS_WITHOUT_HASH = 2;
 
 	/**
 	 * @var int
@@ -95,22 +77,8 @@ class SerializerFactory {
 	/**
 	 * @return bool
 	 */
-	private function shouldSerializeMainSnaksWithHash() {
-		return !(bool)( $this->options & self::OPTION_SERIALIZE_MAIN_SNAKS_WITHOUT_HASH );
-	}
-
-	/**
-	 * @return bool
-	 */
-	private function shouldSerializeQualifierSnaksWithHash() {
-		return !(bool)( $this->options & self::OPTION_SERIALIZE_QUALIFIER_SNAKS_WITHOUT_HASH );
-	}
-
-	/**
-	 * @return bool
-	 */
-	private function shouldSerializeReferenceSnaksWithHash() {
-		return !(bool)( $this->options & self::OPTION_SERIALIZE_REFERENCE_SNAKS_WITHOUT_HASH );
+	private function shouldSerializeSnaksWithHash() {
+		return !(bool)( $this->options & self::OPTION_SERIALIZE_SNAKS_WITHOUT_HASH );
 	}
 
 	/**
@@ -190,8 +158,8 @@ class SerializerFactory {
 	 */
 	public function newStatementSerializer() {
 		return new StatementSerializer(
-			$this->newSnakSerializer( $this->shouldSerializeMainSnaksWithHash() ),
-			$this->newSnakListSerializer( $this->shouldSerializeQualifierSnaksWithHash() ),
+			$this->newSnakSerializer( $this->shouldSerializeSnaksWithHash() ),
+			$this->newSnakListSerializer( $this->shouldSerializeSnaksWithHash() ),
 			$this->newReferencesSerializer()
 		);
 	}
@@ -212,9 +180,7 @@ class SerializerFactory {
 	 */
 	public function newReferenceSerializer() {
 		return new ReferenceSerializer(
-			$this->newSnakListSerializer(
-				$this->shouldSerializeReferenceSnaksWithHash()
-			)
+			$this->newSnakListSerializer( $this->shouldSerializeSnaksWithHash() )
 		);
 	}
 
