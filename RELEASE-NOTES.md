@@ -1,5 +1,8 @@
 # Wikibase DataModel Serialization release notes
 
+## Unreleased
+* Installable with PHP 8.1+
+
 ## 2.10.0 (development)
 
 * Require Wikibase DataModel 8.x or 9.x
