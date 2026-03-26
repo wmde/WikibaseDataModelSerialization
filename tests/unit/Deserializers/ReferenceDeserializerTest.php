@@ -146,10 +146,8 @@ class ReferenceDeserializerTest extends DispatchableDeserializerTestCase {
 
 	public static function invalidDeserializationProvider() {
 		return [
-			[
-				'hash' => 'da',
-				'snaks' => [],
-			],
+			'not array' => [ 'da' ],
+			'missing snaks key' => [ [] ],
 		];
 	}
 
